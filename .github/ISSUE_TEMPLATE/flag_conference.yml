@@ -1,0 +1,54 @@
+name: Flag a Predatory Conference Series
+description: Report a specific conference series that may be predatory
+title: "[CONFERENCE] "
+labels: ["new-entry", "conference"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Conference Name
+      placeholder: e.g., International Conference on Deep Learning for Pattern Recognition
+    validations:
+      required: true
+
+  - type: input
+    id: organizer_domain
+    attributes:
+      label: Organizer Domain
+      placeholder: e.g., waset.org
+    validations:
+      required: true
+
+  - type: input
+    id: broad_field
+    attributes:
+      label: Field / Discipline
+      placeholder: e.g., Computer Science / AI
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Suggested Status
+      options:
+        - suspected
+        - confirmed
+    validations:
+      required: true
+
+  - type: input
+    id: evidence_url
+    attributes:
+      label: Evidence URL
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What makes this conference predatory? Specific behavior observed?
+    validations:
+      required: false

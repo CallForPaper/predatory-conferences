@@ -1,0 +1,79 @@
+name: Flag a Predatory Organizer
+description: Report a conference organizer that may be predatory
+title: "[ORGANIZER] "
+labels: ["new-entry", "organizer"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Organization Name
+      placeholder: e.g., World Academy of Science, Engineering and Technology
+    validations:
+      required: true
+
+  - type: input
+    id: domain
+    attributes:
+      label: Primary Domain
+      placeholder: e.g., waset.org
+    validations:
+      required: true
+
+  - type: input
+    id: aliases
+    attributes:
+      label: Known Aliases
+      placeholder: Pipe-separated, e.g., WASET|World Academy of Science
+    validations:
+      required: false
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Suggested Status
+      options:
+        - suspected
+        - confirmed
+    validations:
+      required: true
+
+  - type: input
+    id: evidence_url
+    attributes:
+      label: Evidence URL
+      description: Link to documentation, news article, FTC action, university advisory, etc.
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: criteria
+    attributes:
+      label: Which criteria does this meet?
+      description: Select all that apply (see docs/criteria.md)
+      multiple: true
+      options:
+        - Government enforcement action
+        - Near-duplicate name abuse
+        - Mass simultaneous events
+        - Documented non-delivery / event cancellation
+        - No legitimate peer review
+        - Fake indexing claims
+        - Aggressive unsolicited spam
+        - Opaque organization / false address
+        - Predatory publisher affiliation
+        - Overly broad conference scope
+        - Tourist destination framing
+        - Grammatical errors throughout
+        - Guaranteed acceptance
+        - Bundled fee exploitation
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any context that would help reviewers
+    validations:
+      required: false

@@ -1,0 +1,29 @@
+name,organizer_domain,broad_field,status,evidence_url,source,added_date,notes
+International Conference on Computer Science and Information Technology (ICCSIT) - WASET,waset.org,Computer Science,confirmed,https://en.wikipedia.org/wiki/Predatory_conference,bealls-list,2025-06-01,"WASET runs hundreds of similar-named conferences simultaneously"
+International Conference on Electrical and Computer Engineering (ICECE) - WASET,waset.org,Engineering,confirmed,https://en.wikipedia.org/wiki/Predatory_conference,bealls-list,2025-06-01,
+International Conference on Bioinformatics and Biomedical Engineering (ICBBE) - WASET,waset.org,Biology,confirmed,,bealls-list,2025-06-01,
+International Conference on Deep Learning for Pattern Recognition,waset.org,Computer Science / AI,confirmed,https://arxiv.org/pdf/2201.13268,community,2025-06-01,"Documented in PreDefense paper; nearly identical conference names run simultaneously"
+International Conference on Deep Learning Technologies for Pattern Recognition,waset.org,Computer Science / AI,confirmed,https://arxiv.org/pdf/2201.13268,community,2025-06-01,"Near-duplicate of above; same dates/venue"
+International Conference on Traffic and Transport Psychology - WASET,waset.org,Psychology,confirmed,https://en.wikipedia.org/wiki/Predatory_conference,bealls-list,2025-06-01,"Mimicked legitimate ICTTP organized by CARRS-Q"
+Entomology-2013 - OMICS,omicsonline.org,Biology,confirmed,https://en.wikipedia.org/wiki/Predatory_conference,ftc-action,2025-06-01,"Nearly identical name to ESA's 'Entomology 2013'"
+International Conference of Entomology - OMICS,omicsonline.org,Biology,confirmed,https://en.wikipedia.org/wiki/Predatory_conference,ftc-action,2025-06-01,"Mimics ESA's 'International Congress of Entomology'"
+International Conference on Mechanical and Electrical Technology (ICMET),iedrc.org,Engineering,confirmed,https://predatoryjournals.com,stop-predatory-journals,2025-06-01,
+International Conference on Computer and Information Science (ICIS),iedrc.org,Computer Science,confirmed,https://predatoryjournals.com,stop-predatory-journals,2025-06-01,
+International Conference on Electronics and Electrical Engineering (ICEEE),iedrc.org,Engineering,confirmed,https://predatoryjournals.com,stop-predatory-journals,2025-06-01,
+World Congress on Engineering (WCE) - IAENG,iaeng.org,Engineering,suspected,,caltech-list,2025-06-01,"IAENG hosts multiple simultaneous conferences"
+International Conference on Artificial Intelligence and Applications (ICAIA) - IACSIT,iacsit.org,Computer Science / AI,suspected,,caltech-list,2025-06-01,
+International Conference on Chemical and Biochemical Engineering,omicsonline.org,Chemistry,confirmed,,ftc-action,2025-06-01,
+International Conference on Neurology and Brain Disorders,omicsonline.org,Medicine,confirmed,,ftc-action,2025-06-01,
+Annual World Summit on Management,conferenceseries.com,Management,confirmed,,stop-predatory-journals,2025-06-01,
+Global Summit on Artificial Intelligence and Neural Networks,conferenceseries.com,Computer Science / AI,confirmed,,stop-predatory-journals,2025-06-01,
+International Conference on Nanoscience and Nanotechnology,magnusmeetings.com,Science,suspected,,community,2025-06-01,
+European Journal of Medicinal Chemistry Conference,euroscicon.com,Medicine,suspected,,community,2025-06-01,
+World Cancer Conference,alliedacademies.com,Medicine,suspected,,community,2025-06-01,
+International Conference on Social Sciences - Generic WASET variant,waset.org,Social Sciences,confirmed,,bealls-list,2025-06-01,"Overly broad scope; red flag indicator"
+International Summit on Software Engineering,scientificfederation.com,Computer Science,suspected,,community,2025-06-01,
+Global Conference on Robotics and Artificial Intelligence,magnusmeetings.com,Computer Science / AI,suspected,,community,2025-06-01,
+International Conference on Internet of Things and Cloud Computing (ICITCC) - WSEAS,wseas.org,Computer Science,suspected,,bealls-list,2025-06-01,
+World Congress on Information Technology and Computer Applications,waset.org,Computer Science,confirmed,,bealls-list,2025-06-01,
+International Conference on Machine Learning and Applications - WASET variant,waset.org,Computer Science / AI,confirmed,,community,2025-06-01,
+International Conference on Data Science and Big Data Analytics - WASET,waset.org,Computer Science,confirmed,,community,2025-06-01,
+International Conference on Blockchain and Cryptocurrency - WASET,waset.org,Computer Science,confirmed,,community,2025-06-01,

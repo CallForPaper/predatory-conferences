@@ -1,0 +1,11 @@
+source_id,name,url,type,last_accessed,entry_count,notes
+bealls-list,Beall's List (archived),https://beallslist.net,archived-blog,2025-06-01,200+,"Original predatory publishers list by librarian Jeffrey Beall; taken down 2017; archived versions available"
+stop-predatory-journals,Stop Predatory Journals (GitHub),https://github.com/stop-predatory-journals/stop-predatory-journals.github.io,github-dataset,2025-06-01,1000+,"Community-maintained GitHub repo with publishers.csv and journals.csv; CC0 licensed"
+ftc-action,FTC vs OMICS International,https://www.ftc.gov/news-events/news/press-releases/2019/04/federal-trade-commission-charges-academic-publisher-deceived-researchers,government-action,2025-06-01,1,"US Federal Trade Commission charged OMICS with deceptive practices; $50.1M judgment 2019"
+caltech-list,Caltech Questionable Conferences (Dana Roth),https://library.caltech.edu/c.php?g=512665&p=3503029,library-guide,2025-06-01,90+,"Curated by Caltech science librarian Dana Roth; one of the most comprehensive conference-specific lists"
+dolos-list,Dolos List of Dubious Conferences,https://doloslist.wordpress.com,blog,2025-06-01,34,"34 dubious organizers; blog maintained by researchers"
+boytchev-spam,boytchev/spam (GitHub),https://github.com/boytchev/spam,github-dataset,2025-06-01,100+,"Academic spam metadata collected by researcher Pavel Boytchev; 100+ conference organizers documented"
+community,Community Submissions,https://github.com/callforpaper/predatory-conferences/issues,github-issues,2025-06-01,varies,"Researcher-submitted entries via GitHub issues; require evidence URL before acceptance"
+think-check-attend,Think. Check. Attend.,https://thinkcheckattend.org,checklist-resource,2025-06-01,0,"Not a list but a checklist tool; referenced for criteria definition"
+wikipedia-predatory,Wikipedia: Predatory Conference,https://en.wikipedia.org/wiki/Predatory_conference,reference,2025-06-01,0,"Reference article with documented cases; not a primary source but useful for evidence URLs"
+predefense-paper,PreDefense Paper (arXiv),https://arxiv.org/abs/2201.13268,academic-paper,2025-06-01,0,"Academic paper documenting predatory AI/ML conferences; good source for CS-specific entries"
