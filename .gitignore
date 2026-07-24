@@ -1,0 +1,13 @@
+# Python/GHA compiled outputs
+dist/
+__pycache__/
+*.pyc
+
+# Local AI Agent symlinks and session documents (should not be committed to GitHub)
+AGENT.md
+agent-docs/
+agent_docs/
+migration_report.md
+walkthrough.md
+task.md
+implementation_plan.md
