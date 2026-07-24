@@ -6,11 +6,14 @@ This document defines the standards used to classify entries in this dataset.
 
 ## Status Levels
 
+These match the statuses tracked in [`schema/entity.schema.json`](../schema/entity.schema.json):
+
 | Status | Definition |
 |--------|-----------|
-| `confirmed` | Formally documented by an authoritative source (FTC action, court ruling, university advisory, archived Beall's list, or multiple corroborating sources) |
-| `suspected` | Shows multiple red flags from the criteria below and has been flagged by at least one credible source, but lacks formal documentation |
-| `disputed` | Previously listed but subject to an active dispute or removal request with a credible counter-argument |
+| `active_flag` | Active flagged organizer or conference meeting red flag criteria |
+| `disputed` | Subject to an active dispute review process |
+| `resolved` | Prior flag has been removed or dispute resolved successfully |
+| `unverified` | Suspicious behavior reported but awaiting formal evidence links |
 
 ---
 
@@ -62,9 +65,9 @@ Entries may be classified based on meeting **3 or more** of the following criter
 ## Removal Process
 
 If you believe an entry is incorrect:
-1. Open a GitHub issue with the label `dispute`
-2. Provide counter-evidence (e.g., legitimate indexing, peer review documentation, university endorsement)
-3. Maintainers will review within 30 days and update status to `disputed` while under review
+1. Open a GitHub dispute request using our [Dispute Issue Template](https://github.com/callforpaper/predatory-conferences/issues/new?template=dispute-flag.yml).
+2. Provide counter-evidence as detailed in [methodology.md](../methodology.md).
+3. Maintainers will review the dispute and log outcomes inside the disputes registry.
 
 ---
 

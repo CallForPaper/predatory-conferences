@@ -1,0 +1,80 @@
+name: Issue Triage and PR Automation
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  contents: write
+  pull-requests: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'organizer-report') || contains(github.event.issue.labels.*.name, 'conference-report')
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install pyyaml
+
+    - name: Process Issue Body and Duplicates
+      id: process_issue
+      env:
+        ISSUE_BODY_FILE: 'issue_body.md'
+        ISSUE_LABELS: "${{ join(github.event.issue.labels.*.name, ',') }}"
+      run: |
+        echo "${{ github.event.issue.body }}" > issue_body.md
+        # Run python script
+        PYTHONPATH=scripts python scripts/process_issue.py > process_output.txt
+        cat process_output.txt
+        
+        # Parse outputs
+        if grep -q "DUPLICATE_FOUND" process_output.txt; then
+          echo "is_duplicate=true" >> $GITHUB_OUTPUT
+          DUP_INFO=$(grep "DUPLICATE_FOUND" process_output.txt | cut -d':' -f2- | xargs)
+          echo "duplicate_info=$DUP_INFO" >> $GITHUB_OUTPUT
+        elif grep -q "SUCCESS" process_output.txt; then
+          echo "is_duplicate=false" >> $GITHUB_OUTPUT
+          ENTITY_SLUG=$(grep "SUCCESS" process_output.txt | awk '{print $NF}')
+          echo "entity_slug=$ENTITY_SLUG" >> $GITHUB_OUTPUT
+        else
+          echo "is_duplicate=error" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Handle Duplicate Issues
+      if: steps.process_issue.outputs.is_duplicate == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const duplicateInfo = "${{ steps.process_issue.outputs.duplicate_info }}";
+          github.rest.issues.createComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+            body: `⚠️ **Duplicate Found:** This entry appears to match an existing listing in our dataset: **${duplicateInfo}**.\n\nThis issue will be closed. Thank you for reporting!`
+          });
+          github.rest.issues.update({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+            state: 'closed'
+          });
+
+    - name: Create Pull Request for New Submission
+      if: steps.process_issue.outputs.is_duplicate == 'false'
+      uses: peter-evans/create-pull-request@v6
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "feat: add entry ${{ steps.process_issue.outputs.entity_slug }} from Issue #${{ github.event.issue.number }}"
+        title: "feat: add entry ${{ steps.process_issue.outputs.entity_slug }}"
+        body: "Closes #${{ github.event.issue.number }}. Automatically generated from issue report template."
+        branch: "submission-issue-${{ github.event.issue.number }}"
+        base: "main"

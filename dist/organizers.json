@@ -1,0 +1,1848 @@
+{
+  "compiled_at": "2026-07-24T12:28:23Z",
+  "count": 50,
+  "data": [
+    {
+      "type": "organizer",
+      "slug": "academic-conferences-international",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Academic Conferences International",
+      "domains": [
+        "academic-conferences.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " caltech-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: caltech-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "academic-knowledge-publishing",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Academic Knowledge Publishing",
+      "domains": [
+        "akpinsight.webs.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: Academy of Knowledge Process"
+    },
+    {
+      "type": "organizer",
+      "slug": "academic-research-publishers",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Academic Research Publishers",
+      "domains": [
+        "acrpub.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: ARPUB"
+    },
+    {
+      "type": "organizer",
+      "slug": "academic-research-publishing-group",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Academic Research Publishing Group",
+      "domains": [
+        "arpgweb.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: ARPG"
+    },
+    {
+      "type": "organizer",
+      "slug": "academic-star-publishing",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Academic Star Publishing",
+      "domains": [
+        "academicstar.us"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "academy-of-science-and-engineering",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Academy of Science and Engineering",
+      "domains": [
+        "scienceengineeringacademy.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: ASE"
+    },
+    {
+      "type": "organizer",
+      "slug": "allied-academies",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Allied Academies",
+      "domains": [
+        "alliedacademies.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "applied-science-innovations-pvt-ltd",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Applied Science Innovations Pvt. Ltd.",
+      "domains": [
+        "asiconference.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: ASIC"
+    },
+    {
+      "type": "organizer",
+      "slug": "asian-research-publishing-network",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Asian Research Publishing Network",
+      "domains": [
+        "arpnjournals.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: ARPN"
+    },
+    {
+      "type": "organizer",
+      "slug": "conferenceseries-llc",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Conferenceseries LLC",
+      "domains": [
+        "conferenceseries.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "OMICS International affiliate",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "OMICS International affiliate Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "david-publishing-company",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "David Publishing Company",
+      "domains": [
+        "davidpublisher.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: David Publishing"
+    },
+    {
+      "type": "organizer",
+      "slug": "edp-sciences-questionable-conferences-arm",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "EDP Sciences (questionable conferences arm)",
+      "domains": [
+        "edp-open.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Note: EDP Sciences itself is legitimate; specific conference arm listed by Caltech",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Note: EDP Sciences itself is legitimate; specific conference arm listed by Caltech Source: caltech-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "engineering-and-technology-publishing",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Engineering and Technology Publishing",
+      "domains": [
+        "etpub.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " caltech-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: caltech-list."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: ETP"
+    },
+    {
+      "type": "organizer",
+      "slug": "euroscicon",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "EuroSciCon",
+      "domains": [
+        "euroscicon.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Multiple researcher spam reports; OMICS-like conference patterns",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Multiple researcher spam reports; OMICS-like conference patterns Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "global-illuminators",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Global Illuminators",
+      "domains": [
+        "globalilluminators.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "hikari-ltd",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Hikari Ltd",
+      "domains": [
+        "m-hikari.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "imedpub-ltd",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Imedpub Ltd",
+      "domains": [
+        "imedpub.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "OMICS subsidiary charged in FTC action",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://www.ftc.gov/news-events/news/press-releases/2019/04/federal-trade-commission-charges-academic-publisher-deceived-researchers",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://www.ftc.gov/news-events/news/press-releases/2019/04/federal-trade-commission-charges-academic-publisher-deceived-researchers",
+          "notes": "OMICS subsidiary charged in FTC action Source: ftc-action."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: iMedPub"
+    },
+    {
+      "type": "organizer",
+      "slug": "inase",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "INASE",
+      "domains": [
+        "inase.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Multiple spam reports from researchers; unverifiable peer review",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Multiple spam reports from researchers; unverifiable peer review Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "inderscience-publishers-some-conferences",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Inderscience Publishers (some conferences)",
+      "domains": [
+        "inderscience.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Note: Publisher itself has mixed reputation; some specific conference series flagged",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Note: Publisher itself has mixed reputation; some specific conference series flagged Source: caltech-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "international-association-of-computer-science-and-information-technology",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Association of Computer Science and Information Technology",
+      "domains": [
+        "iacsit.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " caltech-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: caltech-list."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IACSIT"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-association-of-engineers",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Association of Engineers",
+      "domains": [
+        "iaeng.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "same_day_same_venue_stacking",
+          "description": "Organizes numerous simultaneous engineering conferences; limited peer review evidence",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Organizes numerous simultaneous engineering conferences; limited peer review evidence Source: caltech-list."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IAENG"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-conference-on-computer-science-and-engineering",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Computer Science and Engineering",
+      "domains": [
+        "icgst.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: ICGST"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-digital-organization-for-scientific-information",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Digital Organization for Scientific Information",
+      "domains": [
+        "idosi.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IDOSI"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-economics-development-and-research-center",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Economics Development and Research Center",
+      "domains": [
+        "iedrc.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IEDRC"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-forum-of-researchers-students-and-academician",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Forum of Researchers Students and Academician",
+      "domains": [
+        "ifrsa.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IFRSA"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-foundation-for-modern-education-and-scientific-research",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Foundation for Modern Education and Scientific Research",
+      "domains": [
+        "infomesr.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: INFOMESR"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-foundation-for-research-and-development",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Foundation for Research and Development",
+      "domains": [
+        "ifrnd.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IFRD"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-house-for-academic-scientific-research",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International House for Academic Scientific Research",
+      "domains": [
+        "ihasr.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Link dead as of 2013",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Link dead as of 2013 Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "international-institute-of-informatics-and-systemics",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Institute of Informatics and Systemics",
+      "domains": [
+        "iiis.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " caltech-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: caltech-list."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IIIS"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-institute-of-science-industry-research",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Institute of Science & Industry Research",
+      "domains": [
+        "iisir.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IISIR"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-journal-of-digital-content-technology-and-its-applications",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Journal of Digital Content Technology and its Applications",
+      "domains": [
+        "jdcta.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " caltech-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: caltech-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "international-journal-of-engineering-research-and-applications",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Journal of Engineering Research and Applications",
+      "domains": [
+        "ijera.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IJERA"
+    },
+    {
+      "type": "organizer",
+      "slug": "international-multiconferences-of-engineers-and-computer-scientists",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International MultiConferences of Engineers and Computer Scientists",
+      "domains": [
+        "imecs.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "IAENG-affiliated conference arm",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "IAENG-affiliated conference arm Source: caltech-list."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: IMECS"
+    },
+    {
+      "type": "organizer",
+      "slug": "ipcsit-press",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "IPCSIT Press",
+      "domains": [
+        "ipcsit.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "longdom-publishing",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Longdom Publishing",
+      "domains": [
+        "longdom.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "OMICS-affiliated entity",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "OMICS-affiliated entity Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "magnus-meetings",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Magnus Meetings",
+      "domains": [
+        "magnusmeetings.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "meetings-international",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Meetings International",
+      "domains": [
+        "meetingsint.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "OMICS-style conference organization; overlapping leadership",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "OMICS-style conference organization; overlapping leadership Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "omics-international",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "OMICS International",
+      "domains": [
+        "omicsonline.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Charged by FTC in 2016 for deceptive practices; $50.1M judgment; operates hundreds of predatory journals and conferences",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://www.ftc.gov/news-events/news/press-releases/2019/04/federal-trade-commission-charges-academic-publisher-deceived-researchers",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://www.ftc.gov/news-events/news/press-releases/2019/04/federal-trade-commission-charges-academic-publisher-deceived-researchers",
+          "notes": "Charged by FTC in 2016 for deceptive practices; $50.1M judgment; operates hundreds of predatory journals and conferences Source: ftc-action."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: OMICS Publishing Group, iMedPub"
+    },
+    {
+      "type": "organizer",
+      "slug": "praise-worthy-prize",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Praise Worthy Prize",
+      "domains": [
+        "praiseworthyprize.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "pulsus-group",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Pulsus Group",
+      "domains": [
+        "pulsus.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Acquired by OMICS; formerly Canadian publisher",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://retractionwatch.com/2017/08/08/pulsus-predatory",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://retractionwatch.com/2017/08/08/pulsus-predatory",
+          "notes": "Acquired by OMICS; formerly Canadian publisher Source: bealls-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "science-and-engineering-research-support-society",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Science and Engineering Research Support Society",
+      "domains": [
+        "sersc.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: SERSC"
+    },
+    {
+      "type": "organizer",
+      "slug": "science-domain-international",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Science Domain International",
+      "domains": [
+        "sciencedomain.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: SCIENCEDOMAIN international"
+    },
+    {
+      "type": "organizer",
+      "slug": "sciencepg",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "SciencePG",
+      "domains": [
+        "sciencepublishinggroup.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: Science Publishing Group"
+    },
+    {
+      "type": "organizer",
+      "slug": "scientific-federation",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Scientific Federation",
+      "domains": [
+        "scientificfederation.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "scirp",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "SCIRP",
+      "domains": [
+        "scirp.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: Scientific Research Publishing"
+    },
+    {
+      "type": "organizer",
+      "slug": "trans-tech-publications-questionable-conferences",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Trans Tech Publications (questionable conferences)",
+      "domains": [
+        "ttp.net"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " caltech-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: caltech-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "universal-publishers",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Universal-Publishers",
+      "domains": [
+        "universal-publishers.com"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": " stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "world-academy-of-art-and-science",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "World Academy of Art and Science",
+      "domains": [
+        "worldacademy.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Different from WASET; some legitimate activity but patterns consistent with predatory behavior",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Different from WASET; some legitimate activity but patterns consistent with predatory behavior Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "world-academy-of-science-engineering-and-technology",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "World Academy of Science Engineering and Technology",
+      "domains": [
+        "waset.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "same_day_same_venue_stacking",
+          "description": "Organizes thousands of simultaneous conferences worldwide; same venue/dates with hundreds of different topics; confirmed predatory organizer",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://en.wikipedia.org/wiki/Predatory_conference#WASET",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference#WASET",
+          "content_hash": "sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab",
+          "snapshot_file": "evidence/world-academy-of-science-engineering-and-technology/2025-06-01-import-snapshot.html",
+          "notes": "Organizes thousands of simultaneous conferences worldwide; same venue/dates with hundreds of different topics; confirmed predatory organizer Source: bealls-list|community."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: WASET"
+    },
+    {
+      "type": "organizer",
+      "slug": "world-scientific-and-engineering-academy-and-society",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "World Scientific and Engineering Academy and Society",
+      "domains": [
+        "wseas.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "false_indexing_claims",
+          "description": "Questionable peer review; listed on multiple predatory indexes",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://www.scimagojr.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://www.scimagojr.com",
+          "notes": "Questionable peer review; listed on multiple predatory indexes Source: bealls-list."
+        }
+      ],
+      "disputes": [],
+      "notes": "Aliases: WSEAS"
+    }
+  ]
+}

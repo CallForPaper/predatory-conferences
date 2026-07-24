@@ -1,0 +1,31 @@
+type: conference
+slug: international-conference-on-deep-learning-technologies-for-pattern-recognition
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2025-06-01'
+last_updated: '2026-07-24'
+last_reviewed: '2026-07-24'
+name: International Conference on Deep Learning Technologies for Pattern Recognition
+organizer_slug: world-academy-of-science-engineering-and-technology
+event_dates:
+  - '2025-06-01'
+red_flags:
+  - id: rf-1
+    type: other
+    description: Near-duplicate of above; same dates/venue
+    first_observed: '2025-06-01'
+    status: active
+    evidence_refs:
+      - ev-1
+evidence:
+  - id: ev-1
+    date: '2025-06-01'
+    type: import
+    observed_by: admin
+    source_url: https://arxiv.org/pdf/2201.13268
+    archive_org_url: https://web.archive.org/web/20250601000000/https://arxiv.org/pdf/2201.13268
+    content_hash: sha256:ceb72d04c1c253c2c863ed02d0eb7d193f1ae5896fbf177951916e382746e291
+    snapshot_file: evidence/international-conference-on-deep-learning-technologies-for-pattern-recognition/2025-06-01-import-snapshot.pdf
+    notes: 'Near-duplicate of above; same dates/venue Source: community.'
+disputes: []
+source_url: https://arxiv.org/pdf/2201.13268

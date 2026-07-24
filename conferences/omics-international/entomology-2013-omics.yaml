@@ -1,0 +1,31 @@
+type: conference
+slug: entomology-2013-omics
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2025-06-01'
+last_updated: '2026-07-24'
+last_reviewed: '2026-07-24'
+name: Entomology-2013 - OMICS
+organizer_slug: omics-international
+event_dates:
+  - '2025-06-01'
+red_flags:
+  - id: rf-1
+    type: generic_reused_content
+    description: Nearly identical name to ESA's 'Entomology 2013'
+    first_observed: '2025-06-01'
+    status: active
+    evidence_refs:
+      - ev-1
+evidence:
+  - id: ev-1
+    date: '2025-06-01'
+    type: import
+    observed_by: admin
+    source_url: https://en.wikipedia.org/wiki/Predatory_conference
+    archive_org_url: https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference
+    content_hash: sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab
+    snapshot_file: evidence/entomology-2013-omics/2025-06-01-import-snapshot.html
+    notes: 'Nearly identical name to ESA''s ''Entomology 2013'' Source: ftc-action.'
+disputes: []
+source_url: https://en.wikipedia.org/wiki/Predatory_conference

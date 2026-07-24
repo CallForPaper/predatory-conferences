@@ -1,0 +1,68 @@
+name: Report a predatory organizer
+description: Report a newly suspected or confirmed predatory organizer
+labels: ["organizer-report", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out this form to nominate a suspected predatory academic organizer. Maintainers will verify the information before merging.
+  - type: input
+    id: name
+    attributes:
+      label: Organizer Name
+      placeholder: e.g. World Academy of Science Engineering and Technology
+    validations:
+      required: true
+  - type: textarea
+    id: domains
+    attributes:
+      label: Primary Domain(s)
+      placeholder: |
+        example-conferences.org
+        example-publishing.net
+    validations:
+      required: true
+  - type: input
+    id: network
+    attributes:
+      label: Parent Network / Affiliation (Optional)
+      placeholder: e.g. OMICS International
+    validations:
+      required: false
+  - type: dropdown
+    id: red_flag_category
+    attributes:
+      label: Primary Red Flag Category
+      options:
+        - same_day_same_venue_stacking
+        - no_named_accrediting_body
+        - generic_reused_content
+        - unregistered_isbn
+        - date_inconsistencies
+        - fake_or_unverifiable_speakers
+        - false_indexing_claims
+        - plagiarized_proceedings
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Evidence Description
+      placeholder: Describe the specific behavior and how it matches the checked category.
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source Evidence URL
+      placeholder: e.g. https://www.ftc.gov/news-events/...
+    validations:
+      required: true
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Archivability and Preservation
+      options:
+        - label: I confirm I have archived the primary pages or taken screenshots to prevent evidence from being altered.
+          required: true

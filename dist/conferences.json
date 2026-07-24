@@ -1,0 +1,1058 @@
+{
+  "compiled_at": "2026-07-24T12:28:23Z",
+  "count": 28,
+  "data": [
+    {
+      "type": "conference",
+      "slug": "world-cancer-conference",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "World Cancer Conference",
+      "organizer_slug": "allied-academies",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "annual-world-summit-on-management",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Annual World Summit on Management",
+      "organizer_slug": "conferenceseries-llc",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "global-summit-on-artificial-intelligence-and-neural-networks",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Global Summit on Artificial Intelligence and Neural Networks",
+      "organizer_slug": "conferenceseries-llc",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "european-journal-of-medicinal-chemistry-conference",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "European Journal of Medicinal Chemistry Conference",
+      "organizer_slug": "euroscicon",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-artificial-intelligence-and-applications-icaia-iacsit",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Artificial Intelligence and Applications (ICAIA) - IACSIT",
+      "organizer_slug": "international-association-of-computer-science-and-information-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "caltech-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: caltech-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "world-congress-on-engineering-wce-iaeng",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "World Congress on Engineering (WCE) - IAENG",
+      "organizer_slug": "international-association-of-engineers",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "same_day_same_venue_stacking",
+          "description": "IAENG hosts multiple simultaneous conferences",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "IAENG hosts multiple simultaneous conferences Source: caltech-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-computer-and-information-science-icis",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Computer and Information Science (ICIS)",
+      "organizer_slug": "international-economics-development-and-research-center",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://predatoryjournals.com"
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-electronics-and-electrical-engineering-iceee",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Electronics and Electrical Engineering (ICEEE)",
+      "organizer_slug": "international-economics-development-and-research-center",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://predatoryjournals.com"
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-mechanical-and-electrical-technology-icmet",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Mechanical and Electrical Technology (ICMET)",
+      "organizer_slug": "international-economics-development-and-research-center",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "stop-predatory-journals",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://predatoryjournals.com",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
+          "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://predatoryjournals.com"
+    },
+    {
+      "type": "conference",
+      "slug": "global-conference-on-robotics-and-artificial-intelligence",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Global Conference on Robotics and Artificial Intelligence",
+      "organizer_slug": "magnus-meetings",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-nanoscience-and-nanotechnology",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Nanoscience and Nanotechnology",
+      "organizer_slug": "magnus-meetings",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "entomology-2013-omics",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "Entomology-2013 - OMICS",
+      "organizer_slug": "omics-international",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "generic_reused_content",
+          "description": "Nearly identical name to ESA's 'Entomology 2013'",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://en.wikipedia.org/wiki/Predatory_conference",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference",
+          "content_hash": "sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab",
+          "snapshot_file": "evidence/entomology-2013-omics/2025-06-01-import-snapshot.html",
+          "notes": "Nearly identical name to ESA's 'Entomology 2013' Source: ftc-action."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://en.wikipedia.org/wiki/Predatory_conference"
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-of-entomology-omics",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference of Entomology - OMICS",
+      "organizer_slug": "omics-international",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "generic_reused_content",
+          "description": "Mimics ESA's 'International Congress of Entomology'",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://en.wikipedia.org/wiki/Predatory_conference",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference",
+          "content_hash": "sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab",
+          "snapshot_file": "evidence/international-conference-of-entomology-omics/2025-06-01-import-snapshot.html",
+          "notes": "Mimics ESA's 'International Congress of Entomology' Source: ftc-action."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://en.wikipedia.org/wiki/Predatory_conference"
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-chemical-and-biochemical-engineering",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Chemical and Biochemical Engineering",
+      "organizer_slug": "omics-international",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "ftc-action",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: ftc-action."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-neurology-and-brain-disorders",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Neurology and Brain Disorders",
+      "organizer_slug": "omics-international",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "ftc-action",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: ftc-action."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-summit-on-software-engineering",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Summit on Software Engineering",
+      "organizer_slug": "scientific-federation",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-bioinformatics-and-biomedical-engineering-icbbe-waset",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Bioinformatics and Biomedical Engineering (ICBBE) - WASET",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "bealls-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: bealls-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-blockchain-and-cryptocurrency-waset",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Blockchain and Cryptocurrency - WASET",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-computer-science-and-information-technology-iccsit-waset",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Computer Science and Information Technology (ICCSIT) - WASET",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "same_day_same_venue_stacking",
+          "description": "WASET runs hundreds of similar-named conferences simultaneously",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://en.wikipedia.org/wiki/Predatory_conference",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference",
+          "content_hash": "sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab",
+          "snapshot_file": "evidence/international-conference-on-computer-science-and-information-technology-iccsit-waset/2025-06-01-import-snapshot.html",
+          "notes": "WASET runs hundreds of similar-named conferences simultaneously Source: bealls-list."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://en.wikipedia.org/wiki/Predatory_conference"
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-data-science-and-big-data-analytics-waset",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Data Science and Big Data Analytics - WASET",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-deep-learning-for-pattern-recognition",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Deep Learning for Pattern Recognition",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "same_day_same_venue_stacking",
+          "description": "Documented in PreDefense paper; nearly identical conference names run simultaneously",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://arxiv.org/pdf/2201.13268",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://arxiv.org/pdf/2201.13268",
+          "content_hash": "sha256:ceb72d04c1c253c2c863ed02d0eb7d193f1ae5896fbf177951916e382746e291",
+          "snapshot_file": "evidence/international-conference-on-deep-learning-for-pattern-recognition/2025-06-01-import-snapshot.pdf",
+          "notes": "Documented in PreDefense paper; nearly identical conference names run simultaneously Source: community."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://arxiv.org/pdf/2201.13268"
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-deep-learning-technologies-for-pattern-recognition",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Deep Learning Technologies for Pattern Recognition",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Near-duplicate of above; same dates/venue",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://arxiv.org/pdf/2201.13268",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://arxiv.org/pdf/2201.13268",
+          "content_hash": "sha256:ceb72d04c1c253c2c863ed02d0eb7d193f1ae5896fbf177951916e382746e291",
+          "snapshot_file": "evidence/international-conference-on-deep-learning-technologies-for-pattern-recognition/2025-06-01-import-snapshot.pdf",
+          "notes": "Near-duplicate of above; same dates/venue Source: community."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://arxiv.org/pdf/2201.13268"
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-electrical-and-computer-engineering-icece-waset",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Electrical and Computer Engineering (ICECE) - WASET",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "bealls-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://en.wikipedia.org/wiki/Predatory_conference",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference",
+          "content_hash": "sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab",
+          "snapshot_file": "evidence/international-conference-on-electrical-and-computer-engineering-icece-waset/2025-06-01-import-snapshot.html",
+          "notes": "Source: bealls-list."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://en.wikipedia.org/wiki/Predatory_conference"
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-machine-learning-and-applications-waset-variant",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Machine Learning and Applications - WASET variant",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "community",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-social-sciences-generic-waset-variant",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Social Sciences - Generic WASET variant",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "Overly broad scope; red flag indicator",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Overly broad scope; red flag indicator Source: bealls-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-traffic-and-transport-psychology-waset",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Traffic and Transport Psychology - WASET",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "generic_reused_content",
+          "description": "Mimicked legitimate ICTTP organized by CARRS-Q",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "source_url": "https://en.wikipedia.org/wiki/Predatory_conference",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference",
+          "content_hash": "sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab",
+          "snapshot_file": "evidence/international-conference-on-traffic-and-transport-psychology-waset/2025-06-01-import-snapshot.html",
+          "notes": "Mimicked legitimate ICTTP organized by CARRS-Q Source: bealls-list."
+        }
+      ],
+      "disputes": [],
+      "source_url": "https://en.wikipedia.org/wiki/Predatory_conference"
+    },
+    {
+      "type": "conference",
+      "slug": "world-congress-on-information-technology-and-computer-applications",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "World Congress on Information Technology and Computer Applications",
+      "organizer_slug": "world-academy-of-science-engineering-and-technology",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "bealls-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: bealls-list."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "conference",
+      "slug": "international-conference-on-internet-of-things-and-cloud-computing-icitcc-wseas",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2025-06-01",
+      "last_updated": "2026-07-24",
+      "last_reviewed": "2026-07-24",
+      "name": "International Conference on Internet of Things and Cloud Computing (ICITCC) - WSEAS",
+      "organizer_slug": "world-scientific-and-engineering-academy-and-society",
+      "event_dates": [
+        "2025-06-01"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-1",
+          "type": "other",
+          "description": "bealls-list",
+          "first_observed": "2025-06-01",
+          "status": "active",
+          "evidence_refs": [
+            "ev-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "date": "2025-06-01",
+          "type": "import",
+          "observed_by": "admin",
+          "notes": "Source: bealls-list."
+        }
+      ],
+      "disputes": []
+    }
+  ]
+}

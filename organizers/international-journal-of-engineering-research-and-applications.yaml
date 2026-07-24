@@ -1,0 +1,28 @@
+type: organizer
+slug: international-journal-of-engineering-research-and-applications
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2025-06-01'
+last_updated: '2026-07-24'
+last_reviewed: '2026-07-24'
+name: International Journal of Engineering Research and Applications
+domains:
+  - ijera.com
+red_flags:
+  - id: rf-1
+    type: other
+    description: ' stop-predatory-journals'
+    first_observed: '2025-06-01'
+    status: active
+    evidence_refs:
+      - ev-1
+evidence:
+  - id: ev-1
+    date: '2025-06-01'
+    type: import
+    observed_by: admin
+    source_url: https://predatoryjournals.com
+    archive_org_url: https://web.archive.org/web/20250601000000/https://predatoryjournals.com
+    notes: 'Source: stop-predatory-journals.'
+disputes: []
+notes: 'Aliases: IJERA'

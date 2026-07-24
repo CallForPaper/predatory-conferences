@@ -1,0 +1,11 @@
+# Git LFS attributes for predatory-conferences repository
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+# Keep HTML files as plain text for git diffing
+*.html text
+# Ensure YAML and JSON files are always text
+*.yaml text
+*.yml text
+*.json text

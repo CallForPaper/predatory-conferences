@@ -1,0 +1,27 @@
+type: organizer
+slug: edp-sciences-questionable-conferences-arm
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2025-06-01'
+last_updated: '2026-07-24'
+last_reviewed: '2026-07-24'
+name: EDP Sciences (questionable conferences arm)
+domains:
+  - edp-open.org
+red_flags:
+  - id: rf-1
+    type: other
+    description: 'Note: EDP Sciences itself is legitimate; specific conference arm
+      listed by Caltech'
+    first_observed: '2025-06-01'
+    status: active
+    evidence_refs:
+      - ev-1
+evidence:
+  - id: ev-1
+    date: '2025-06-01'
+    type: import
+    observed_by: admin
+    notes: 'Note: EDP Sciences itself is legitimate; specific conference arm listed
+      by Caltech Source: caltech-list.'
+disputes: []

@@ -2,7 +2,7 @@
 
 A community-maintained, open-source dataset of predatory conference organizers and events that exploit researchers through deceptive academic meetings.
 
-> **Maintained in partnership with [callforpaper.org](https://callforpaper.org)** — used to power backend trust-scoring and protect researchers from predatory CFPs.
+> **Maintained by [callforpaper.org](https://callforpaper.org)** — used to power backend trust-scoring and protect researchers from predatory CFPs.
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -12,13 +12,15 @@ A community-maintained, open-source dataset of predatory conference organizers a
 
 ## 📦 What's in this repo
 
-| File | Description |
+| File / Folder | Description |
 |------|-------------|
-| `data/organizers.csv` | Known predatory conference organizers/publishers |
-| `data/conferences.csv` | Specific flagged conference series/events |
-| `data/sources.csv` | Upstream sources this dataset is compiled from |
-| `docs/criteria.md` | How we define and identify predatory conferences |
-| `docs/sources.md` | Full source attribution and methodology |
+| `schema/entity.schema.json` | JSON Schema specifying data formats for organizers and conferences |
+| `organizers/` | Folder containing structured YAML files for predatory organizers |
+| `conferences/` | Folder containing structured YAML files for individual conferences (grouped by organizer) |
+| `dist/` | Compiled output JSON files containing all processed entities |
+| `evidence/` | Raw HTML snapshots and screenshots proving red flags |
+| `methodology.md` | Core standards, red flag definitions, and dispute process |
+| `CONTRIBUTING.md` | Guidelines for issues, PRs, and running local validation |
 
 ---
 
@@ -40,10 +42,10 @@ Predatory conferences exploit researchers by:
 
 | Category | Count |
 |----------|-------|
-| Predatory organizers | 150+ |
-| Flagged conference series | 300+ |
+| Predatory organizers | 50 |
+| Flagged conference series | 28 |
 | Sources compiled | 8 |
-| Last full refresh | June 2025 |
+| Last full refresh | July 2026 |
 
 ---
 
@@ -78,30 +80,25 @@ GitHub repo (this) → weekly sync → callforpaper.org backend → CFP trust sc
 
 ---
 
-## 📋 CSV Schema
+## 📋 Entity Schema
 
-### `data/organizers.csv`
+All entries in the dataset are stored in structured YAML files matching the JSON Schema defined in [`schema/entity.schema.json`](schema/entity.schema.json).
 
-```
-name, domain, aliases, status, evidence_url, source, added_date, notes
-```
+### Common Fields:
+- `type`: `organizer` or `conference`
+- `slug`: Unique identifier string
+- `status`: `active_flag` | `disputed` | `resolved` | `unverified`
+- `red_flags`: List of flagged behaviors matching versioned methodology criteria
+- `evidence`: Cryptographically hashed and snapshot-linked evidence items
+- `disputes`: Dispute registry to capture organizer/third-party disputes transparently
 
-| Field | Description |
-|-------|-------------|
-| `name` | Organization name |
-| `domain` | Primary website domain |
-| `aliases` | Other names used (pipe-separated) |
-| `status` | `confirmed` / `suspected` / `disputed` |
-| `evidence_url` | URL to evidence or documentation |
-| `source` | Which upstream source flagged this |
-| `added_date` | YYYY-MM-DD |
-| `notes` | Free-text context |
+## 🤖 GitHub Automation Workflows
 
-### `data/conferences.csv`
+We use automated workflows to manage dataset additions, schema validation, and API builds:
 
-```
-name, organizer_domain, scope, status, evidence_url, source, added_date, notes
-```
+1. **Triage & Duplicate Verification (`issue-triage.yml`)**: Triggered when a new report issue is opened. Runs automated checks for existing domain/name duplicates. If the entry is new, it requests wayback machine archival, maps data to compliant YAML schema format, and opens a Pull Request.
+2. **Schema & QA Verification (`validate.yml`)**: Runs QA tests checking YAML validation, missing file references, future dates, and cross-reference integrity on every PR.
+3. **Distribution Compilation (`compile-report.yml`)**: Upon merging to `main`, compiles individual YAML records into flat JSON arrays at `dist/` and commits them back to the repository.
 
 ---
 

@@ -1,0 +1,76 @@
+name: Report a specific predatory conference
+description: Report an individual conference series or event
+labels: ["conference-report", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template if you are reporting a specific questionable conference series.
+        *Note: If the issues apply to the parent organizer broadly rather than a single event, please use the organizer template instead.*
+  - type: input
+    id: name
+    attributes:
+      label: Conference Name
+      placeholder: e.g. International Conference on Computational Science (ICCS 2026)
+    validations:
+      required: true
+  - type: input
+    id: organizer_slug
+    attributes:
+      label: Parent Organizer Name / Slug (If known)
+      placeholder: e.g. waset-org
+    validations:
+      required: false
+  - type: textarea
+    id: event_dates
+    attributes:
+      label: Event Date(s)
+      placeholder: |
+        2026-10-12
+        2026-10-13
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Event Venue
+      placeholder: e.g. Grand Hotel Paris, France
+    validations:
+      required: true
+  - type: dropdown
+    id: red_flag_category
+    attributes:
+      label: Primary Red Flag Category
+      options:
+        - same_day_same_venue_stacking
+        - no_named_accrediting_body
+        - generic_reused_content
+        - unregistered_isbn
+        - date_inconsistencies
+        - fake_or_unverifiable_speakers
+        - false_indexing_claims
+        - plagiarized_proceedings
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Evidence Description
+      placeholder: Detail the specifics of the predatory behavior.
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source Evidence URL
+      placeholder: e.g. https://example-conferences.org/page
+    validations:
+      required: true
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification Confirmation
+      options:
+        - label: I confirm I have archived the primary pages or taken screenshots to prevent evidence deletion.
+          required: true

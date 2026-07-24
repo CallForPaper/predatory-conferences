@@ -1,0 +1,25 @@
+type: organizer
+slug: meetings-international
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2025-06-01'
+last_updated: '2026-07-24'
+last_reviewed: '2026-07-24'
+name: Meetings International
+domains:
+  - meetingsint.com
+red_flags:
+  - id: rf-1
+    type: other
+    description: OMICS-style conference organization; overlapping leadership
+    first_observed: '2025-06-01'
+    status: active
+    evidence_refs:
+      - ev-1
+evidence:
+  - id: ev-1
+    date: '2025-06-01'
+    type: import
+    observed_by: admin
+    notes: 'OMICS-style conference organization; overlapping leadership Source: community.'
+disputes: []

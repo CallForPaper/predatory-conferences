@@ -1,0 +1,32 @@
+type: organizer
+slug: world-academy-of-science-engineering-and-technology
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2025-06-01'
+last_updated: '2026-07-24'
+last_reviewed: '2026-07-24'
+name: World Academy of Science Engineering and Technology
+domains:
+  - waset.org
+red_flags:
+  - id: rf-1
+    type: same_day_same_venue_stacking
+    description: Organizes thousands of simultaneous conferences worldwide; same venue/dates
+      with hundreds of different topics; confirmed predatory organizer
+    first_observed: '2025-06-01'
+    status: active
+    evidence_refs:
+      - ev-1
+evidence:
+  - id: ev-1
+    date: '2025-06-01'
+    type: import
+    observed_by: admin
+    source_url: https://en.wikipedia.org/wiki/Predatory_conference#WASET
+    archive_org_url: https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference#WASET
+    content_hash: sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab
+    snapshot_file: evidence/world-academy-of-science-engineering-and-technology/2025-06-01-import-snapshot.html
+    notes: 'Organizes thousands of simultaneous conferences worldwide; same venue/dates
+      with hundreds of different topics; confirmed predatory organizer Source: bealls-list|community.'
+disputes: []
+notes: 'Aliases: WASET'

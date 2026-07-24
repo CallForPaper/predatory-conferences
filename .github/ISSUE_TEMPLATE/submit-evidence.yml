@@ -1,0 +1,44 @@
+name: Submit new evidence for an existing entry
+description: Update an existing organizer or conference entry with new proof
+labels: ["evidence-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Provide additional information, newly observed URLs, re-check dates, or snapshots for a listed entity.
+  - type: input
+    id: target_slug
+    attributes:
+      label: Target Entity Slug
+      placeholder: e.g. waset-org
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence_type
+    attributes:
+      label: Evidence Category
+      options:
+        - recheck
+        - initial_detection
+        - legacy_import
+        - dispute_response
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What does this new evidence show?
+      placeholder: Describe the changes, new domains observed, or validation details.
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      placeholder: e.g. https://archived-link.org/...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        *File upload guidance: You can attach snapshots or screenshots by dragging and dropping images directly into this box. Maintainers will extract them and store them in the `evidence/` directory structure.*

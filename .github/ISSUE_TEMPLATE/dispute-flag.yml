@@ -1,0 +1,41 @@
+name: Dispute or request correction of a flag
+description: Dispute a red flag on an organizer or conference
+labels: ["dispute", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nominate a correction or flag status change. Disputes are logged and reviewed, not automatically actioned.
+        Read the dispute criteria in [methodology.md](../../methodology.md) before submitting.
+  - type: input
+    id: slug
+    attributes:
+      label: Disputed Organizer or Conference Slug
+      placeholder: e.g. waset-org
+    validations:
+      required: true
+  - type: textarea
+    id: specific_flags
+    attributes:
+      label: Specific Red Flags / Claims Disputed
+      placeholder: E.g., rf-1 (same_day_same_venue_stacking) - we have updated our scheduling structure.
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Dispute Claim & Context
+      placeholder: Provide a clear explanation detailing why the current flag or entry is incorrect.
+    validations:
+      required: true
+  - type: textarea
+    id: support_evidence
+    attributes:
+      label: Supporting Evidence
+      placeholder: Provide links to course catalogs, official university index links, or schedule registries.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        *Notice: All disputes are publicly logged in the repository history. Evidence records are never silently deleted, even if a dispute is resolved and the active flag status is set to resolved/removed.*

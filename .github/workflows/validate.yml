@@ -1,39 +1,23 @@
-name: Validate Dataset
-
+name: Validate Entities
 on:
-  pull_request:
-    paths:
-      - 'data/**'
   push:
-    branches: [main]
-    paths:
-      - 'data/**'
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install pandas
-
-      - name: Validate organizers.csv
-        run: python scripts/validate.py data/organizers.csv organizers
-
-      - name: Validate conferences.csv
-        run: python scripts/validate.py data/conferences.csv conferences
-
-      - name: Check for duplicate domains (organizers)
-        run: python scripts/check_duplicates.py data/organizers.csv domain
-
-      - name: Check for duplicate names (conferences)
-        run: python scripts/check_duplicates.py data/conferences.csv name
-
-      - name: Generate stats summary
-        run: python scripts/stats.py
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install jsonschema pyyaml
+    - name: Run Schema and Cross-Reference Validator
+      run: |
+        python scripts/validate_entities.py

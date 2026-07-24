@@ -1,0 +1,26 @@
+type: conference
+slug: international-conference-on-blockchain-and-cryptocurrency-waset
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2025-06-01'
+last_updated: '2026-07-24'
+last_reviewed: '2026-07-24'
+name: International Conference on Blockchain and Cryptocurrency - WASET
+organizer_slug: world-academy-of-science-engineering-and-technology
+event_dates:
+  - '2025-06-01'
+red_flags:
+  - id: rf-1
+    type: other
+    description: community
+    first_observed: '2025-06-01'
+    status: active
+    evidence_refs:
+      - ev-1
+evidence:
+  - id: ev-1
+    date: '2025-06-01'
+    type: import
+    observed_by: admin
+    notes: 'Source: community.'
+disputes: []

@@ -1,0 +1,310 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PredatoryConferenceEntity",
+  "description": "Schema defining a predatory conference organizer or a specific predatory conference event.",
+  "type": "object",
+  "required": [
+    "type",
+    "slug",
+    "status",
+    "criteria_version",
+    "red_flags",
+    "evidence",
+    "disputes"
+  ],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "organizer",
+        "conference"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active_flag",
+        "disputed",
+        "resolved",
+        "unverified"
+      ]
+    },
+    "criteria_version": {
+      "type": "string",
+      "description": "References a criteria version in methodology.md (e.g. v1.0)"
+    },
+    "first_flagged": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    },
+    "red_flags": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/red_flag"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence_item"
+      }
+    },
+    "disputes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dispute_item"
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "domains": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "network": {
+      "type": "string"
+    },
+    "organizer_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "event_dates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "format": "date"
+      }
+    },
+    "venue": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "if": {
+    "properties": {
+      "type": {
+        "const": "organizer"
+      }
+    }
+  },
+  "then": {
+    "required": [
+      "name",
+      "domains"
+    ]
+  },
+  "else": {
+    "required": [
+      "name",
+      "organizer_slug",
+      "event_dates"
+    ]
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "red_flag": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "description",
+        "first_observed",
+        "status",
+        "evidence_refs"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^rf-\\d+$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "same_day_same_venue_stacking",
+            "no_named_accrediting_body",
+            "generic_reused_content",
+            "unregistered_isbn",
+            "date_inconsistencies",
+            "fake_or_unverifiable_speakers",
+            "false_indexing_claims",
+            "plagiarized_proceedings",
+            "other"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "first_observed": {
+          "type": "string",
+          "format": "date"
+        },
+        "last_confirmed": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "resolved"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^ev-\\d+$"
+          }
+        }
+      },
+      "if": {
+        "properties": {
+          "type": {
+            "const": "other"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "description"
+        ]
+      }
+    },
+    "evidence_item": {
+      "type": "object",
+      "required": [
+        "id",
+        "date",
+        "type",
+        "observed_by"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^ev-\\d+$"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "initial_detection",
+            "recheck",
+            "import",
+            "dispute_response"
+          ]
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "snapshot_file": {
+          "type": "string",
+          "description": "Relative path to stored raw HTML snapshot inside evidence/<slug>/..."
+        },
+        "content_hash": {
+          "type": "string",
+          "pattern": "^sha256:[a-f0-9]{64}$"
+        },
+        "archive_org_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "observed_by": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "dispute_item": {
+      "type": "object",
+      "required": [
+        "id",
+        "opened_date",
+        "opened_by",
+        "contact",
+        "claim",
+        "response_summary",
+        "resolution"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^d-\\d+$"
+        },
+        "opened_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "opened_by": {
+          "type": "string",
+          "enum": [
+            "organizer",
+            "third_party",
+            "self_review"
+          ]
+        },
+        "contact": {
+          "type": "string"
+        },
+        "claim": {
+          "type": "string"
+        },
+        "response_summary": {
+          "type": "string"
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "unresolved",
+            "flag_upheld",
+            "flag_removed"
+          ]
+        },
+        "resolution_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "resolved_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

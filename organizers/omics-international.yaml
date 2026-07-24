@@ -1,0 +1,30 @@
+type: organizer
+slug: omics-international
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2025-06-01'
+last_updated: '2026-07-24'
+last_reviewed: '2026-07-24'
+name: OMICS International
+domains:
+  - omicsonline.org
+red_flags:
+  - id: rf-1
+    type: other
+    description: Charged by FTC in 2016 for deceptive practices; $50.1M judgment;
+      operates hundreds of predatory journals and conferences
+    first_observed: '2025-06-01'
+    status: active
+    evidence_refs:
+      - ev-1
+evidence:
+  - id: ev-1
+    date: '2025-06-01'
+    type: import
+    observed_by: admin
+    source_url: https://www.ftc.gov/news-events/news/press-releases/2019/04/federal-trade-commission-charges-academic-publisher-deceived-researchers
+    archive_org_url: https://web.archive.org/web/20250601000000/https://www.ftc.gov/news-events/news/press-releases/2019/04/federal-trade-commission-charges-academic-publisher-deceived-researchers
+    notes: 'Charged by FTC in 2016 for deceptive practices; $50.1M judgment; operates
+      hundreds of predatory journals and conferences Source: ftc-action.'
+disputes: []
+notes: 'Aliases: OMICS Publishing Group, iMedPub'
