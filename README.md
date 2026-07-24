@@ -63,7 +63,7 @@ This dataset is compiled and deduplicated from:
 7. **OMICS International** — FTC-charged predatory publisher/conference organizer
 8. **Community submissions** — Via GitHub issues and PRs
 
-See [`docs/sources.md`](docs/sources.md) for full attribution.
+See [`data/sources.csv`](data/sources.csv) for full attribution.
 
 ---
 
