@@ -1,0 +1,49 @@
+type: organizer
+slug: iraj-international
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2026-07-29'
+last_updated: '2026-07-29'
+name: 'IRAJ International'
+domains:
+  - iraj.in
+red_flags:
+  -
+    id: rf-80
+    type: same_day_same_venue_stacking
+    description: |-
+      11 conferences across unrelated domains (Law, Orthopedic,Science, Education, Management, Hospitality, Tourism, System Engineering ) listed at D.NO :-55-10-21 Suvi Sesha Puram ,Arts College Road, 533103 Rajahmundry, India
+       on 30 July 2026.
+    first_observed: '2026-07-29'
+    last_confirmed: '2026-07-29'
+    status: active
+    evidence_refs:
+      - ev-84
+      - ev-82
+      - ev-83
+evidence:
+  - id: ev-84
+    date: '2026-07-29'
+    type: initial_detection
+    source_url: 'https://iraj.in/Conference/24111/ICL/venue'
+    snapshot_file: evidence/iraj-international/2026-07-29-initial-detection-44b21c8d.html
+    content_hash: 'sha256:1d3cbf402235d5e353976be37cbea3bee609ed001a3edee4a570f74903a8d2d9'
+    archive_org_url: 'http://web.archive.org/web/20260729193610/https://iraj.in/Conference/24111/ICL/venue'
+    observed_by: callforpaper-org
+  - id: ev-82
+    date: '2026-07-29'
+    type: initial_detection
+    source_url: 'https://iraj.in/conference.php?dt=2026-07-30&place=Rajahmundry,India'
+    snapshot_file: evidence/iraj-international/2026-07-29-initial-detection-f4ffc0ec.html
+    content_hash: 'sha256:0bcbee384b358a41046e34500639d0943169984ec5fe57491e210ee606dc6a28'
+    archive_org_url: 'http://web.archive.org/web/20260729193508/https://iraj.in/conference.php?dt=2026-07-30&place=Rajahmundry,India'
+    observed_by: callforpaper-org
+  - id: ev-83
+    date: '2026-07-29'
+    type: initial_detection
+    source_url: 'https://iraj.in/Conference/24110/GCOSTC/venue'
+    snapshot_file: evidence/iraj-international/2026-07-29-initial-detection-790168b5.html
+    content_hash: 'sha256:c7810f077bf7dc670b745472c07f961ba71e643f46d7ce54c070fbaf356a245b'
+    archive_org_url: 'http://web.archive.org/web/20260729193528/https://iraj.in/Conference/24110/GCOSTC/venue'
+    observed_by: callforpaper-org
+disputes: []
