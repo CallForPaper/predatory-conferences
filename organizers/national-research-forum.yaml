@@ -1,0 +1,50 @@
+type: organizer
+slug: national-research-forum
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2026-07-29'
+last_updated: '2026-07-29'
+name: 'National Research Forum'
+domains:
+  - nationalconference.org.in
+red_flags:
+  -
+    id: rf-79
+    type: same_day_same_venue_stacking
+    description: '6 conferences across unrelated domains (medical and health science, smart energy system, science and engineering, Communications, agriculture and food science, art, commerce and business management) listed at Shivamogga, India on 29th Jul 2026."'
+    first_observed: '2026-07-29'
+    last_confirmed: '2026-07-29'
+    status: active
+    evidence_refs:
+      - ev-79
+      - ev-80
+      - ev-81
+evidence:
+  - id: ev-79
+    date: '2026-07-29'
+    type: initial_detection
+    source_url: 'https://nationalconference.org.in/conference.php?dt=2026-07-29&place=Shivamogga,India'
+    snapshot_file: evidence/national-research-forum/2026-07-29-initial-detection-6c3b0356.html
+    content_hash: 'sha256:69192edd8bcd7033f2da744b05b8da31beb47ef8f1c168de2f0f04ba937d9ced'
+    archive_org_url: 'http://web.archive.org/web/20260729153855/https://nationalconference.org.in/conference.php?dt=2026-07-29&place=Shivamogga,India'
+    observed_by: admin
+  - id: ev-80
+    date: '2026-07-29'
+    type: initial_detection
+    source_url: 'https://nationalconference.org.in/Conference/26414/NCMHS/'
+    snapshot_file: evidence/national-research-forum/2026-07-29-initial-detection-8575b60a.html
+    content_hash: 'sha256:2e2b1c1285542b4a174233b66ce42f1518d0133749fab1b0893b930f24b6bebd'
+    archive_org_url: 'http://web.archive.org/web/20260729153908/https://nationalconference.org.in/Conference/26414/NCMHS/'
+    observed_by: admin
+    notes: 'National Conference on Medical and Health Sciences(NCMHS) . NCMHS will be held during 29th Jul 2026 in Shivamogga, India'
+  - id: ev-81
+    date: '2026-07-29'
+    type: initial_detection
+    source_url: 'https://nationalconference.org.in/Conference/26415/NCSES/'
+    snapshot_file: evidence/national-research-forum/2026-07-29-initial-detection-43cefc9a.html
+    content_hash: 'sha256:10758b1dbd33a47a01b2111fc3bfe91c0e38271f57e8f001a1a158a45267fa53'
+    archive_org_url: 'http://web.archive.org/web/20260729154017/https://nationalconference.org.in/Conference/26415/NCSES/'
+    observed_by: admin
+    notes: 'National Conference on Smart Energy Systems(NCSES) . NCSES will be held during 29th Jul 2026 in Shivamogga,India'
+disputes: []
+notes: 'NRF-National Research Forum'
