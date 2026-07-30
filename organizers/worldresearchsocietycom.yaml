@@ -1,0 +1,47 @@
+type: organizer
+slug: worldresearchsocietycom
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2026-07-30'
+last_updated: '2026-07-30'
+name: 'World Research Society'
+domains:
+  - worldresearchsociety.com
+red_flags:
+  -
+    id: rf-84
+    type: same_day_same_venue_stacking
+    description: '14 conferences across unrelated domains (Cell Science and Molecular Biology, Information Technology and Computer Science,  Education and New Learning Technologies, Mechanical, Materials and Renewable Energy, Business Analytics and Operations Research, Congress on Soil and Water Conservation, Technology, Education, and Climate Change, Education, Research, Innovation, and Management,Public Health & Global Wellness , sustainable Development and Economic Growth,  Health Psychology and Mental Health, Social Work, Education and Social Development,  Law and Social Science, Artificial Intelligence and Emerging Technologies) listed at Alexandria, Egypt on 01 Aug - 02 Aug 2026'
+    first_observed: '2026-07-30'
+    last_confirmed: '2026-07-30'
+    status: active
+    evidence_refs:
+      - ev-94
+      - ev-95
+      - ev-96
+evidence:
+  - id: ev-94
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://worldresearchsociety.com/conference.php?dt=2026-08-01&place=Alexandria,Egypt'
+    snapshot_file: evidence/worldresearchsocietycom/2026-07-30-initial-detection-e5be791e.html
+    content_hash: 'sha256:670889b4d7938d9b3dcd2bc632e4955e7a4160fb61b04fceae8702ad6732dc05'
+    archive_org_url: 'http://web.archive.org/web/20260730114122/https://worldresearchsociety.com/conference.php?dt=2026-08-01&place=Alexandria,Egypt'
+    observed_by: callforpaper-org
+  - id: ev-95
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://worldresearchsociety.com/Conference/64600/IC-CSMB/venue'
+    snapshot_file: evidence/worldresearchsocietycom/2026-07-30-initial-detection-8201f9f5.html
+    content_hash: 'sha256:1828329025b554bd19b878b5edfbb663988617e9df0068c96d5f83bcf76dfacf'
+    archive_org_url: 'http://web.archive.org/web/20260730114130/https://worldresearchsociety.com/Conference/64600/IC-CSMB/venue'
+    observed_by: callforpaper-org
+  - id: ev-96
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://worldresearchsociety.com/Conference/64598/WCITSC/venue'
+    snapshot_file: evidence/worldresearchsocietycom/2026-07-30-initial-detection-26092662.html
+    content_hash: 'sha256:0f4a376386319d0c4d3c2f92f6429bc545dcfaa7eb088f3c8ab23ae5479c6883'
+    archive_org_url: 'http://web.archive.org/web/20260730114143/https://worldresearchsociety.com/Conference/64598/WCITSC/venue'
+    observed_by: callforpaper-org
+disputes: []
