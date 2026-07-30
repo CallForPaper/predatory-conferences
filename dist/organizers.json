@@ -1,6 +1,6 @@
 {
-  "compiled_at": "2026-07-30T12:06:37Z",
-  "count": 58,
+  "compiled_at": "2026-07-30T12:29:54Z",
+  "count": 59,
   "data": [
     {
       "type": "organizer",
@@ -418,6 +418,66 @@
       ],
       "disputes": [],
       "notes": "Aliases: ASIC"
+    },
+    {
+      "type": "organizer",
+      "slug": "arsss-advanced-research-society-for-science-and-sociology",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2026-07-30",
+      "last_updated": "2026-07-30",
+      "name": "ARSSS: Advanced Research Society for Science and Sociology",
+      "domains": [
+        "arsss.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-87",
+          "type": "same_day_same_venue_stacking",
+          "description": "15 conferences across unrelated domains (Arts and Humanities, Business Management and Social Innovation, Advances in Engineering, Technology and Science, Physics, Renewable Energy and Climate Change, Agricultural and Biological Sciences, Social Science and Humanities, Teaching, Education and New Learning Technologies, Artificial Intelligence, Robotics & Automation, Industrial Engineering and Operations Management, Cloud Computing and Computer Science, IOT, Environmental Science and Green Energy, AI, Computer Science and Business Management) listed at Zurich, Switzerland on 03rd Aug 2026",
+          "first_observed": "2026-07-30",
+          "last_confirmed": "2026-07-30",
+          "status": "active",
+          "evidence_refs": [
+            "ev-104",
+            "ev-105",
+            "ev-103"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-104",
+          "date": "2026-07-30",
+          "type": "initial_detection",
+          "source_url": "https://arsss.org/Conference/68824/ICESGE/venue",
+          "snapshot_file": "evidence/arsss-advanced-research-society-for-science-and-sociology/2026-07-30-initial-detection-7e6b0c08.html",
+          "content_hash": "sha256:b1427966dd0f7fcbbed38c847fded63595e656af6d85d949fc917ffe31e640e0",
+          "archive_org_url": "http://web.archive.org/web/20260730122235/https://arsss.org/Conference/68824/ICESGE/venue",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-105",
+          "date": "2026-07-30",
+          "type": "initial_detection",
+          "source_url": "https://arsss.org/Conference/68823/ICAICSBM/venue",
+          "snapshot_file": "evidence/arsss-advanced-research-society-for-science-and-sociology/2026-07-30-initial-detection-07a8d647.html",
+          "content_hash": "sha256:7cb3f9d9939ee7e327d562b76f60e1d6bd8b805126260c8268cd75757250501d",
+          "archive_org_url": "http://web.archive.org/web/20260730122244/https://arsss.org/Conference/68823/ICAICSBM/venue",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-103",
+          "date": "2026-07-30",
+          "type": "initial_detection",
+          "source_url": "https://arsss.org/conference.php?dt=2026-08-03&place=Zurich,Switzerland",
+          "snapshot_file": "evidence/arsss-advanced-research-society-for-science-and-sociology/2026-07-30-initial-detection-b323607e.html",
+          "content_hash": "sha256:e7f06b478db8b92829cfef8c53405fea889112a8abb6ce5e4a0f817845f37c55",
+          "archive_org_url": "http://web.archive.org/web/20260730122223/https://arsss.org/conference.php?dt=2026-08-03&place=Zurich,Switzerland",
+          "observed_by": "callforpaper-org"
+        }
+      ],
+      "disputes": []
     },
     {
       "type": "organizer",
