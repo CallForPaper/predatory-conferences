@@ -1,0 +1,49 @@
+type: organizer
+slug: research-fora
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2026-07-30'
+last_updated: '2026-07-30'
+name: 'Research Fora'
+domains:
+  - researchfora.com
+red_flags:
+  -
+    id: rf-81
+    type: same_day_same_venue_stacking
+    description: '7 conferences across unrelated domains (Green Energy, Law, Robotics and Manufacturing, Science, Medical & Health Science, Management, Economics & Social Science) listed at Bali,Indonesia on 30th-31st Jul 2026'
+    first_observed: '2026-07-30'
+    last_confirmed: '2026-07-30'
+    status: active
+    evidence_refs:
+      - ev-85
+      - ev-86
+      - ev-87
+evidence:
+  - id: ev-85
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://researchfora.com/conference.php?dt=2026-07-30&pl=Bali,Indonesia'
+    snapshot_file: evidence/research-fora/2026-07-30-initial-detection-0ddf336f.html
+    content_hash: 'sha256:3d18e375831c0b744d788a37fe765080d59f56b2c622183a95de4dde5aafb7dc'
+    archive_org_url: 'http://web.archive.org/web/20260730075840/https://researchfora.com/conference.php?dt=2026-07-30&pl=Bali,Indonesia'
+    observed_by: callforpaper-org
+  - id: ev-86
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://researchfora.com/Conference/13200/ICAEMR/'
+    snapshot_file: evidence/research-fora/2026-07-30-initial-detection-af6e26c6.html
+    content_hash: 'sha256:bea6547c76e5fefa45beea45aab3806350f2982ef7d95ccf93c883dd0092aade'
+    archive_org_url: 'http://web.archive.org/web/20260730075935/https://researchfora.com/Conference/13200/ICAEMR/'
+    observed_by: callforpaper-org
+    notes: 'International Conference on Advanced Energy Materials and Research (ICAEMR - 2026) will be held in Bali,Indonesia during 30th-31st Jul 2026. The Conference will be organized by Research Fora'
+  - id: ev-87
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://researchfora.com/Conference/13201/ICSET/'
+    snapshot_file: evidence/research-fora/2026-07-30-initial-detection-af8c49f6.html
+    content_hash: 'sha256:cf41df07caadb754d1d99ac5244d4c5e303d262ba0438065d311c65db0632d5e'
+    archive_org_url: 'http://web.archive.org/web/20260730075956/https://researchfora.com/Conference/13201/ICSET/'
+    observed_by: callforpaper-org
+    notes: 'International Conference on Science, Engineering & Technology (ICSET - 2026) will be held in Bali,Indonesia during 30th-31st Jul 2026. The Conference will be organized by Research Fora'
+disputes: []
