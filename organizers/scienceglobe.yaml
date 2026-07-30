@@ -1,0 +1,47 @@
+type: organizer
+slug: scienceglobe
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2026-07-30'
+last_updated: '2026-07-30'
+name: Scienceglobe
+domains:
+  - scienceglobe.org
+red_flags:
+  -
+    id: rf-83
+    type: same_day_same_venue_stacking
+    description: '6 conferences across unrelated domains (Engineering and Technology, Language, Innovation, Culture, and Education, Basic and Applied Sciences, Advances in Software and Computing Technologies,Agriculture, forestry, Biotechnology and Food Science,  Economics, Business Management & Social Sciences) listed at Aurangabad, India on 30th July 2026'
+    first_observed: '2026-07-30'
+    last_confirmed: '2026-07-30'
+    status: active
+    evidence_refs:
+      - ev-91
+      - ev-92
+      - ev-93
+evidence:
+  - id: ev-91
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://scienceglobe.org/conference.php?dt=2026-07-30&place=Aurangabad,India'
+    snapshot_file: evidence/scienceglobe/2026-07-30-initial-detection-1079e74f.html
+    content_hash: 'sha256:d2d0fccdcf15ac85de4d51e7079b7bc669a8f25b7d33f75fc3da886e4da75e51'
+    archive_org_url: 'http://web.archive.org/web/20260730112522/https://scienceglobe.org/conference.php?dt=2026-07-30&place=Aurangabad,India'
+    observed_by: callforpaper-org
+  - id: ev-92
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://scienceglobe.org/Conference/27039/ICRAET/venue'
+    snapshot_file: evidence/scienceglobe/2026-07-30-initial-detection-2553346b.html
+    content_hash: 'sha256:2592fcf8a94242561fa7bbd1457aa9107aec0216b33d2782e9139e46831c29b6'
+    archive_org_url: 'http://web.archive.org/web/20260730112530/https://scienceglobe.org/Conference/27039/ICRAET/venue'
+    observed_by: callforpaper-org
+  - id: ev-93
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://scienceglobe.org/Conference/27040/ICLICE/venue'
+    snapshot_file: evidence/scienceglobe/2026-07-30-initial-detection-5f61820d.html
+    content_hash: 'sha256:b4b5634887f8e335fd2bbfbd4484b25605c3a13e703d621c6fe1c7d0c08279a7'
+    archive_org_url: 'http://web.archive.org/web/20260730112545/https://scienceglobe.org/Conference/27040/ICLICE/venue'
+    observed_by: callforpaper-org
+disputes: []
