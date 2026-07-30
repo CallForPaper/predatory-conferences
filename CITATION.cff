@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: dataset
+title: "Predatory Conferences & Events Dataset"
+abstract:
+  "An open dataset of potentially predatory conferences and academic events,
+  maintained by CallForPaper.org to support research integrity and conference verification."
+authors:
+  - family-names: Saurabh
+    given-names: Sharma
+    email: saurabhsharma2u@gmail.com
+    orcid: https://orcid.org/0000-0002-5719-2635
+    url: "https://callforpaper.org"
+    doi: 10.5281/zenodo.21699200
+repository-code: "https://github.com/CallForPaper/predatory-conferences"
+license: MIT
+version: 1.1.0
+date-released: 2026-07-30
+keywords:
+  - predatory-journals
+  - academic-integrity
+  - research-integrity
+  - bibliometrics
+  - scholarly-publishing
+  - open-access
+  - conference-assessment
+  - data-aggregation
+  - metadata-quality
