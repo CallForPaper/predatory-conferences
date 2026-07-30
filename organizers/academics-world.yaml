@@ -1,0 +1,47 @@
+type: organizer
+slug: academics-world
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2026-07-30'
+last_updated: '2026-07-30'
+name: 'Academics World'
+domains:
+  - academicsworld.org
+red_flags:
+  -
+    id: rf-86
+    type: same_day_same_venue_stacking
+    description: '10 conferences across unrelated domains (Development in Science and Technology, Engineering, Technology and Innovations, Nanoscience, Nanotechnology and Advanced Materials, Science, Social Science and Economics, Artificial Intelligence and Soft Computing, Advances in Medical and Health Sciences, Mining, Material, and Metallurgical Engineering, Management and Information Technology, Language, Literature and Culture, Environmental Science and Development) listed at Hamburg, Germany on 3rd Aug - 4th Aug 2026'
+    first_observed: '2026-07-30'
+    last_confirmed: '2026-07-30'
+    status: active
+    evidence_refs:
+      - ev-100
+      - ev-101
+      - ev-102
+evidence:
+  - id: ev-100
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://academicsworld.org/conference.php?dt=2026-08-03&place=Hamburg,Germany'
+    snapshot_file: evidence/academics-world/2026-07-30-initial-detection-a9fa3280.html
+    content_hash: 'sha256:3cd17bc27a580b4a176960952c811301253246fb2e52a8469e458550b2bf683c'
+    archive_org_url: 'http://web.archive.org/web/20260730120424/https://academicsworld.org/conference.php?dt=2026-08-03&place=Hamburg,Germany'
+    observed_by: callforpaper-org
+  - id: ev-101
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://academicsworld.org/Conference/28796/ICESD/venue'
+    snapshot_file: evidence/academics-world/2026-07-30-initial-detection-847424c8.html
+    content_hash: 'sha256:b4387fcb499607f9baeedd5ddf33ee3dddadde6c9164c652dbe59e9413f97502'
+    archive_org_url: 'http://web.archive.org/web/20260730120436/https://academicsworld.org/Conference/28796/ICESD/venue'
+    observed_by: callforpaper-org
+  - id: ev-102
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://academicsworld.org/Conference/28798/ICLLC/venue'
+    snapshot_file: evidence/academics-world/2026-07-30-initial-detection-dd76be19.html
+    content_hash: 'sha256:d8903ba1c8e6ede67300c7501396f90ed254408de30af79024cd78182547ffeb'
+    archive_org_url: 'http://web.archive.org/web/20260730120514/https://academicsworld.org/Conference/28798/ICLLC/venue'
+    observed_by: callforpaper-org
+disputes: []
