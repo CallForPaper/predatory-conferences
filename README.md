@@ -5,6 +5,7 @@ A community-maintained, open-source dataset of predatory conference organizers a
 > **Maintained by [callforpaper.org](https://callforpaper.org)** — used to power backend trust-scoring and protect researchers from predatory CFPs.
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![DOI](https://zenodo.org/badge/1278977525.svg)](https://doi.org/10.5281/zenodo.21699200)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Last Updated](https://img.shields.io/github/last-commit/callforpaper/predatory-conferences)](https://github.com/callforpaper/predatory-conferences/commits/main)
 
