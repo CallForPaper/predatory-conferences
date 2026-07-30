@@ -1,0 +1,47 @@
+type: organizer
+slug: academicsera
+status: active_flag
+criteria_version: v1.0
+first_flagged: '2026-07-30'
+last_updated: '2026-07-30'
+name: Academicsera
+domains:
+  - academicsera.com
+red_flags:
+  -
+    id: rf-82
+    type: same_day_same_venue_stacking
+    description: '15 conferences across unrelated domains (Human Rights and Human Dignity, Education, Teaching and Learning,Marketing and Global Business Management, Medical Science and Health care, Science, Technology, Engineering and Management, Sports Nutrition and Supplements, Pharma and Food, Mechanical and Aerospace Engineering, Human Rights, Economics Finance and Accounting, Electrical and Electronics Engineering, Civil and Environmental Engineering, Chemical and Biochemical Engineering, Physiology and Genetics of Wildlife) listed at Jakarta, Indonesia on 30 Jul - 31 Jul 2026'
+    first_observed: '2026-07-30'
+    last_confirmed: '2026-07-30'
+    status: active
+    evidence_refs:
+      - ev-89
+      - ev-90
+      - ev-88
+evidence:
+  - id: ev-89
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://academicsera.com/Conference/25003/ICCEE/'
+    snapshot_file: evidence/academicsera/2026-07-30-initial-detection-f3985add.html
+    content_hash: 'sha256:16cee2a33299a4a3a8515d9b6a2e70fbf8ff6b051955b59330d73c9a88c74119'
+    archive_org_url: 'http://web.archive.org/web/20260730081504/https://academicsera.com/Conference/25003/ICCEE/'
+    observed_by: callforpaper-org
+  - id: ev-90
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://academicsera.com/Conference/25004/ICCBE/'
+    snapshot_file: evidence/academicsera/2026-07-30-initial-detection-27d30cc6.html
+    content_hash: 'sha256:e2286feac9a5e6c042aba1f79ff3b0bc8cd814790856be64224401a24e126378'
+    archive_org_url: 'http://web.archive.org/web/20260730081459/https://academicsera.com/Conference/25004/ICCBE/'
+    observed_by: callforpaper-org
+  - id: ev-88
+    date: '2026-07-30'
+    type: initial_detection
+    source_url: 'https://academicsera.com/conference.php?dt=2026-07-30&place=Jakarta,Indonesia'
+    snapshot_file: evidence/academicsera/2026-07-30-initial-detection-2efe9158.html
+    content_hash: 'sha256:195aeba5dcb4ebed55dff088fc81249b952c69d851ec6d1f58c47664611b2d33'
+    archive_org_url: 'http://web.archive.org/web/20260730081420/https://academicsera.com/conference.php?dt=2026-07-30&place=Jakarta,Indonesia'
+    observed_by: callforpaper-org
+disputes: []
