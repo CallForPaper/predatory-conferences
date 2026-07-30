@@ -1,6 +1,6 @@
 {
-  "compiled_at": "2026-07-30T11:51:14Z",
-  "count": 56,
+  "compiled_at": "2026-07-30T11:57:27Z",
+  "count": 57,
   "data": [
     {
       "type": "organizer",
@@ -646,6 +646,66 @@
           "source_url": "https://predatoryjournals.com",
           "archive_org_url": "https://web.archive.org/web/20250601000000/https://predatoryjournals.com",
           "notes": "Source: stop-predatory-journals."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "iistem-international-institution-for-science-technology-engineering-and-management",
+      "status": "active_flag",
+      "criteria_version": "v1.0",
+      "first_flagged": "2026-07-30",
+      "last_updated": "2026-07-30",
+      "name": "IISTEM : International Institution for Science Technology Engineering and Management)",
+      "domains": [
+        "iistem.org"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-85",
+          "type": "same_day_same_venue_stacking",
+          "description": "12 conferences across unrelated domains (Agriculture and Horticulture, Positive Psychology and Mental Health, Law and Economics, Agriculture and Horticulture,  Nursing and Primary Healthcare, Business Management and Social Innovation, Advances in Science, Engineering and Technology, Advances in Artificial Intelligence, Machine Learning and Applications, Electrical, Electronics & Computer Science, Networking, Communication and Computing Technology, Mechanical, Industrial and Production Engineering, Advances in Business Management and Information Science) listed at Santa Clara, USA on 06th Aug 2026",
+          "first_observed": "2026-07-30",
+          "last_confirmed": "2026-07-30",
+          "status": "active",
+          "evidence_refs": [
+            "ev-99",
+            "ev-97",
+            "ev-98"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-99",
+          "date": "2026-07-30",
+          "type": "initial_detection",
+          "source_url": "https://iistem.org/Conference/31006/ICEECS/venue",
+          "snapshot_file": "evidence/iistem-international-institution-for-science-technology-engineering-and-management/2026-07-30-initial-detection-8ffc0507.html",
+          "content_hash": "sha256:99e1d22cd9656cc2e081aa2cb4b57b9d3ba9f2673ac0a85aabff437565b60fbe",
+          "archive_org_url": "http://web.archive.org/web/20260730114853/https://iistem.org/Conference/31006/ICEECS/venue",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-97",
+          "date": "2026-07-30",
+          "type": "initial_detection",
+          "source_url": "https://iistem.org/conference.php?dt=2026-08-06&place=Santa%20Clara,USA",
+          "snapshot_file": "evidence/iistem-international-institution-for-science-technology-engineering-and-management/2026-07-30-initial-detection-fd57f827.html",
+          "content_hash": "sha256:89a12635c5f246c3d5cac6520cc239606b9faa7304fb42c7c9c3ebf82b2f0c16",
+          "archive_org_url": "http://web.archive.org/web/20260730114834/https://iistem.org/conference.php?dt=2026-08-06&place=Santa%20Clara,USA",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-98",
+          "date": "2026-07-30",
+          "type": "initial_detection",
+          "source_url": "https://iistem.org/Conference/31008/ICMIPE/venue",
+          "snapshot_file": "evidence/iistem-international-institution-for-science-technology-engineering-and-management/2026-07-30-initial-detection-ee327ee6.html",
+          "content_hash": "sha256:5c11816f5b1cdab1eb93da3a5d8bb70882012dc32824339d1db05ea617bef196",
+          "archive_org_url": "http://web.archive.org/web/20260730114840/https://iistem.org/Conference/31008/ICMIPE/venue",
+          "observed_by": "callforpaper-org"
         }
       ],
       "disputes": []
