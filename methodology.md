@@ -30,6 +30,40 @@ This dataset tracks two kinds of entity: **organizers** (a person, company, or n
 
 **Never require an organizer to be created or upgraded to `active_flag` purely as a side effect of filing a conference-level entry.** An organizer only carries `active_flag` status when there is evidence specifically about the organizer itself — not by inheritance from a single flagged event underneath it.
 
+## 🕸️ Networks
+
+Some organizers are linked not by direct evidence against each other, but by 
+shared infrastructure — a common proceedings host, a published "conference 
+partner"/"associate" listing, shared hosting, or a WHOIS match. This dataset 
+models that as a **hub-and-spoke** relationship, not a pairwise mesh: the 
+hub (e.g. the site hosting the partner listing) is itself an organizer entity 
+in this dataset — typically with `status: reference_only` unless it separately 
+carries its own evidenced flags — and every member links to that one hub via 
+its own `networks: []` field, rather than every member linking to every other 
+member directly.
+
+- **`networks`**: an array of network-hub slugs on an organizer entry, e.g. 
+  `networks: [example]`. A single organizer may belong to more 
+  than one network.
+- **Bi-directional sync**: when Organizer A adds a network hub to its 
+  `networks`, the hub's own file (and by extension every other member 
+  already linked to that hub) reflects the new member without manual editing 
+  of each existing member's file — the hub is the single source of truth for 
+  membership, not a fact duplicated across every spoke.
+- **Bi-directional removal**: removing a network link from either side (a 
+  member disputing membership and winning, or a hub entry being corrected) 
+  removes the edge on both sides consistently.
+- **Evidence provenance on synced edges**: the member that originally supplied 
+  the evidence for a network link (e.g. the associates-page snapshot) keeps 
+  that evidence in its own `evidence[]`. Other members who gain the reciprocal 
+  edge via sync are not required to independently re-prove the link — but 
+  their entry should note which member's evidence the edge traces back to, 
+  so the link remains auditable rather than appearing to originate from 
+  nowhere.
+- Network membership on its own is **not** a red flag — it's a structural fact. 
+  See `shared_predatory_network` below for when membership in a network 
+  becomes an evidenced criterion.
+
 ---
 
 ## 🚦 Status Values
@@ -97,6 +131,19 @@ Each criterion below includes a **description template**. Generate the `descript
   Published proceedings containing material substantially duplicated from prior, unrelated publications without attribution.
   Structured fields: `paper_title_or_id`, `matched_source`, `similarity_note`
   Template: `"Proceedings entry '{paper_title_or_id}' substantially duplicates {matched_source} ({similarity_note})."`
+  
+- **`shared_predatory_network`**
+Belonging to a network (see "Networks" above) where one or more *other* 
+members already carry an independently-evidenced flag in this dataset, or 
+appear on an established external blacklist (e.g. Beall's List). This 
+criterion flags the affiliation itself — evidence that the entity operates 
+within a documented predatory network — separately from and in addition to 
+any evidence about the entity's own listings.
+Structured fields: `network_ref` (slug of the network hub, from `networks`), 
+`flagged_members` (list of other members already flagged, each as either 
+a dataset slug or an external blacklist reference)
+Template: `"Member of the {network_ref} network, alongside already-flagged 
+members: {flagged_members}."`
 
 - **`other`**
   Any other pattern not covered above. Requires a hand-written `description` — no template. Use sparingly; if a pattern recurs across multiple entries, propose a new named criterion instead (open an issue) rather than accumulating `other` flags.
@@ -105,9 +152,27 @@ Each criterion below includes a **description template**. Generate the `descript
 
 ## 📂 Evidence Standards
 
-- **Snapshots**: every entry must reference at least one raw HTML snapshot, stored under `evidence/<slug>/...`.
-- **Wayback Machine**: an `archive_org_url` should be recorded whenever a real Save Page Now or Availability API result exists. Never fill this field with a fabricated or templated URL — leave it empty rather than guess.
-- **Cryptographic hashes**: every snapshot's `content_hash` is a SHA-256 hash (`sha256:<64 hex chars>`) of the exact stored file, so anyone can independently verify the snapshot hasn't been altered after the fact.
+- **Snapshots**: every entry must reference at least one raw HTML snapshot, 
+  stored under `evidence/<slug>/...`, with `content_hash` (SHA-256) of the 
+  exact stored file.
+- **Images**: every entry should also capture an `image_file` (full-page 
+  screenshot, stored under `evidence/<slug>/...` via git-lfs) with its own 
+  `image_hash` (SHA-256 of the stored image file). This is captured 
+  routinely alongside the HTML snapshot — not only when Wayback is 
+  unavailable — since a screenshot independently preserves what a human 
+  reviewer actually saw (rendering, layout, visible pattern across a page) 
+  in a way a raw HTML snapshot alone may not, particularly for dynamic, 
+  paginated, or JS-rendered pages.
+- **Wayback Machine**: an `archive_org_url` should be recorded whenever a 
+  real Save Page Now or Availability API result exists. Never fill this 
+  field with a fabricated or templated URL — leave it null rather than 
+  guess. `snapshot_file`, `image_file`, and `archive_org_url` are three 
+  independent legs of evidence, each captured on its own merits — none is 
+  a fallback for another, and Wayback's availability should never block or 
+  delay capturing the other two.
+- **Cryptographic hashes**: `content_hash` and `image_hash` are both 
+  SHA-256 hashes (`sha256:<64 hex chars>`) of their respective stored files, 
+  so anyone can independently verify neither has been altered after capture.
 - **evidence_refs**: every `red_flags[]` entry must list the `evidence[]` id(s) that support it. A flag with an empty `evidence_refs` is not considered active-flag-ready.
 - **Append-only evidence**: once added, an evidence entry is never edited or deleted. Corrections, re-checks, and updated findings are added as new evidence entries (`type: recheck`), leaving the original intact for auditability.
 - **Source unavailable**: if a previously cited source (e.g. a domain that has expired, been squatted, or gone dark) can no longer be independently verified, do not delete the old evidence — add a new evidence entry noting the source is no longer verifiable, and set the affected entry's `status` to `unverified` pending re-verification, rather than leaving an un-checkable claim marked active.
@@ -129,20 +194,33 @@ A dispute review should, wherever possible, produce a new dated evidence entry (
 
 ## 📜 Version History
 
-### `v1.0` — 2026-07-24
+### `v1.0.0` — 2026-07-24
 - Initial release of structured evidence-backed schemas and workflows.
 - Migrated legacy CSV datasets to YAML.
 
-### `v1.1` — 2026-07-29
+### `v1.1.0` — 2026-07-29
 - Replaced the vague "dozens or hundreds" threshold for `same_day_same_venue_stacking` with an explicit numeric split: 10+ = Major Criterion, 3–9 = Supporting Criterion.
 - Added a structured-field + description-template model for every named criterion (except `other`), so flag descriptions are generated from specific facts rather than hand-typed prose, while staying consistent with this document's published wording.
 - Added explicit guidance for handling sources that later become unverifiable (expired/squatted domains): downgrade to `unverified` with a new evidence entry rather than deleting or leaving an unverifiable claim marked active.
 - Added "How to Read an Entry" section clarifying entries are factual/evidenced observations, not legal or intent-based determinations.
 
-### `v1.2` — 2026-07-29
+### `v1.2.0` — 2026-07-29
 - Added the "Organizer vs. Conference — Which File?" section with an explicit decision order, to stop conference-level entries from implicitly requiring or implying an organizer-level flag.
 - Added the `reference_only` status for organizer entries that exist solely as a structural link for a conference entry, carrying no red flags of their own; compiled output and downstream syncs must not present `reference_only` organizers as flagged.
 - Clarified that `organizer_slug` on a conference entry may be `null`, with a plain-text `organizer_name` used instead, when a durable organizer record isn't warranted.
 - Consolidated all status values (`active_flag`, `disputed`, `resolved`, `unverified`, `reference_only`) into one reference section.
+
+### `v1.2.1` — 2026-08-17
+- Added the "Networks" section: `networks` field on organizer entries, 
+  modeled as hub-and-spoke (not pairwise mesh), with bi-directional 
+  sync/removal of membership through the network hub entry.
+- Added `shared_predatory_network` as a Supporting Criterion, for organizers 
+  belonging to a network where other members already carry an independent 
+  flag in this dataset or an external blacklist.
+- Added `image_file` and `image_hash` to the evidence schema as independent, 
+  routinely-captured evidence alongside `snapshot_file` — not a fallback 
+  triggered only when the Wayback Machine is unavailable. Clarified that 
+  `snapshot_file`, `image_file`, and `archive_org_url` are three independent 
+  legs of evidence.
 
 *Entries flagged under an earlier criteria version remain auditable against the rules that applied at the time (see each entry's `criteria_version` field). This does not retroactively invalidate prior flags, but existing `same_day_same_venue_stacking` entries with counts below 10 should be reclassified from Major to Supporting on next re-check, and any organizer that was created purely to support a conference-level entry should be reviewed for reclassification to `reference_only` if it carries no independently-evidenced flag of its own.*

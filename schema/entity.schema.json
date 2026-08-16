@@ -1,12 +1,14 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "PredatoryConferenceEntity",
-  "description": "Schema defining a predatory conference organizer or a specific predatory conference event.",
+  "$id": "https://raw.githubusercontent.com/callforpaper/predatory-conferences/main/schema/entity.schema.json",
+  "title": "Predatory Entity Schema",
+  "description": "Unified JSON schema for validating predatory conferences and organizers in the CallForPaper predatory dataset repository.",
   "type": "object",
   "required": [
     "type",
     "slug",
     "status",
+    "name",
     "criteria_version",
     "red_flags",
     "evidence",
@@ -18,11 +20,18 @@
       "enum": [
         "organizer",
         "conference"
-      ]
+      ],
+      "description": "The entity type: 'organizer' or 'conference'."
     },
     "slug": {
       "type": "string",
-      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Kebab-case canonical slug identifying the entity."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Full official or advertised display name of the entity."
     },
     "status": {
       "type": "string",
@@ -31,184 +40,162 @@
         "disputed",
         "resolved",
         "unverified"
-      ]
+      ],
+      "description": "Current evaluation status."
     },
     "criteria_version": {
       "type": "string",
-      "description": "References a criteria version in methodology.md (e.g. v1.0)"
+      "default": "v1.0",
+      "description": "The criteria guideline version used when evaluating this entity."
     },
     "first_flagged": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "description": "YYYY-MM-DD date when the entity was first flagged."
     },
     "last_updated": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "description": "YYYY-MM-DD date when metadata or evidence was last updated."
     },
     "last_reviewed": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "description": "YYYY-MM-DD date when an editorial review was last completed."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Internal or public editorial notes."
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Domain names associated with this organizer (organizer only)."
+    },
+    "networks": {
+      "type": "array",
+      "description": "Array of affiliated organizer slugs operating in the same network or syndicate.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "organizer_slug": {
+      "type": "string",
+      "description": "Slug of the parent organizer (conference only)."
+    },
+    "event_dates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Advertised event dates, e.g. ['2026-09-15', '2026-09-16'] (conference only)."
+    },
+    "venue": {
+      "type": "string",
+      "description": "Advertised city, venue, or location (conference only)."
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Primary advertised website or landing page URL (conference only)."
     },
     "red_flags": {
       "type": "array",
+      "description": "List of specific predatory indicators/red flags attached to this entity.",
       "items": {
-        "$ref": "#/$defs/red_flag"
+        "$ref": "#/definitions/RedFlag"
       }
     },
     "evidence": {
       "type": "array",
+      "description": "Audit trail and snapshots verifying observed red flags.",
       "items": {
-        "$ref": "#/$defs/evidence_item"
+        "$ref": "#/definitions/EvidenceItem"
       }
     },
     "disputes": {
       "type": "array",
+      "description": "Formal disputes or review requests submitted for this entity.",
       "items": {
-        "$ref": "#/$defs/dispute_item"
-      }
-    },
-    "notes": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "domains": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "string"
-      }
-    },
-    "network": {
-      "type": "string"
-    },
-    "organizer_slug": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-    },
-    "event_dates": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "string",
-        "format": "date"
-      }
-    },
-    "venue": {
-      "type": "string"
-    },
-    "source_url": {
-      "type": "string",
-      "format": "uri"
-    }
-  },
-  "if": {
-    "properties": {
-      "type": {
-        "const": "organizer"
+        "$ref": "#/definitions/Dispute"
       }
     }
   },
-  "then": {
-    "required": [
-      "name",
-      "domains"
-    ]
-  },
-  "else": {
-    "required": [
-      "name",
-      "organizer_slug",
-      "event_dates"
-    ]
-  },
-  "additionalProperties": false,
-  "$defs": {
-    "red_flag": {
+  "definitions": {
+    "RedFlag": {
       "type": "object",
       "required": [
         "id",
         "type",
         "description",
-        "first_observed",
         "status",
         "evidence_refs"
       ],
       "properties": {
         "id": {
           "type": "string",
-          "pattern": "^rf-\\d+$"
+          "pattern": "^rf-[0-9]+$",
+          "description": "Unique flag identifier within the entity, e.g. rf-1, rf-2."
         },
         "type": {
           "type": "string",
-          "enum": [
-            "same_day_same_venue_stacking",
-            "no_named_accrediting_body",
-            "generic_reused_content",
-            "unregistered_isbn",
-            "date_inconsistencies",
-            "fake_or_unverifiable_speakers",
-            "false_indexing_claims",
-            "plagiarized_proceedings",
-            "other"
-          ]
+          "description": "Slug of the red flag type (e.g. same_day_same_venue_stacking, false_indexing_claims, fake_or_unverifiable_speakers, other)."
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "description": "Specific observation describing why this flag was raised."
         },
         "first_observed": {
           "type": "string",
-          "format": "date"
+          "format": "date",
+          "description": "YYYY-MM-DD date when this specific flag was first observed."
         },
         "last_confirmed": {
           "type": "string",
-          "format": "date"
+          "format": "date",
+          "description": "YYYY-MM-DD date when this flag was last verified active."
         },
         "status": {
           "type": "string",
           "enum": [
             "active",
             "resolved"
-          ]
+          ],
+          "default": "active",
+          "description": "Whether this red flag is currently active or has been resolved."
         },
         "evidence_refs": {
           "type": "array",
           "items": {
             "type": "string",
-            "pattern": "^ev-\\d+$"
-          }
+            "pattern": "^ev-[0-9]+$"
+          },
+          "description": "List of evidence IDs (e.g. ['ev-1', 'ev-2']) that support this red flag."
         }
-      },
-      "if": {
-        "properties": {
-          "type": {
-            "const": "other"
-          }
-        }
-      },
-      "then": {
-        "required": [
-          "description"
-        ]
       }
     },
-    "evidence_item": {
+    "EvidenceItem": {
       "type": "object",
       "required": [
         "id",
-        "date",
         "type",
+        "source_url",
         "observed_by"
       ],
       "properties": {
         "id": {
           "type": "string",
-          "pattern": "^ev-\\d+$"
+          "pattern": "^ev-[0-9]+$",
+          "description": "Unique evidence identifier within the entity, e.g. ev-1, ev-2."
         },
         "date": {
           "type": "string",
-          "format": "date"
+          "format": "date",
+          "description": "YYYY-MM-DD date when evidence was captured."
         },
         "type": {
           "type": "string",
@@ -216,55 +203,63 @@
             "initial_detection",
             "recheck",
             "import",
-            "dispute_response"
-          ]
+            "dispute_response",
+            "website_snapshot"
+          ],
+          "description": "Type of evidence recorded."
         },
         "source_url": {
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "description": "Original live URL from which evidence was captured."
         },
         "snapshot_file": {
           "type": "string",
-          "description": "Relative path to stored raw HTML snapshot inside evidence/<slug>/..."
+          "description": "Key or relative path to stored raw HTML snapshot in repository or storage."
+        },
+        "image_file": {
+          "type": "string",
+          "description": "Relative path to a screenshot (png/jpg) inside evidence/<slug>/..."
+        },
+        "image_hash": {
+          "type": "string",
+          "description": "Cryptographic hash (e.g. sha256) of captured image"
         },
         "content_hash": {
           "type": "string",
-          "pattern": "^sha256:[a-f0-9]{64}$"
+          "description": "Cryptographic hash (e.g. sha256) of captured page content."
         },
         "archive_org_url": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "uri"
+          "type": "string",
+          "format": "uri",
+          "description": "Permanent archived URL on Wayback Machine (web.archive.org)."
         },
         "observed_by": {
-          "type": "string"
+          "type": "string",
+          "description": "Identifier or username of investigator / automated crawler."
         },
         "notes": {
-          "type": "string"
+          "type": "string",
+          "description": "Observations or notes regarding this piece of evidence."
         }
       }
     },
-    "dispute_item": {
+    "Dispute": {
       "type": "object",
       "required": [
         "id",
-        "opened_date",
-        "opened_by",
-        "contact",
-        "claim",
-        "response_summary",
         "resolution"
       ],
       "properties": {
         "id": {
           "type": "string",
-          "pattern": "^d-\\d+$"
+          "pattern": "^d-[0-9]+$",
+          "description": "Unique dispute identifier within the entity, e.g. d-1."
         },
         "opened_date": {
           "type": "string",
-          "format": "date"
+          "format": "date",
+          "description": "YYYY-MM-DD date when the dispute was opened."
         },
         "opened_by": {
           "type": "string",
@@ -272,16 +267,20 @@
             "organizer",
             "third_party",
             "self_review"
-          ]
+          ],
+          "description": "Party who initiated the dispute."
         },
         "contact": {
-          "type": "string"
+          "type": "string",
+          "description": "Contact email or representative name."
         },
         "claim": {
-          "type": "string"
+          "type": "string",
+          "description": "Summary of dispute statement or justification provided."
         },
         "response_summary": {
-          "type": "string"
+          "type": "string",
+          "description": "Editorial response summary to the claim."
         },
         "resolution": {
           "type": "string",
@@ -289,20 +288,18 @@
             "unresolved",
             "flag_upheld",
             "flag_removed"
-          ]
+          ],
+          "default": "unresolved",
+          "description": "Outcome of the dispute process."
         },
         "resolution_date": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "date"
+          "type": "string",
+          "format": "date",
+          "description": "YYYY-MM-DD date when a resolution was reached."
         },
         "resolved_by": {
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": "string",
+          "description": "Editor or reviewer who finalized the dispute."
         }
       }
     }
