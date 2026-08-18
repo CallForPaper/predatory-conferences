@@ -3,10 +3,14 @@ slug: big-data-research-forum
 status: active_flag
 criteria_version: v1.2.1
 first_flagged: '2026-08-16'
-last_updated: '2026-08-17'
+last_updated: '2026-08-18'
 name: 'Big Data Research Forum'
 domains:
   - bigdataresearchforum.com
+# reciprocal link added via bi-directional sync, 2026-08-18,
+# originating evidence: organizers/academic-research-network.yaml
+networks:
+  - academic-research-network
 red_flags:
   -
     id: rf-88
@@ -24,9 +28,9 @@ red_flags:
     last_confirmed: '2026-08-16'
     status: active
     evidence_refs:
-      - ev-112
       - ev-113
       - ev-106
+      - ev-112
   -
     id: rf-91
     type: no_named_accrediting_body
@@ -51,9 +55,9 @@ red_flags:
     last_confirmed: '2026-08-16'
     status: active
     evidence_refs:
+      - ev-115
       - ev-116
       - ev-117
-      - ev-115
 evidence:
   - id: ev-106
     date: '2026-08-16'
@@ -63,7 +67,7 @@ evidence:
     image_file: evidence/big-data-research-forum/2026-08-17-initial-detection-5e44624f.png
     image_hash: 'sha256:35b75e99ea47679efb9d0ce8172e197123183fe6bb32728058061007bfd73c07'
     content_hash: 'sha256:38d81788135a69679f3f452205c317f9de077543f8b43affa55372b8329bfe25'
-    archive_org_url: ''
+    archive_org_url: 'https://web.archive.org/web/20260818010610/https://bigdataresearchforum.com/upcoming-conferences.php'
     observed_by: callforpaper-org
   - id: ev-116
     date: '2026-08-17'
@@ -73,15 +77,7 @@ evidence:
     image_file: evidence/big-data-research-forum/2026-08-17-initial-detection-db440b4b.png
     image_hash: 'sha256:4c5e726bd88d03c6ada08c893c85102fdf8b09e2770b1670573b5bcce8cfedd0'
     content_hash: 'sha256:82ac95e70fbb524ff0790750f831817a4a71de35fbd23f91a37090a142546de1'
-    observed_by: callforpaper-org
-  - id: ev-117
-    date: '2026-08-17'
-    type: initial_detection
-    source_url: 'https://bigdataresearchforum.com/Conference/18605/ICBIoTML/call'
-    snapshot_file: evidence/big-data-research-forum/2026-08-17-initial-detection-ba402548.html
-    image_file: evidence/big-data-research-forum/2026-08-17-initial-detection-09684a9e.png
-    image_hash: 'sha256:4457f44aa040434826e7df2eeceba76c41723cf4b44ff98b55ceefae927701c8'
-    content_hash: 'sha256:d6ff9defec9d7e98adf55903c1d6d20381b35f518d0cac270d288bd8a509f050'
+    archive_org_url: 'https://web.archive.org/web/20260818081728/https://bigdataresearchforum.com/Conference/18648/ICBDS/call'
     observed_by: callforpaper-org
   - id: ev-112
     date: '2026-08-17'
@@ -91,6 +87,7 @@ evidence:
     image_file: evidence/big-data-research-forum/2026-08-17-initial-detection-49153aba.png
     image_hash: 'sha256:b03a5e1a600f0b5aaf4046abecc57190943bcd4d98eed854ba8fcd54bf08f37d'
     content_hash: 'sha256:8ddc710f20f74704cf4c2bcbf607b7ab3d14d887c518d2004abe16847dd00253'
+    archive_org_url: 'https://web.archive.org/web/20260818074615/https://bigdataresearchforum.com/Conference/18579/ICBSC/venue'
     observed_by: callforpaper-org
   - id: ev-113
     date: '2026-08-17'
@@ -100,6 +97,7 @@ evidence:
     image_file: evidence/big-data-research-forum/2026-08-17-initial-detection-f5faf423.png
     image_hash: 'sha256:18cd95420292e5a8561970da68f3661f96bb7fd86b2fb296013db5aa7a31c6e4'
     content_hash: 'sha256:5f545e4911de4162691e31305e7f275f361da59ed85b4f87f09e24b6d3797232'
+    archive_org_url: 'https://web.archive.org/web/20260818074716/https://bigdataresearchforum.com/Conference/18591/ICMLCG/venue'
     observed_by: callforpaper-org
   - id: ev-114
     date: '2026-08-17'
@@ -109,6 +107,7 @@ evidence:
     image_file: evidence/big-data-research-forum/2026-08-17-initial-detection-57fe4a07.png
     image_hash: 'sha256:9940faa9ceed2fdb1432f7ddd962bdf7d0e89de7325a98089a63f19e41bd69bb'
     content_hash: 'sha256:afd0d9aebc7fac561f1756746161f22a63b79bc26d2999ef987ece129e01f220'
+    archive_org_url: 'https://web.archive.org/web/20260818081725/https://bigdataresearchforum.com/'
     observed_by: callforpaper-org
   - id: ev-115
     date: '2026-08-17'
@@ -118,5 +117,16 @@ evidence:
     image_file: evidence/big-data-research-forum/2026-08-17-initial-detection-da945f80.png
     image_hash: 'sha256:99e99b92b7851eba6bb363735a7348278afa19993931c53857545d39c7e35fcc'
     content_hash: 'sha256:3d3baa1c5ca1be082abda4c9ff17ac630bb07f1c3408e47617a0cd1344a0fb3b'
+    archive_org_url: 'https://web.archive.org/web/20260818074723/https://bigdataresearchforum.com/Conference/18605/ICBIoTML/'
+    observed_by: callforpaper-org
+  - id: ev-117
+    date: '2026-08-17'
+    type: initial_detection
+    source_url: 'https://bigdataresearchforum.com/Conference/18605/ICBIoTML/call'
+    snapshot_file: evidence/big-data-research-forum/2026-08-17-initial-detection-ba402548.html
+    image_file: evidence/big-data-research-forum/2026-08-17-initial-detection-09684a9e.png
+    image_hash: 'sha256:4457f44aa040434826e7df2eeceba76c41723cf4b44ff98b55ceefae927701c8'
+    content_hash: 'sha256:d6ff9defec9d7e98adf55903c1d6d20381b35f518d0cac270d288bd8a509f050'
+    archive_org_url: 'https://web.archive.org/web/20260818151956/https://bigdataresearchforum.com/Conference/18605/ICBIoTML/call'
     observed_by: callforpaper-org
 disputes: []
