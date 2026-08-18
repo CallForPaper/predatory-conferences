@@ -1,0 +1,101 @@
+type: organizer
+slug: academic-research-network
+status: active_flag
+criteria_version: v1.2.1
+first_flagged: '2026-08-18'
+last_updated: '2026-08-18'
+name: 'Academic Research Network'
+domains:
+  - academicresearchnetwork.com
+networks:
+  - big-data-research-forum
+red_flags:
+  -
+    id: rf-92
+    type: same_day_same_venue_stacking
+    description: 'Upcoming Conferences" page lists the same 5 conference titles (WCCCGW, WCSB, EMMSN, ICAIR, ICANFT) as occurring in 6+ different cities on the same calendar date, repeating daily for weeks into the future (e.g. 19 Aug alone lists WCCCGW Kenya, India,Saint Lucia, Icland, UK, Canada  ). Same WCCCGW listed for 27 Aug, 4th sept. Not venue stacking in the classic sense — a city x title matrix with no plausible logistics behind it.'
+    first_observed: '2026-08-18'
+    last_confirmed: '2026-08-18'
+    status: active
+    evidence_refs:
+      - ev-119
+      - ev-120
+      - ev-121
+  -
+    id: rf-95
+    type: false_indexing_claims
+    description: 'Multiple conference listings (WCCCGW) carry an identical boilerplate notice: "This International conference is Associated with UGC Care listed and Scopus Indexed International journals." No specific journal title, ISSN, publisher, or Scopus Source ID is given anywhere, making the claim unverifiable against Scopus''s own source list. The same generic sentence is reused verbatim across unrelated cities and dates, consistent with the site''s broader templated-content pattern rather than a genuine, checkable indexing arrangement.'
+    first_observed: '2026-08-18'
+    last_confirmed: '2026-08-18'
+    status: active
+    evidence_refs:
+      - ev-122
+  -
+    id: rf-93
+    type: no_named_accrediting_body
+    description: 'No verifiable registered legal entity or street address found anywhere on the site.'
+    first_observed: '2026-08-18'
+    last_confirmed: '2026-08-18'
+    status: active
+    evidence_refs:
+      - ev-118
+  -
+    id: rf-94
+    type: generic_reused_content
+    description: 'Conference description/scope text is identical boilerplate reused verbatim across every city/date instance of a given title; only the city name and date change between listings.'
+    first_observed: '2026-08-18'
+    last_confirmed: '2026-08-18'
+    status: active
+    evidence_refs: []
+evidence:
+  - id: ev-118
+    date: '2026-08-18'
+    type: initial_detection
+    source_url: 'https://academicresearchnetwork.com/contactus.php'
+    snapshot_file: evidence/academic-research-network/2026-08-18-initial-detection-eb4e3c85.html
+    image_file: evidence/academic-research-network/2026-08-18-initial-detection-bada165b.png
+    image_hash: 'sha256:907327c1d251b875ecb9d692b8a73b0a9eb4a5cdf72aa2dbcf5b7e6e64ea2545'
+    content_hash: 'sha256:43ea9ad388883b1e29387a806281cc21c70022b659feea48e8eead64fdc5336d'
+    archive_org_url: 'https://web.archive.org/web/20260818081304/https://academicresearchnetwork.com/contactus.php'
+    observed_by: callforpaper-org
+  - id: ev-119
+    date: '2026-08-18'
+    type: initial_detection
+    source_url: 'https://academicresearchnetwork.com/Conference/16783/WCCCGW/'
+    snapshot_file: evidence/academic-research-network/2026-08-18-initial-detection-91c5ab0d.html
+    image_file: evidence/academic-research-network/2026-08-18-initial-detection-e64ea27f.png
+    image_hash: 'sha256:ed50ed7493dd31e9ef15134853ad5a6dcd4c1451ea744d85f66b2c4791d14675'
+    content_hash: 'sha256:289ab6c1e646c7f480f0a6130cfe9201fe7ce46472ea25d02c4a11f5c6c42fa0'
+    archive_org_url: 'https://web.archive.org/web/20260818081356/https://academicresearchnetwork.com/Conference/16783/WCCCGW/'
+    observed_by: callforpaper-org
+  - id: ev-120
+    date: '2026-08-18'
+    type: initial_detection
+    source_url: 'https://academicresearchnetwork.com/Conference/16784/WCCCGW/'
+    snapshot_file: evidence/academic-research-network/2026-08-18-initial-detection-c700512c.html
+    image_file: evidence/academic-research-network/2026-08-18-initial-detection-718c3494.png
+    image_hash: 'sha256:7a92edaf0cbbcc53b5fa4b221f3906445424275b9ead2ce1ca724bf22db0647d'
+    content_hash: 'sha256:a892b8a6dbf338f0e256a2510ce44560f358157f91ef998cfbbf225df2fc1f99'
+    archive_org_url: 'https://web.archive.org/web/20260818081427/https://academicresearchnetwork.com/Conference/16784/WCCCGW/'
+    observed_by: callforpaper-org
+  - id: ev-121
+    date: '2026-08-18'
+    type: initial_detection
+    source_url: 'https://academicresearchnetwork.com/allconferences.php'
+    snapshot_file: evidence/academic-research-network/2026-08-18-initial-detection-f64369ca.html
+    image_file: evidence/academic-research-network/2026-08-18-initial-detection-abdd3093.png
+    image_hash: 'sha256:6344d73a2c6179e409f25efac104c95da011a92a2b282b61e89280f3e36c1eb0'
+    content_hash: 'sha256:6cef2167f1d39d7147ae13136e2bd2ca0dba6c48adfdcc696d12d33cb7e13139'
+    archive_org_url: 'https://web.archive.org/web/20260818081503/https://academicresearchnetwork.com/allconferences.php'
+    observed_by: callforpaper-org
+  - id: ev-122
+    date: '2026-08-18'
+    type: initial_detection
+    source_url: 'https://academicresearchnetwork.com/Conference/16783/WCCCGW/'
+    snapshot_file: evidence/academic-research-network/2026-08-18-initial-detection-91c5ab0d.html
+    image_file: evidence/academic-research-network/2026-08-18-initial-detection-d779d738.png
+    image_hash: 'sha256:6eb70c0e2414eca2218dac9bbc7353f5dea5e647a77f4569f41e7ec36ca016f8'
+    content_hash: 'sha256:9a9ff28fac92d3c594bc0dbee83924dea8bf3b27dbed3b1a66d35db8d7c16362'
+    archive_org_url: 'https://web.archive.org/web/20260818081356/https://academicresearchnetwork.com/Conference/16783/WCCCGW/'
+    observed_by: callforpaper-org
+disputes: []
