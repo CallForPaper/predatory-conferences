@@ -1,0 +1,65 @@
+type: organizer
+slug: academics-conference-network
+status: active_flag
+criteria_version: v1.2.1
+first_flagged: '2026-08-20'
+last_updated: '2026-08-20'
+name: 'Academics Conference Network'
+domains:
+  - academicsconference.com
+networks:
+  - academic-research-network
+  - big-data-research-forum
+  - iraj-international
+red_flags:
+  -
+    id: rf-99
+    type: same_day_same_venue_stacking
+    description: |-
+      More than 15 events are listed at the exact same venue—NH Bypass, Venpalavattom, Anayara, 695029, Trivandrum—on 21 August 2026, followed by the same 15+ events supposedly taking place the very next day at Hotel Madhav International in Pune.
+
+      This doesn’t resemble conventional venue stacking. It looks more like a city × title matrix, with little to no plausible logistical connection between the event listings and the physical venues.
+    first_observed: '2026-08-20'
+    last_confirmed: '2026-08-20'
+    status: active
+    evidence_refs:
+      - ev-132
+  -
+    id: rf-100
+    type: generic_reused_content
+    description: 'The "About" section is reproduced word-for-word identical across conference listings in unrelated subject areas (e.g. "International Conference on Military Operations, International Law, and Legal Governance" and "International Conference on Military Operations, International Law, and Legal Governance"), with only the "Event Name" and "Location" swapped via template'
+    first_observed: '2026-08-20'
+    last_confirmed: '2026-08-20'
+    status: active
+    evidence_refs:
+      - ev-130
+      - ev-131
+evidence:
+  - id: ev-130
+    date: '2026-08-20'
+    type: initial_detection
+    source_url: 'https://academicsconference.com/Conference/86071/ICOMILG/'
+    snapshot_file: evidence/academics-conference-network/2026-08-20-initial-detection-74c3cd54.html
+    image_file: evidence/academics-conference-network/2026-08-20-initial-detection-16663309.png
+    image_hash: 'sha256:ae35a1d10444f669adfb94df2702165b15e5ccfb2ec3a5784c6bfc5bdbea3529'
+    content_hash: 'sha256:b573ae480f65e3ba7ccc6421fb3752c5a9064d5be8a55f70547be73a78c4cf38'
+    observed_by: callforpaper-org
+  - id: ev-131
+    date: '2026-08-20'
+    type: initial_detection
+    source_url: 'https://academicsconference.com/Conference/86055/ICTTL/'
+    snapshot_file: evidence/academics-conference-network/2026-08-20-initial-detection-e83d9f65.html
+    image_file: evidence/academics-conference-network/2026-08-20-initial-detection-64a204b9.png
+    image_hash: 'sha256:6f3e9fd3fb1c7071f5dd098405a38b1acbfa26b6ff178b9d5ab2239cc2af484f'
+    content_hash: 'sha256:bb7cacfe9960d5cabc76e27ceb7b41a614d8d82239cf0f6a4d51ce461a4a3571'
+    observed_by: callforpaper-org
+  - id: ev-132
+    date: '2026-08-20'
+    type: initial_detection
+    source_url: 'https://academicsconference.com/list_all_conference.php'
+    snapshot_file: evidence/academics-conference-network/2026-08-20-initial-detection-6caa7d30.html
+    image_file: evidence/academics-conference-network/2026-08-20-initial-detection-14b53064.png
+    image_hash: 'sha256:fd0d2ab2b79f0e33bd0226f940f19e513fc52b44e0b47e327a789ff2c8691329'
+    content_hash: 'sha256:92f6278e025b4d7ea07fbbaa03cc2f777eb18a19efb6257fa75230d9a28eb8ca'
+    observed_by: callforpaper-org
+disputes: []
