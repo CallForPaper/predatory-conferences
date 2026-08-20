@@ -1,6 +1,6 @@
 {
-  "compiled_at": "2026-08-18T18:42:12Z",
-  "count": 61,
+  "compiled_at": "2026-08-20T18:12:52Z",
+  "count": 62,
   "data": [
     {
       "type": "organizer",
@@ -959,6 +959,137 @@
           "type": "import",
           "observed_by": "admin",
           "notes": "Multiple researcher spam reports; OMICS-like conference patterns Source: community."
+        }
+      ],
+      "disputes": []
+    },
+    {
+      "type": "organizer",
+      "slug": "global-conference-alliance-inc",
+      "status": "active_flag",
+      "criteria_version": "v1.2.1",
+      "first_flagged": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "name": "Global Conference Alliance Inc",
+      "domains": [
+        "globalconference.ca"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-96",
+          "type": "generic_reused_content",
+          "description": "The \"Benefits of Attending\" section is reproduced word-for-word identical across conference listings in unrelated subject areas (e.g. \"103rd Global Conference on Social Media Management\" and \"107th Global Conference on African Economy and Culture\"), with only the \"Objectives\"/\"Who Should Attend\"/\"Why Attend\" paragraphs topic-swapped via template. Both listings also share the same named contact person (Dr. Afzalur Rahman), consistent with a single templated content source generating many superficially distinct conference pages rather than independently developed events.",
+          "first_observed": "2026-08-20",
+          "last_confirmed": "2026-08-20",
+          "status": "active",
+          "evidence_refs": [
+            "ev-128",
+            "ev-126",
+            "ev-127"
+          ]
+        },
+        {
+          "id": "rf-97",
+          "type": "same_day_same_venue_stacking",
+          "description": "Confirmed via the organizer's own \"Related Conferences\" cross-links: at least 6 independently-branded, independently-numbered series (103rd Social Media Management, 107th African Economy and Culture, 107th Strategic Management and Planning, 108th Advertising and Marketing Communications, 108th E-commerce and Internet Marketing, 112th African Business and Technology) are all scheduled for the same Sept 4\u20136, 2026 window at George Brown College \u2013 Residence & Conference Centre, Toronto. The high, non-matching ordinal numbers (103rd\u2013112th) imply each series has run 100+ prior independent editions, an implausible claim alongside dozens of them converging on the identical venue and dates.",
+          "first_observed": "2026-08-20",
+          "last_confirmed": "2026-08-20",
+          "status": "active",
+          "evidence_refs": [
+            "ev-129"
+          ]
+        },
+        {
+          "id": "rf-98",
+          "type": "same_day_same_venue_stacking",
+          "description": "30+ events taking place at the same venue \u2014 George Brown College \u2013 Residence & Conference Centre, Toronto, Canada, from September 4\u20136, 2026.",
+          "first_observed": "2026-08-20",
+          "last_confirmed": "2026-08-20",
+          "status": "active",
+          "evidence_refs": [
+            "ev-123",
+            "ev-124",
+            "ev-125"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-128",
+          "date": "2026-08-20",
+          "type": "initial_detection",
+          "source_url": "https://globalconference.ca/conference/107th-global-conference-on-strategic-management-and-planning",
+          "snapshot_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-4769dcdb.html",
+          "image_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-746e9103.png",
+          "image_hash": "sha256:29186baa721d27efd1f0aaeb9f83a83c1c430313d110dcec60575e19463a5f24",
+          "content_hash": "sha256:fe50c2e71e86d193fc5e2af665099a10f2782b6177e7e22e5b5576e36f559e38",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-129",
+          "date": "2026-08-20",
+          "type": "initial_detection",
+          "source_url": "https://globalconference.ca/conference/103rd-global-conference-on-social-media-management",
+          "snapshot_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-945f7eaa.html",
+          "image_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-b885ef1e.png",
+          "image_hash": "sha256:641bfef9e011b7f060bfb880de989c0b03e568f7d45aaf23efd1e73fa634daf4",
+          "content_hash": "sha256:80c05b1b2664e9e284dbf3f7471a35a004b255979cde7eec6d89fcc15b52246d",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-123",
+          "date": "2026-08-20",
+          "type": "initial_detection",
+          "source_url": "https://globalconference.ca/conferences?status=upcoming",
+          "snapshot_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-e0e44d41.html",
+          "image_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-b7bcd71e.png",
+          "image_hash": "sha256:82f012d84e4c5402719cd240047cd6d6ee6aa5607d5b7ec87b7caab0516a980e",
+          "content_hash": "sha256:8ded23f1ba11d52c8a325dd478ab0ba09b587f9638b48c98f92ebeb815c68d72",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-124",
+          "date": "2026-08-20",
+          "type": "initial_detection",
+          "source_url": "https://globalconference.ca/conferences?status=upcoming&page=2",
+          "snapshot_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-0de4ded1.html",
+          "image_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-521b1baf.png",
+          "image_hash": "sha256:9a1c07b1d732e209cefcc1d30539543b0439f3e484898e7c804bb4233a7478cc",
+          "content_hash": "sha256:54b8322f6ca483ca3b18732380711427778f29a8f9179727d9599f8831505fa0",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-125",
+          "date": "2026-08-20",
+          "type": "initial_detection",
+          "source_url": "https://globalconference.ca/conferences?status=upcoming&page=3",
+          "snapshot_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-682e561b.html",
+          "image_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-afba7bea.png",
+          "image_hash": "sha256:8668b78b3666c781f1f331da2aeb3bc263235108b9f452c5daf4569111c08940",
+          "content_hash": "sha256:77d3656723e352c301e9231e3e0754b02dd7c3ec1f6071af24cc4cb300ced5d0",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-126",
+          "date": "2026-08-20",
+          "type": "initial_detection",
+          "source_url": "https://globalconference.ca/conference/103rd-global-conference-on-social-media-management",
+          "snapshot_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-945f7eaa.html",
+          "image_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-7b4a1479.png",
+          "image_hash": "sha256:c06587df9296eed3e116aab6c8c7de70b5ab63910c8b17ce720d399ff901b91d",
+          "content_hash": "sha256:26dc5c7139e482f5f6ee54ceae0894e58d2e05171daaf88c277b60f11420542b",
+          "observed_by": "callforpaper-org"
+        },
+        {
+          "id": "ev-127",
+          "date": "2026-08-20",
+          "type": "initial_detection",
+          "source_url": "https://globalconference.ca/conference/107th-global-conference-on-african-economy-and-culture",
+          "snapshot_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-4cf8559c.html",
+          "image_file": "evidence/global-conference-alliance-inc/2026-08-20-initial-detection-8334f932.png",
+          "image_hash": "sha256:41f8c38e784654b5092d4512501ce8c0c921bb0ca48744a788ffcfbbd4ec976e",
+          "content_hash": "sha256:9d645f43ef225f6f4bb776346871fc5d9217800fb6c89119f88d3075146db5da",
+          "observed_by": "callforpaper-org"
         }
       ],
       "disputes": []
