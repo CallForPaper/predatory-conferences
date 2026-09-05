@@ -1,0 +1,56 @@
+type: organizer
+slug: scientex-conferences
+status: active_flag
+criteria_version: v1.2.1
+first_flagged: '2026-09-05'
+last_updated: '2026-09-05'
+name: 'Scientex Conferences'
+domains:
+  - scientexconference.com
+red_flags:
+  -
+    id: rf-101
+    type: same_day_same_venue_stacking
+    description: '4+ conferences across unrelated domains (Orthopedics, Osteoporosis and Musculoskeletal Disorders, Primary Healthcare and Medicare Summit, Global Healthcare and Medicine, Arthroplasty and Orthopedic Surgery ) listed at Bangkok, Thailand on 9-10 Nov, 2026'
+    first_observed: '2026-09-05'
+    last_confirmed: '2026-09-05'
+    status: active
+    evidence_refs:
+      - ev-133
+      - ev-134
+      - ev-135
+evidence:
+  -
+    id: ev-133
+    date: '2026-09-05'
+    type: initial_detection
+    source_url: 'https://www.scientexconference.com/upcomingconferences'
+    snapshot_file: evidence/scientex-conferences/2026-09-05-initial-detection-97b30d9e.html
+    image_file: evidence/scientex-conferences/2026-09-05-initial-detection-97b30d9e.png
+    image_hash: 'sha256:9d2da205b261ea3758eb22a621e1df31c8e4aa91a739462097184a9eb3ee3b10'
+    content_hash: 'sha256:0bb3114dcc2f74cca4b35519399876b2956d5f43b20d3a30797823ab4d11b448'
+    archive_org_url: 'https://web.archive.org/web/20260905124948/https://www.scientexconference.com/upcomingconferences'
+    observed_by: callforpaper-org
+  -
+    id: ev-134
+    date: '2026-09-05'
+    type: initial_detection
+    source_url: 'https://www.primaryhealthcare.scientexconference.com/'
+    snapshot_file: evidence/scientex-conferences/2026-09-05-initial-detection-cad95149.html
+    image_file: evidence/scientex-conferences/2026-09-05-initial-detection-cad95149.png
+    image_hash: 'sha256:62860f9b771847b5e332dbd01532a9b64b616079f95b36cd9ebeb31f824a524d'
+    content_hash: 'sha256:aa4ce73786b2abc05fe88da67adb8a4f6e74089179235c0d6f4f78217f588d19'
+    archive_org_url: 'https://web.archive.org/web/20260905125145/https://www.primaryhealthcare.scientexconference.com/'
+    observed_by: callforpaper-org
+  -
+    id: ev-135
+    date: '2026-09-05'
+    type: initial_detection
+    source_url: 'https://www.orthopedic.scientexconference.com/'
+    snapshot_file: evidence/scientex-conferences/2026-09-05-initial-detection-20b26acf.html
+    image_file: evidence/scientex-conferences/2026-09-05-initial-detection-20b26acf.png
+    image_hash: 'sha256:120138224695aaa638686fac1957b06676680ea5530c18aa36e1a5c71621be50'
+    content_hash: 'sha256:0c4daba2aa933fd9d644b8a7945c8e8bad76c29019fcc37bca220548a7f77894'
+    archive_org_url: 'https://web.archive.org/web/20260905125246/https://www.orthopedic.scientexconference.com/'
+    observed_by: callforpaper-org
+disputes: []
