@@ -1,5 +1,5 @@
 {
-  "compiled_at": "2026-09-05T14:12:15Z",
+  "compiled_at": "2026-09-05T14:15:26Z",
   "count": 64,
   "data": [
     {
@@ -81,13 +81,14 @@
       "status": "active_flag",
       "criteria_version": "v1.2.1",
       "first_flagged": "2026-08-18",
-      "last_updated": "2026-08-18",
+      "last_updated": "2026-09-05",
       "name": "Academic Research Network",
       "domains": [
         "academicresearchnetwork.com"
       ],
       "networks": [
-        "big-data-research-forum"
+        "big-data-research-forum",
+        "academics-conference-network"
       ],
       "red_flags": [
         {
