@@ -1,5 +1,5 @@
 {
-  "compiled_at": "2026-09-05T14:05:31Z",
+  "compiled_at": "2026-09-05T14:10:06Z",
   "count": 64,
   "data": [
     {
@@ -1973,10 +1973,13 @@
       "status": "active_flag",
       "criteria_version": "v1.0",
       "first_flagged": "2026-07-29",
-      "last_updated": "2026-07-29",
+      "last_updated": "2026-09-05",
       "name": "IRAJ International",
       "domains": [
         "iraj.in"
+      ],
+      "networks": [
+        "academics-conference-network"
       ],
       "red_flags": [
         {
@@ -1999,8 +2002,10 @@
           "date": "2026-07-29",
           "type": "initial_detection",
           "source_url": "https://iraj.in/Conference/24111/ICL/venue",
-          "snapshot_file": "evidence/iraj-international/2026-07-29-initial-detection-44b21c8d.html",
-          "content_hash": "sha256:1d3cbf402235d5e353976be37cbea3bee609ed001a3edee4a570f74903a8d2d9",
+          "snapshot_file": "evidence/iraj-international/2026-09-05-initial-detection-44b21c8d.html",
+          "image_file": "evidence/iraj-international/2026-09-05-initial-detection-44b21c8d.png",
+          "image_hash": "sha256:438ac99df8de12699a28be5819aa284f795b3478b72ce360f1b0e30cfa13a71a",
+          "content_hash": "sha256:82d6109f7a6fa9f67767c32c6566633904d48decb02851b50dd0b310efc9cc27",
           "archive_org_url": "http://web.archive.org/web/20260729193610/https://iraj.in/Conference/24111/ICL/venue",
           "observed_by": "callforpaper-org"
         },
@@ -2009,8 +2014,10 @@
           "date": "2026-07-29",
           "type": "initial_detection",
           "source_url": "https://iraj.in/conference.php?dt=2026-07-30&place=Rajahmundry,India",
-          "snapshot_file": "evidence/iraj-international/2026-07-29-initial-detection-f4ffc0ec.html",
-          "content_hash": "sha256:0bcbee384b358a41046e34500639d0943169984ec5fe57491e210ee606dc6a28",
+          "snapshot_file": "evidence/iraj-international/2026-09-05-initial-detection-f4ffc0ec.html",
+          "image_file": "evidence/iraj-international/2026-09-05-initial-detection-f4ffc0ec.png",
+          "image_hash": "sha256:489d2ab3209ce9594eaf5cbe9f8d2588bd7232ce20579204a0ff58534f32554a",
+          "content_hash": "sha256:719446a8cccc91afc6296f6be457d22a81d5541a25e55c3db98ae4fe85354876",
           "archive_org_url": "http://web.archive.org/web/20260729193508/https://iraj.in/conference.php?dt=2026-07-30&place=Rajahmundry,India",
           "observed_by": "callforpaper-org"
         },
@@ -2019,8 +2026,10 @@
           "date": "2026-07-29",
           "type": "initial_detection",
           "source_url": "https://iraj.in/Conference/24110/GCOSTC/venue",
-          "snapshot_file": "evidence/iraj-international/2026-07-29-initial-detection-790168b5.html",
-          "content_hash": "sha256:c7810f077bf7dc670b745472c07f961ba71e643f46d7ce54c070fbaf356a245b",
+          "snapshot_file": "evidence/iraj-international/2026-09-05-initial-detection-790168b5.html",
+          "image_file": "evidence/iraj-international/2026-09-05-initial-detection-790168b5.png",
+          "image_hash": "sha256:ad62307ea6b8f44fdbd28b5d13ecd26bd5ef0df3c3254ce3538fbb12c3b57e22",
+          "content_hash": "sha256:eb937dcbeadb704ee3e814c655af559f02871474663621be32d5fa5353344d5b",
           "archive_org_url": "http://web.archive.org/web/20260729193528/https://iraj.in/Conference/24110/GCOSTC/venue",
           "observed_by": "callforpaper-org"
         }
