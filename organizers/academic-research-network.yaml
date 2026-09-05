@@ -3,12 +3,15 @@ slug: academic-research-network
 status: active_flag
 criteria_version: v1.2.1
 first_flagged: '2026-08-18'
-last_updated: '2026-08-18'
+last_updated: '2026-09-05'
 name: 'Academic Research Network'
 domains:
   - academicresearchnetwork.com
+# reciprocal link added via bi-directional sync, 2026-08-20,
+# originating evidence: organizers/academics-conference-network.yaml
 networks:
   - big-data-research-forum
+  - academics-conference-network
 red_flags:
   -
     id: rf-92
@@ -48,7 +51,8 @@ red_flags:
     status: active
     evidence_refs: []
 evidence:
-  - id: ev-118
+  -
+    id: ev-118
     date: '2026-08-18'
     type: initial_detection
     source_url: 'https://academicresearchnetwork.com/contactus.php'
@@ -58,7 +62,8 @@ evidence:
     content_hash: 'sha256:43ea9ad388883b1e29387a806281cc21c70022b659feea48e8eead64fdc5336d'
     archive_org_url: 'https://web.archive.org/web/20260818081304/https://academicresearchnetwork.com/contactus.php'
     observed_by: callforpaper-org
-  - id: ev-119
+  -
+    id: ev-119
     date: '2026-08-18'
     type: initial_detection
     source_url: 'https://academicresearchnetwork.com/Conference/16783/WCCCGW/'
@@ -68,7 +73,8 @@ evidence:
     content_hash: 'sha256:289ab6c1e646c7f480f0a6130cfe9201fe7ce46472ea25d02c4a11f5c6c42fa0'
     archive_org_url: 'https://web.archive.org/web/20260818081356/https://academicresearchnetwork.com/Conference/16783/WCCCGW/'
     observed_by: callforpaper-org
-  - id: ev-120
+  -
+    id: ev-120
     date: '2026-08-18'
     type: initial_detection
     source_url: 'https://academicresearchnetwork.com/Conference/16784/WCCCGW/'
@@ -78,7 +84,8 @@ evidence:
     content_hash: 'sha256:a892b8a6dbf338f0e256a2510ce44560f358157f91ef998cfbbf225df2fc1f99'
     archive_org_url: 'https://web.archive.org/web/20260818081427/https://academicresearchnetwork.com/Conference/16784/WCCCGW/'
     observed_by: callforpaper-org
-  - id: ev-121
+  -
+    id: ev-121
     date: '2026-08-18'
     type: initial_detection
     source_url: 'https://academicresearchnetwork.com/allconferences.php'
@@ -88,7 +95,8 @@ evidence:
     content_hash: 'sha256:6cef2167f1d39d7147ae13136e2bd2ca0dba6c48adfdcc696d12d33cb7e13139'
     archive_org_url: 'https://web.archive.org/web/20260818081503/https://academicresearchnetwork.com/allconferences.php'
     observed_by: callforpaper-org
-  - id: ev-122
+  -
+    id: ev-122
     date: '2026-08-18'
     type: initial_detection
     source_url: 'https://academicresearchnetwork.com/Conference/16783/WCCCGW/'
