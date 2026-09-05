@@ -1,5 +1,5 @@
 {
-  "compiled_at": "2026-09-05T15:15:29Z",
+  "compiled_at": "2026-09-05T17:30:40Z",
   "count": 64,
   "data": [
     {
@@ -319,7 +319,7 @@
       "status": "active_flag",
       "criteria_version": "v1.2.1",
       "first_flagged": "2026-08-20",
-      "last_updated": "2026-08-20",
+      "last_updated": "2026-09-05",
       "name": "Academics Conference Network",
       "domains": [
         "academicsconference.com"
@@ -364,6 +364,7 @@
           "image_file": "evidence/academics-conference-network/2026-08-20-initial-detection-16663309.png",
           "image_hash": "sha256:ae35a1d10444f669adfb94df2702165b15e5ccfb2ec3a5784c6bfc5bdbea3529",
           "content_hash": "sha256:b573ae480f65e3ba7ccc6421fb3752c5a9064d5be8a55f70547be73a78c4cf38",
+          "archive_org_url": "https://web.archive.org/web/20260905140650/https://academicsconference.com/Conference/86071/ICOMILG/",
           "observed_by": "callforpaper-org"
         },
         {
@@ -375,6 +376,7 @@
           "image_file": "evidence/academics-conference-network/2026-08-20-initial-detection-64a204b9.png",
           "image_hash": "sha256:6f3e9fd3fb1c7071f5dd098405a38b1acbfa26b6ff178b9d5ab2239cc2af484f",
           "content_hash": "sha256:bb7cacfe9960d5cabc76e27ceb7b41a614d8d82239cf0f6a4d51ce461a4a3571",
+          "archive_org_url": "https://web.archive.org/web/20260905140741/https://academicsconference.com/Conference/86055/ICTTL/",
           "observed_by": "callforpaper-org"
         },
         {
@@ -386,6 +388,7 @@
           "image_file": "evidence/academics-conference-network/2026-08-20-initial-detection-14b53064.png",
           "image_hash": "sha256:fd0d2ab2b79f0e33bd0226f940f19e513fc52b44e0b47e327a789ff2c8691329",
           "content_hash": "sha256:92f6278e025b4d7ea07fbbaa03cc2f777eb18a19efb6257fa75230d9a28eb8ca",
+          "archive_org_url": "https://web.archive.org/web/20260905150835/https://academicsconference.com/list_all_conference.php",
           "observed_by": "callforpaper-org"
         }
       ],
