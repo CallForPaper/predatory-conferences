@@ -1,0 +1,107 @@
+type: organizer
+slug: american-society-for-engineers-researchers-and-doctors-aserd
+status: active_flag
+criteria_version: v1.2.1
+first_flagged: '2026-09-07'
+last_updated: '2026-09-07'
+name: 'American Society for Engineers Researchers and Doctors (ASERD)'
+domains:
+  - aserd.org
+red_flags:
+  -
+    id: rf-102
+    type: other
+    description: 'On a single date (07 Sep 2026) the site lists at least 20 conferences spanning multiple unrelated domains (Comparative Anatomy and Histology, Veterinary Clinical Pathology and Epidemiology, Animal Nutrition and Feed Technology, Mycobacterial Diseases in Animals, etc.) at dozens of different cities worldwide. This industrial same-day multi-topic multi-venue production is a core predatory pattern even though the venues themselves differ.'
+    first_observed: '2026-09-07'
+    last_confirmed: '2026-09-07'
+    status: active
+    evidence_refs:
+      - ev-136
+      - ev-137
+  -
+    id: rf-105
+    type: shared_predatory_network
+    description: 'Operational style, naming convention (ASERD / ISERD), Bhubaneswar/Odisha linkage, and mass same-day conference model closely match ISERD (iserd.co) and related India-based conference organizers.'
+    first_observed: '2026-09-07'
+    last_confirmed: '2026-09-07'
+    status: active
+    evidence_refs:
+      - ev-140
+  -
+    id: rf-103
+    type: generic_reused_content
+    description: 'About / welcome / mission text and overall page template are reused near-verbatim across dozens of otherwise unrelated conference listings on the same site.'
+    first_observed: '2026-09-07'
+    last_confirmed: '2026-09-07'
+    status: active
+    evidence_refs:
+      - ev-138
+  -
+    id: rf-104
+    type: false_indexing_claims
+    description: 'Conference pages state "This Conference is associated with Scopus Indexed Journals (*)" while the publication page lists a mix of low-quality or questionable outlets and instructs authors to "contact our Coordinator for the Scopus and Wos Indexed Journals".'
+    first_observed: '2026-09-07'
+    last_confirmed: '2026-09-07'
+    status: active
+    evidence_refs:
+      - ev-139
+evidence:
+  -
+    id: ev-136
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://aserd.org/'
+    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-25b57179.html
+    image_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-25b57179.png
+    image_hash: 'sha256:101e20aa256ee53c0eb16048079316c732cb5b4eb64cb61b975f081a9cba2bc3'
+    content_hash: 'sha256:12b4c927e70dacf16e4fa58c286d4c8b43af752ced59b53376f034e951c56bb4'
+    observed_by: callforpaper-org
+    notes: 'Homepage lists multiple identical-title conferences on 07 Sep 2026 at different worldwide venues.'
+  -
+    id: ev-137
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://aserd.org/all_conferences.php'
+    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-270e467f.html
+    image_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-270e467f.png
+    image_hash: 'sha256:6990192938c353343555a00afd8ff97ef2b69842e5958463a40144ed3ea7cf95'
+    content_hash: 'sha256:cbd9f02568f2537be4f178f1938dc180a5d94c385a39875cf9818a673bb4b715'
+    observed_by: callforpaper-org
+    notes: 'Full listing shows ≥20 conferences dated 07 Sep 2026 across unrelated topics and cities.'
+  -
+    id: ev-138
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://aserd.org/Conference/25098/ICCAH/'
+    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-11337c9f.html
+    image_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-11337c9f.png
+    image_hash: 'sha256:1d71ccc598059e52036ebdebfe4ba8d8c2af9bfcb4223b38c4e6b79c3ddd9af2'
+    content_hash: 'sha256:4f3a9708b2a0cc4f1ddf4827731dfa12a13ac4397ee70971c4731ac58d711c23'
+    observed_by: callforpaper-org
+    notes: 'Example conference page with reused boilerplate and Scopus association claim.'
+  -
+    id: ev-139
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://aserd.org/Conference/25098/ICCAH/publication'
+    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-c382a682.html
+    image_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/01M1WVT4A5NJG2RK4YM3K8WVWR.png
+    image_hash: 'sha256:41ea0f02d67100745578a60e661eb51501c9d0f5d0cbcae3c850d01858713550'
+    content_hash: 'sha256:a40fb734965da44ba6f5c7abe125d5b2088a450343148261d68fb44941490906'
+    observed_by: callforpaper-org
+    notes: 'Publication partners listed; note directing authors to contact coordinator for actual Scopus/WoS options.'
+  -
+    id: ev-140
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://www.iserd.co/'
+    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-8bb48f14.html
+    image_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/01M1WVWRPA4MWEVV0R3CVNM5B2.png
+    image_hash: 'sha256:b1daf51e1ed3a4d9235b979b3fddfca6f379ce3faf9ba0c43eed329cf9cb244e'
+    content_hash: 'sha256:ccd18e0540e0dffbc1cb8bf3c647d94dba470f48e371e37c55ac69088171bb6c'
+    observed_by: callforpaper-org
+    notes: 'Parallel organizer (ISERD) showing identical mass-conference pattern and India base.'
+disputes: []
+notes: |-
+  India-based operation (contact +91 7077656338) branding itself as an "American Society".
+  Runs large numbers of near-identical titled conferences on the same calendar date across many cities and unrelated subject domains. Closely resembles the operational pattern of ISERD (iserd.co) and other Bhubaneswar-linked conference mills.
