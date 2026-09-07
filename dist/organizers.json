@@ -1,6 +1,6 @@
 {
-  "compiled_at": "2026-09-07T03:25:50Z",
-  "count": 61,
+  "compiled_at": "2026-09-07T03:53:59Z",
+  "count": 62,
   "data": [
     {
       "type": "organizer",
@@ -551,6 +551,127 @@
       ],
       "disputes": [],
       "notes": "Aliases: ASE"
+    },
+    {
+      "type": "organizer",
+      "slug": "all-conference-series-acs",
+      "status": "active_flag",
+      "criteria_version": "v1.2.1",
+      "first_flagged": "2026-09-07",
+      "last_updated": "2026-09-07",
+      "name": "All Conference Series (ACS)",
+      "domains": [
+        "allconferenceseries.com"
+      ],
+      "networks": [
+        "international-society-for-engineering-research-and-development-iserd",
+        "american-society-for-engineers-researchers-and-doctors-aserd"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-111",
+          "type": "other",
+          "description": "On a single date (08 Sep 2026) the site lists the same conference titles (e.g. International Conference on Toxicology and Clinical Toxicology \u2013 ICTCT, International Conference on Computing E-learning and Information Technology \u2013 ICCEIT, International Conference on Neuroscience and Psychiatry \u2013 ICNP) at multiple completely unrelated cities worldwide (Vienna, Tauranga, Cienfuegos, Cartagena, Gwangju, Denver, Nashville, Kopavogur, Roseau, Auckland, etc.). This industrial same-day multi-venue production of identical titles is a core predatory pattern.",
+          "first_observed": "2026-09-07",
+          "last_confirmed": "2026-09-07",
+          "status": "active",
+          "evidence_refs": [
+            "ev-150",
+            "ev-149"
+          ]
+        },
+        {
+          "id": "rf-112",
+          "type": "generic_reused_content",
+          "description": "About / mission text and overall page structure are heavily templated and reused across conference listings. Boilerplate language about providing a platform for scientists, researchers, engineers, doctors, etc. appears generic and non-specific.",
+          "first_observed": "2026-09-07",
+          "last_confirmed": "2026-09-07",
+          "status": "active",
+          "evidence_refs": [
+            "ev-151"
+          ]
+        },
+        {
+          "id": "rf-113",
+          "type": "shared_predatory_network",
+          "description": "India mobile contact pattern, mass same-day multi-city conference model, and generic operational style closely match other flagged India-based conference organizers such as ASERD (aserd.org) and ISERD (iserd.co).",
+          "first_observed": "2026-09-07",
+          "last_confirmed": "2026-09-07",
+          "status": "active",
+          "evidence_refs": [
+            "ev-152",
+            "ev-153"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-150",
+          "date": "2026-09-07",
+          "type": "initial_detection",
+          "source_url": "https://allconferenceseries.com/allconferences.php",
+          "snapshot_file": "evidence/all-conference-series-acs/2026-09-07-initial-detection-5925f0f4.html",
+          "image_file": "evidence/all-conference-series-acs/01M1WZPWAVY531WFVYTSDP5Q9D.png",
+          "image_hash": "sha256:e2ee555dc1dc08182bda416ae8138cb007f7723e524332d846d6c554445a280e",
+          "content_hash": "sha256:3be180d6151a1d409de77581574e284b37961c1a360de3c15903efcdfb899970",
+          "archive_org_url": "https://web.archive.org/web/20260907034957/https://allconferenceseries.com/allconferences.php",
+          "observed_by": "callforpaper-org",
+          "notes": "Full listing confirms same-day multi-city identical-title pattern across numerous conferences."
+        },
+        {
+          "id": "ev-149",
+          "date": "2026-09-07",
+          "type": "initial_detection",
+          "source_url": "https://allconferenceseries.com/",
+          "snapshot_file": "evidence/all-conference-series-acs/2026-09-07-initial-detection-cb4f7785.html",
+          "image_file": "evidence/all-conference-series-acs/01M1WZMEZ4QPXVQCCDS8SKG500.png",
+          "image_hash": "sha256:523d57b44593e25ca2f9fc237f98f7b493d8b8609496adb402df484c953b66f9",
+          "content_hash": "sha256:6fd408dac4432be52d0b6ad4dce84a944a57d92f43a49fbc1d2ff6905b7b22b4",
+          "observed_by": "callforpaper-org",
+          "notes": "Homepage and upcoming conferences list show multiple identical titles on 08 Sep 2026 at different worldwide venues; India phone +91-9090800039."
+        },
+        {
+          "id": "ev-151",
+          "date": "2026-09-07",
+          "type": "initial_detection",
+          "source_url": "https://allconferenceseries.com/index.php",
+          "snapshot_file": "evidence/all-conference-series-acs/2026-09-07-initial-detection-02731055.html",
+          "image_file": "evidence/all-conference-series-acs/01M1WZTA60XPP3QXM2TW3Y86WR.png",
+          "image_hash": "sha256:ab2f663fbd58f426ec27cb718fdc7dee0f80b62477dd5acbd615502ea2592025",
+          "content_hash": "sha256:fb088365001c5d0f96a3611fa591499122756b688c20292be3615b01befdacf5",
+          "archive_org_url": "https://web.archive.org/web/20260907035138/https://allconferenceseries.com/index.php",
+          "observed_by": "callforpaper-org",
+          "notes": "Generic mission text claiming coverage of science, technology, medical, environment, education, business, banking, finance, languages, history, etc."
+        },
+        {
+          "id": "ev-152",
+          "date": "2026-09-07",
+          "type": "initial_detection",
+          "source_url": "https://aserd.org/",
+          "snapshot_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-25b57179.html",
+          "image_file": "evidence/international-society-for-engineering-research-and-development-iserd/01M1WWVS480GKEGJM9EJZFX67D.png",
+          "image_hash": "sha256:4ca7b23bcd66c4dcbab16601cfe0d4b64aa8ee520e24a842343508fe9540c73e",
+          "content_hash": "sha256:12b4c927e70dacf16e4fa58c286d4c8b43af752ced59b53376f034e951c56bb4",
+          "archive_org_url": "https://web.archive.org/web/20260907030600/https://aserd.org/",
+          "observed_by": "callforpaper-org",
+          "notes": "Parallel India-based organizer showing near-identical mass same-day multi-topic/multi-venue pattern."
+        },
+        {
+          "id": "ev-153",
+          "date": "2026-09-07",
+          "type": "initial_detection",
+          "source_url": "https://www.iserd.co/",
+          "snapshot_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-8bb48f14.html",
+          "image_file": "evidence/international-society-for-engineering-research-and-development-iserd/01M1WWESS1ARSRMFWZTT2SK15V.png",
+          "image_hash": "sha256:172f83098c70d6f5d222d9cd3cb4df6a86f8b640ebe565d86cae5490f13b6729",
+          "content_hash": "sha256:ccd18e0540e0dffbc1cb8bf3c647d94dba470f48e371e37c55ac69088171bb6c",
+          "archive_org_url": "https://web.archive.org/web/20260907025203/https://www.iserd.co/",
+          "observed_by": "callforpaper-org",
+          "notes": "Parallel India-based organizer (ISERD) with matching operational style and mass-conference model."
+        }
+      ],
+      "disputes": [],
+      "notes": "India-based operation (contact +91-9090800039, Gmail address). Runs large numbers of near-identical titled conferences on the same calendar date across many cities and unrelated subject domains. Operational pattern closely matches other India-based conference mills (ASERD, ISERD, etc.)."
     },
     {
       "type": "organizer",
