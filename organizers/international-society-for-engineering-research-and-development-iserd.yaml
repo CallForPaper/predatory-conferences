@@ -1,0 +1,153 @@
+type: organizer
+slug: international-society-for-engineering-research-and-development-iserd
+status: active_flag
+criteria_version: v1.2.1
+first_flagged: '2026-09-07'
+last_updated: '2026-09-07'
+name: 'International Society for Engineering Research and Development (ISERD)'
+domains:
+  - iserd.co
+  - www.iserd.co
+networks:
+  - american-society-for-engineers-researchers-and-doctors-aserd
+red_flags:
+  -
+    id: rf-108
+    type: false_indexing_claims
+    description: |-
+      Publication page lists a mixture of low-quality or questionable journals and instructs authors to "contact our Coordinator for the Scopus and Wos Indexed Journals".
+      Earlier community documentation noted association with discontinued Scopus titles (e.g. Universal Journal of Educational Research by Horizon Research Publishing).
+    first_observed: '2026-09-07'
+    last_confirmed: '2026-09-07'
+    status: active
+    evidence_refs:
+      - ev-145
+      - ev-144
+  -
+    id: rf-106
+    type: other
+    description: ' Industrial-scale production of conferences: dozens of events listed across many months and cities (London, Phuket, Bangkok, Tokyo, Cannes, Kyoto, New York, Dubai, Madrid, Bali, etc.) covering broad and often unrelated disciplines. Pattern of mass simultaneous or near-identical template events is characteristic of predatory conference mills.'
+    first_observed: '2026-09-07'
+    last_confirmed: '2026-09-07'
+    status: active
+    evidence_refs:
+      - ev-141
+      - ev-142
+  -
+    id: rf-109
+    type: shared_predatory_network
+    description: 'ISERD and ASERD (aserd.org) show a near-identical mass same-day, multi-topic conference pattern and are frequently discussed together in academic forums as part of the same operational network. Both share a Bhubaneswar/Odisha, India base, a similar India-mobile contact pattern, and closely parallel naming conventions (ISERD / ASERD), consistent with common ownership or a shared template operation rather than two independently-run societies.'
+    first_observed: '2026-09-07'
+    last_confirmed: '2026-09-07'
+    status: active
+    evidence_refs:
+      - ev-146
+      - ev-147
+  -
+    id: rf-107
+    type: generic_reused_content
+    description: 'About / mission / welcome text and overall site structure are generic and reused across conference pages. Testimonials and highlight galleries appear templated.'
+    first_observed: '2026-09-07'
+    last_confirmed: '2026-09-07'
+    status: active
+    evidence_refs:
+      - ev-143
+  -
+    id: rf-110
+    type: other
+    description: 'Community reports (ResearchGate threads dating back years) describe non-delivery of physical conferences after fee collection, conversion to virtual with minimal participation, and acceptance of papers without meaningful peer review. Caltech Questionable Conferences list and multiple independent academic warnings reference ISER / ISERD.'
+    first_observed: '2026-09-07'
+    last_confirmed: '2026-09-07'
+    status: active
+    evidence_refs:
+      - ev-148
+evidence:
+  -
+    id: ev-141
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://www.iserd.co/'
+    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-8bb48f14.html
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWESS1ARSRMFWZTT2SK15V.png
+    image_hash: 'sha256:172f83098c70d6f5d222d9cd3cb4df6a86f8b640ebe565d86cae5490f13b6729'
+    content_hash: 'sha256:ccd18e0540e0dffbc1cb8bf3c647d94dba470f48e371e37c55ac69088171bb6c'
+    archive_org_url: 'https://web.archive.org/web/20260907025203/https://www.iserd.co/'
+    observed_by: callforpaper-org
+    notes: 'Homepage and navigation show ongoing mass conference production; India phone +91 8455026354; World Research Library association.'
+  -
+    id: ev-145
+    date: '2026-09-07'
+    type: community_report
+    source_url: 'https://www.researchgate.net/post/fake_conferences_organized_by_World_Research_Library_iierdlorg'
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWRT9CZTMF4EQEHWVGDCBS.png
+    image_hash: 'sha256:c79adb66f37fb2e92d88c75ab53a73d798fda4991c550360826f42a9c38b5867'
+    observed_by: callforpaper-org
+    notes: 'ResearchGate discussion flags iserd.co alongside other predatory organizers; notes dubious journal associations including discontinued Scopus titles.'
+  -
+    id: ev-142
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://www.iserd.co/all_conferences.php'
+    snapshot_file: evidence/international-society-for-engineering-research-and-development-iserd/2026-09-07-initial-detection-8580960e.html
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWHD9ET34CSS5GTW0V7NF1.png
+    image_hash: 'sha256:f735a8ee53652ff02c079a97d8bd935c945edc79d6c86d5b099a04fd62e7bcd9'
+    content_hash: 'sha256:1135e6fe705512784a8037036f6bbf9fb3742a56e94ad5da85d44edaf442b6a7'
+    archive_org_url: 'https://web.archive.org/web/20260907025319/https://www.iserd.co/all_conferences.php'
+    observed_by: callforpaper-org
+    notes: 'Upcoming conferences calendar spanning many months and global tourist destinations.'
+  -
+    id: ev-146
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://aserd.org/'
+    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-25b57179.html
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWVS480GKEGJM9EJZFX67D.png
+    image_hash: 'sha256:4ca7b23bcd66c4dcbab16601cfe0d4b64aa8ee520e24a842343508fe9540c73e'
+    content_hash: 'sha256:12b4c927e70dacf16e4fa58c286d4c8b43af752ced59b53376f034e951c56bb4'
+    observed_by: callforpaper-org
+    notes: 'Parallel organizer ASERD showing near-identical mass same-day multi-topic pattern and India base.'
+  -
+    id: ev-143
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://www.iserd.co/'
+    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-8bb48f14.html
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWKJR4GFA2KDH3BDZN59D1.png
+    image_hash: 'sha256:e720e6711ff3d361a849ac783eac532d90583b9bd73f68968290efb913a7a487'
+    content_hash: 'sha256:ccd18e0540e0dffbc1cb8bf3c647d94dba470f48e371e37c55ac69088171bb6c'
+    archive_org_url: 'https://web.archive.org/web/20260907025203/https://www.iserd.co/'
+    observed_by: callforpaper-org
+    notes: 'Reused mission text about Science, Engineering, Healthcare and Education; templated testimonials and gallery.'
+  -
+    id: ev-147
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://www.facebook.com/iserdconference'
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWXTB80GV4XPVDTBZJT8WB.png
+    image_hash: 'sha256:c34f9b17588d2ff0df4f9462a0e62565381633fda76a8ee357e304d0b80dd226'
+    observed_by: callforpaper-org
+    notes: 'Facebook page lists address Khandagiri, DharmaVihar, Lane-4, Bhubaneswar, India, Odisha.'
+  -
+    id: ev-144
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://www.iserd.co/publication.php'
+    snapshot_file: evidence/international-society-for-engineering-research-and-development-iserd/2026-09-07-initial-detection-9f71e593.html
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWQ42QPCZC562ZFV2MN0FK.png
+    image_hash: 'sha256:ce122194ad2c9f3982af4215abb1e574342c09f3ff4db688ae6863641af76462'
+    content_hash: 'sha256:95e2cbf1e9b3400aaf1c5eab19983a101f16ac3567418d6decedcb1e9787a1c4'
+    archive_org_url: 'https://web.archive.org/web/20260907025632/https://www.iserd.co/publication.php'
+    observed_by: callforpaper-org
+    notes: 'Lists various journals; explicit note to contact coordinator for actual Scopus/WoS options.'
+  -
+    id: ev-148
+    date: '2026-09-07'
+    type: community_report
+    source_url: 'https://www.reddit.com/r/AskAcademia/comments/34ygh0/anyone_know_if_iserd_and_iier_are_genuine/'
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WX4AFPEXBNQJ0AC1JZ94GY.png
+    image_hash: 'sha256:06d83a3ace3c553de4c14a6f13d59d9f9cb6d328a3d8dc165aadc97409ff5cf6'
+    archive_org_url: 'https://web.archive.org/web/20260907030337/https://www.reddit.com/r/AskAcademia/comments/34ygh0/anyone_know_if_iserd_and_iier_are_genuine/'
+    observed_by: callforpaper-org
+    notes: "Early Reddit discussion already identifying ISERD/IIER as non-genuine with links to Beall's list journals."
+disputes: []
+notes: 'India-based operation headquartered in Bhubaneswar, Odisha (Khandagiri / Dharma Vihar). Contact numbers +91 8455026354. Runs large numbers of international conferences under the ISERD brand across Science, Engineering, Healthcare and Education in tourist cities worldwide. Closely linked in operational style, naming, and location to ASERD (aserd.org) and other Bhubaneswar conference mills. Longstanding community reports of non-existent or low-value events and fee collection.'
