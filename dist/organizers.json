@@ -1,5 +1,5 @@
 {
-  "compiled_at": "2026-09-07T02:42:52Z",
+  "compiled_at": "2026-09-07T03:10:32Z",
   "count": 65,
   "data": [
     {
@@ -596,7 +596,11 @@
       "last_updated": "2026-09-07",
       "name": "American Society for Engineers Researchers and Doctors (ASERD)",
       "domains": [
-        "aserd.org"
+        "aserd.org",
+        "www.aserd.org"
+      ],
+      "networks": [
+        "international-society-for-engineering-research-and-development-iserd"
       ],
       "red_flags": [
         {
@@ -703,6 +707,7 @@
           "image_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/01M1WVWRPA4MWEVV0R3CVNM5B2.png",
           "image_hash": "sha256:b1daf51e1ed3a4d9235b979b3fddfca6f379ce3faf9ba0c43eed329cf9cb244e",
           "content_hash": "sha256:ccd18e0540e0dffbc1cb8bf3c647d94dba470f48e371e37c55ac69088171bb6c",
+          "archive_org_url": "https://web.archive.org/web/20260907025203/https://www.iserd.co/",
           "observed_by": "callforpaper-org",
           "notes": "Parallel organizer (ISERD) showing identical mass-conference pattern and India base."
         }
