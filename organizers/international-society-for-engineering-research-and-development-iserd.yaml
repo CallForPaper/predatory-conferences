@@ -63,6 +63,15 @@ red_flags:
       - ev-148
 evidence:
   -
+    id: ev-145
+    date: '2026-09-07'
+    type: community_report
+    source_url: 'https://www.researchgate.net/post/fake_conferences_organized_by_World_Research_Library_iierdlorg'
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWRT9CZTMF4EQEHWVGDCBS.png
+    image_hash: 'sha256:c79adb66f37fb2e92d88c75ab53a73d798fda4991c550360826f42a9c38b5867'
+    observed_by: callforpaper-org
+    notes: 'ResearchGate discussion flags iserd.co alongside other predatory organizers; notes dubious journal associations including discontinued Scopus titles.'
+  -
     id: ev-141
     date: '2026-09-07'
     type: initial_detection
@@ -75,14 +84,17 @@ evidence:
     observed_by: callforpaper-org
     notes: 'Homepage and navigation show ongoing mass conference production; India phone +91 8455026354; World Research Library association.'
   -
-    id: ev-145
+    id: ev-146
     date: '2026-09-07'
-    type: community_report
-    source_url: 'https://www.researchgate.net/post/fake_conferences_organized_by_World_Research_Library_iierdlorg'
-    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWRT9CZTMF4EQEHWVGDCBS.png
-    image_hash: 'sha256:c79adb66f37fb2e92d88c75ab53a73d798fda4991c550360826f42a9c38b5867'
+    type: initial_detection
+    source_url: 'https://aserd.org/'
+    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-25b57179.html
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWVS480GKEGJM9EJZFX67D.png
+    image_hash: 'sha256:4ca7b23bcd66c4dcbab16601cfe0d4b64aa8ee520e24a842343508fe9540c73e'
+    content_hash: 'sha256:12b4c927e70dacf16e4fa58c286d4c8b43af752ced59b53376f034e951c56bb4'
+    archive_org_url: 'https://web.archive.org/web/20260907030600/https://aserd.org/'
     observed_by: callforpaper-org
-    notes: 'ResearchGate discussion flags iserd.co alongside other predatory organizers; notes dubious journal associations including discontinued Scopus titles.'
+    notes: 'Parallel organizer ASERD showing near-identical mass same-day multi-topic pattern and India base.'
   -
     id: ev-142
     date: '2026-09-07'
@@ -96,16 +108,14 @@ evidence:
     observed_by: callforpaper-org
     notes: 'Upcoming conferences calendar spanning many months and global tourist destinations.'
   -
-    id: ev-146
+    id: ev-147
     date: '2026-09-07'
     type: initial_detection
-    source_url: 'https://aserd.org/'
-    snapshot_file: evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-25b57179.html
-    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWVS480GKEGJM9EJZFX67D.png
-    image_hash: 'sha256:4ca7b23bcd66c4dcbab16601cfe0d4b64aa8ee520e24a842343508fe9540c73e'
-    content_hash: 'sha256:12b4c927e70dacf16e4fa58c286d4c8b43af752ced59b53376f034e951c56bb4'
+    source_url: 'https://www.facebook.com/iserdconference'
+    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWXTB80GV4XPVDTBZJT8WB.png
+    image_hash: 'sha256:c34f9b17588d2ff0df4f9462a0e62565381633fda76a8ee357e304d0b80dd226'
     observed_by: callforpaper-org
-    notes: 'Parallel organizer ASERD showing near-identical mass same-day multi-topic pattern and India base.'
+    notes: 'Facebook page lists address Khandagiri, DharmaVihar, Lane-4, Bhubaneswar, India, Odisha.'
   -
     id: ev-143
     date: '2026-09-07'
@@ -118,15 +128,6 @@ evidence:
     archive_org_url: 'https://web.archive.org/web/20260907025203/https://www.iserd.co/'
     observed_by: callforpaper-org
     notes: 'Reused mission text about Science, Engineering, Healthcare and Education; templated testimonials and gallery.'
-  -
-    id: ev-147
-    date: '2026-09-07'
-    type: initial_detection
-    source_url: 'https://www.facebook.com/iserdconference'
-    image_file: evidence/international-society-for-engineering-research-and-development-iserd/01M1WWXTB80GV4XPVDTBZJT8WB.png
-    image_hash: 'sha256:c34f9b17588d2ff0df4f9462a0e62565381633fda76a8ee357e304d0b80dd226'
-    observed_by: callforpaper-org
-    notes: 'Facebook page lists address Khandagiri, DharmaVihar, Lane-4, Bhubaneswar, India, Odisha.'
   -
     id: ev-144
     date: '2026-09-07'
