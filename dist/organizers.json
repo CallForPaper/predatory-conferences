@@ -1,5 +1,5 @@
 {
-  "compiled_at": "2026-09-08T16:19:51Z",
+  "compiled_at": "2026-09-08T16:20:26Z",
   "count": 63,
   "data": [
     {
@@ -773,6 +773,19 @@
       ],
       "evidence": [
         {
+          "id": "ev-138",
+          "date": "2026-09-07",
+          "type": "initial_detection",
+          "source_url": "https://aserd.org/Conference/25098/ICCAH/",
+          "snapshot_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-11337c9f.html",
+          "image_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-11337c9f.png",
+          "image_hash": "sha256:1d71ccc598059e52036ebdebfe4ba8d8c2af9bfcb4223b38c4e6b79c3ddd9af2",
+          "content_hash": "sha256:4f3a9708b2a0cc4f1ddf4827731dfa12a13ac4397ee70971c4731ac58d711c23",
+          "archive_org_url": "https://web.archive.org/web/20260907030606/https://aserd.org/Conference/25098/ICCAH/",
+          "observed_by": "callforpaper-org",
+          "notes": "Example conference page with reused boilerplate and Scopus association claim."
+        },
+        {
           "id": "ev-136",
           "date": "2026-09-07",
           "type": "initial_detection",
@@ -781,6 +794,7 @@
           "image_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-25b57179.png",
           "image_hash": "sha256:101e20aa256ee53c0eb16048079316c732cb5b4eb64cb61b975f081a9cba2bc3",
           "content_hash": "sha256:12b4c927e70dacf16e4fa58c286d4c8b43af752ced59b53376f034e951c56bb4",
+          "archive_org_url": "https://web.archive.org/web/20260907030600/https://aserd.org/",
           "observed_by": "callforpaper-org",
           "notes": "Homepage lists multiple identical-title conferences on 07 Sep 2026 at different worldwide venues."
         },
@@ -797,18 +811,6 @@
           "notes": "Full listing shows \u226520 conferences dated 07 Sep 2026 across unrelated topics and cities."
         },
         {
-          "id": "ev-138",
-          "date": "2026-09-07",
-          "type": "initial_detection",
-          "source_url": "https://aserd.org/Conference/25098/ICCAH/",
-          "snapshot_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-11337c9f.html",
-          "image_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-11337c9f.png",
-          "image_hash": "sha256:1d71ccc598059e52036ebdebfe4ba8d8c2af9bfcb4223b38c4e6b79c3ddd9af2",
-          "content_hash": "sha256:4f3a9708b2a0cc4f1ddf4827731dfa12a13ac4397ee70971c4731ac58d711c23",
-          "observed_by": "callforpaper-org",
-          "notes": "Example conference page with reused boilerplate and Scopus association claim."
-        },
-        {
           "id": "ev-139",
           "date": "2026-09-07",
           "type": "initial_detection",
@@ -817,6 +819,7 @@
           "image_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/01M1WVT4A5NJG2RK4YM3K8WVWR.png",
           "image_hash": "sha256:41ea0f02d67100745578a60e661eb51501c9d0f5d0cbcae3c850d01858713550",
           "content_hash": "sha256:a40fb734965da44ba6f5c7abe125d5b2088a450343148261d68fb44941490906",
+          "archive_org_url": "https://web.archive.org/web/20260907030505/https://aserd.org/Conference/25098/ICCAH/publication",
           "observed_by": "callforpaper-org",
           "notes": "Publication partners listed; note directing authors to contact coordinator for actual Scopus/WoS options."
         },
