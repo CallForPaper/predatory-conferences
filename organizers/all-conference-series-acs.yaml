@@ -54,17 +54,6 @@ evidence:
     observed_by: callforpaper-org
     notes: 'Full listing confirms same-day multi-city identical-title pattern across numerous conferences.'
   -
-    id: ev-149
-    date: '2026-09-07'
-    type: initial_detection
-    source_url: 'https://allconferenceseries.com/'
-    snapshot_file: evidence/all-conference-series-acs/2026-09-07-initial-detection-cb4f7785.html
-    image_file: evidence/all-conference-series-acs/01M1WZMEZ4QPXVQCCDS8SKG500.png
-    image_hash: 'sha256:523d57b44593e25ca2f9fc237f98f7b493d8b8609496adb402df484c953b66f9'
-    content_hash: 'sha256:6fd408dac4432be52d0b6ad4dce84a944a57d92f43a49fbc1d2ff6905b7b22b4'
-    observed_by: callforpaper-org
-    notes: 'Homepage and upcoming conferences list show multiple identical titles on 08 Sep 2026 at different worldwide venues; India phone +91-9090800039.'
-  -
     id: ev-151
     date: '2026-09-07'
     type: initial_detection
@@ -100,5 +89,17 @@ evidence:
     archive_org_url: 'https://web.archive.org/web/20260907025203/https://www.iserd.co/'
     observed_by: callforpaper-org
     notes: 'Parallel India-based organizer (ISERD) with matching operational style and mass-conference model.'
+  -
+    id: ev-149
+    date: '2026-09-07'
+    type: initial_detection
+    source_url: 'https://allconferenceseries.com/'
+    snapshot_file: evidence/all-conference-series-acs/2026-09-07-initial-detection-cb4f7785.html
+    image_file: evidence/all-conference-series-acs/01M1WZMEZ4QPXVQCCDS8SKG500.png
+    image_hash: 'sha256:523d57b44593e25ca2f9fc237f98f7b493d8b8609496adb402df484c953b66f9'
+    content_hash: 'sha256:6fd408dac4432be52d0b6ad4dce84a944a57d92f43a49fbc1d2ff6905b7b22b4'
+    archive_org_url: 'https://web.archive.org/web/20260907040602/https://allconferenceseries.com/'
+    observed_by: callforpaper-org
+    notes: 'Homepage and upcoming conferences list show multiple identical titles on 08 Sep 2026 at different worldwide venues; India phone +91-9090800039.'
 disputes: []
 notes: 'India-based operation (contact +91-9090800039, Gmail address). Runs large numbers of near-identical titled conferences on the same calendar date across many cities and unrelated subject domains. Operational pattern closely matches other India-based conference mills (ASERD, ISERD, etc.).'
