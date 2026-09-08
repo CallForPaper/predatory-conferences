@@ -1,6 +1,6 @@
 {
-  "compiled_at": "2026-09-08T15:40:29Z",
-  "count": 62,
+  "compiled_at": "2026-09-08T16:17:54Z",
+  "count": 63,
   "data": [
     {
       "type": "organizer",
@@ -971,6 +971,122 @@
       ],
       "disputes": [],
       "notes": "Aliases: ARPN"
+    },
+    {
+      "type": "organizer",
+      "slug": "asian-society-for-academic-research-asar",
+      "status": "active_flag",
+      "criteria_version": "v1.2.1",
+      "first_flagged": "2026-09-08",
+      "last_updated": "2026-09-08",
+      "name": "Asian Society for Academic Research (ASAR)",
+      "domains": [
+        "asar.org.in"
+      ],
+      "networks": [
+        "arsss-advanced-research-society-for-science-and-sociology"
+      ],
+      "red_flags": [
+        {
+          "id": "rf-119",
+          "type": "other",
+          "description": "Industrial-scale same-day multi-city production. On a single date (e.g. 08 Sep 2026) the site lists conferences in multiple unrelated cities (Ambala, Bangalore, Bangkok, Pondicherry, etc.). The pattern continues across consecutive days with dozens of locations in India and abroad.",
+          "first_observed": "2026-09-08",
+          "last_confirmed": "2026-09-08",
+          "status": "active",
+          "evidence_refs": [
+            "ev-162",
+            "ev-163"
+          ]
+        },
+        {
+          "id": "rf-120",
+          "type": "shared_predatory_network",
+          "description": "Physical address (Plot no 30 / ITR Building, Dharma Vihar / Khandagiri, Bhubaneswar, Odisha 751030) is shared with or adjacent to other India-based conference mills such as ARSSS (Advanced Research Society for Science and Sociology). Operational style matches ASERD, ISERD and All Conference Series.",
+          "first_observed": "2026-09-08",
+          "last_confirmed": "2026-09-08",
+          "status": "active",
+          "evidence_refs": [
+            "ev-164"
+          ]
+        },
+        {
+          "id": "rf-121",
+          "type": "generic_reused_content",
+          "description": "Heavily templated conference listings, generic multidisciplinary mission language covering Engineering, Sciences, Medical, Humanities, Social Science and Management, and rapid-notification claims typical of payment-driven mills.",
+          "first_observed": "2026-09-08",
+          "last_confirmed": "2026-09-08",
+          "status": "active",
+          "evidence_refs": []
+        },
+        {
+          "id": "rf-122",
+          "type": "other",
+          "description": "Related domains (e.g. asar.net.in) and the broader network appear in community reports and investigations of India-based fake-conference operations. Trustpilot and ResearchGate discussions flag ASAR-linked events for non-delivery, venue issues and low quality.",
+          "first_observed": "2026-09-08",
+          "last_confirmed": "2026-09-08",
+          "status": "active",
+          "evidence_refs": [
+            "ev-165"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-162",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://asar.org.in/",
+          "snapshot_file": "evidence/asian-society-for-academic-research-asar/2026-09-08-initial-detection-27f343d9.html",
+          "image_file": "evidence/asian-society-for-academic-research-asar/01M20SRDTFXJ8M8Y11NGPJJ6DW.png",
+          "image_hash": "sha256:5983ccc985193b8eae6cc9dc120570906626f11efd0253e2a98b097acaeee6af",
+          "content_hash": "sha256:29d4f678e932b0596efaeaf5be2c4e8629174ee9a5a2ec2ac705ad26ce56cf14",
+          "archive_org_url": "https://web.archive.org/web/20260908152234/https://asar.org.in/",
+          "observed_by": "callforpaper-org",
+          "notes": "Homepage and upcoming-conferences listing show multiple cities on identical dates (e.g. 08 Sep 2026: Ambala, Bangalore, Bangkok, Pondicherry)."
+        },
+        {
+          "id": "ev-163",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://asar.org.in/upcoming-conferences.php",
+          "snapshot_file": "evidence/asian-society-for-academic-research-asar/2026-09-08-initial-detection-4692c0ba.html",
+          "image_file": "evidence/asian-society-for-academic-research-asar/01M20STHVDXZ8EQ3V4S3ZN62HN.png",
+          "image_hash": "sha256:ed2f4775422e973174f270dba88fd2f7e05a15d3bbcc87baa82be01c197ebc0f",
+          "content_hash": "sha256:861af42fdc58c3c343cfce7379b3d897f4ee5e8211000f0bcf7ffed4c71dc4b6",
+          "archive_org_url": "https://web.archive.org/web/20260908152333/https://asar.org.in/upcoming-conferences.php",
+          "observed_by": "callforpaper-org",
+          "notes": "Full listing confirms dense same-day / consecutive-day multi-city pattern across India and international locations."
+        },
+        {
+          "id": "ev-165",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://viewsbangladesh.com/teachers-researchers-duped-by-fake-conferences-run-from-india/",
+          "snapshot_file": "evidence/asian-society-for-academic-research-asar/2026-09-08-initial-detection-f4b67b9f.html",
+          "image_file": "evidence/asian-society-for-academic-research-asar/01M20T13JRQRH07YNVPDEWTX8W.png",
+          "image_hash": "sha256:32a252199b673e905e1829a0ef78693e28788358b89fc5d22f08a847b2e3e659",
+          "content_hash": "sha256:708ffcd78899372b9258de3268b4eec5d54ba111cfd7574d3fb9ff874ab692e4",
+          "archive_org_url": "https://web.archive.org/web/20260908152716/https://viewsbangladesh.com/teachers-researchers-duped-by-fake-conferences-run-from-india/",
+          "observed_by": "callforpaper-org",
+          "notes": "Investigative reporting links asar.net.in and similar domains into a broader India-based fake-conference network."
+        },
+        {
+          "id": "ev-164",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://asar.org.in/contact.php",
+          "snapshot_file": "evidence/asian-society-for-academic-research-asar/2026-09-08-initial-detection-b0099c28.html",
+          "image_file": "evidence/asian-society-for-academic-research-asar/01M20SZ8JKQW47KMSZ3BSD3X3N.png",
+          "image_hash": "sha256:42854442f44bf63d073bb0ba3091609deec5d2bd2d7cd9cfa011d3c0ce555296",
+          "content_hash": "sha256:0e7bed211deb293e3fc1a7f4aa87638285fd5631ae97cd46b7cd8c9a2f077e4f",
+          "archive_org_url": "https://web.archive.org/web/20260908152525/https://asar.org.in/contact.php",
+          "observed_by": "callforpaper-org",
+          "notes": "Contact page lists Bhubaneswar address (ITR Building / Dharma Vihar / Khandagiri) and Indian mobiles matching the local mill pattern."
+        }
+      ],
+      "disputes": [],
+      "notes": "India-based operation (Bhubaneswar / Odisha address: Plot no 30 / ITR Building, Dharma Vihar / Khandagiri). Runs large numbers of near-identical conferences on the same calendar dates across many cities. Shares physical address and operational pattern with related entities such as ARSSS. Contact via Indian mobiles (+91 8280047516, +91 9668907939) and Gmail."
     },
     {
       "type": "organizer",
