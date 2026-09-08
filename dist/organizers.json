@@ -1,5 +1,5 @@
 {
-  "compiled_at": "2026-09-07T03:53:59Z",
+  "compiled_at": "2026-09-08T13:01:15Z",
   "count": 62,
   "data": [
     {
@@ -3061,7 +3061,7 @@
       "status": "active_flag",
       "criteria_version": "v1.0",
       "first_flagged": "2025-06-01",
-      "last_updated": "2026-07-24",
+      "last_updated": "2026-09-08",
       "last_reviewed": "2026-07-24",
       "name": "World Academy of Science Engineering and Technology",
       "domains": [
@@ -3069,31 +3069,176 @@
       ],
       "red_flags": [
         {
+          "id": "rf-114",
+          "type": "other",
+          "description": "Industrial-scale same-day multi-topic production continues at high volume. Recent documented example: 453 distinct \u201cresearch conferences\u201d scheduled by WASET in Oslo on 26\u201327 June 2025 (Khrono, June 2025). Earlier peak from the same pattern: 2,280 conferences announced for a single day in Oslo in 2023. The site continues to list large batches of overlapping events across multiple cities for 2026\u20132028 (frequently marked DIGITAL / hybrid).",
+          "first_observed": "2026-09-08",
+          "last_confirmed": "2026-09-08",
+          "status": "active",
+          "evidence_refs": [
+            "ev-157",
+            "ev-155",
+            "ev-154",
+            "ev-156"
+          ]
+        },
+        {
+          "id": "rf-116",
+          "type": "false_indexing_claims",
+          "description": "Markets events and associated journals with indexing and prestige claims that are not supported by major databases. Journals appear on Cabells Predatory Reports and similar watchlists.",
+          "first_observed": "2026-09-08",
+          "last_confirmed": "2026-09-08",
+          "status": "active",
+          "evidence_refs": [
+            "ev-159"
+          ]
+        },
+        {
+          "id": "rf-118",
+          "type": "other",
+          "description": "Long-standing inclusion on Beall\u2019s List of potential predatory publishers and conference organizers. Confirmed by Max Planck Society, multiple university scam advisories, and investigative journalism (ICIJ, Newstapa, S\u00fcddeutsche Zeitung, etc.). Sting operations (nonsense / SCIgen papers) have been accepted.",
+          "first_observed": "2026-09-08",
+          "last_confirmed": "2026-09-08",
+          "status": "active",
+          "evidence_refs": [
+            "ev-161"
+          ]
+        },
+        {
           "id": "rf-1",
           "type": "same_day_same_venue_stacking",
           "description": "Organizes thousands of simultaneous conferences worldwide; same venue/dates with hundreds of different topics; confirmed predatory organizer",
           "first_observed": "2025-06-01",
+          "last_confirmed": "2025-06-01",
           "status": "active",
           "evidence_refs": [
             "ev-1"
+          ]
+        },
+        {
+          "id": "rf-115",
+          "type": "other",
+          "description": "Regularly uses conference titles that are identical or confusingly similar to established legitimate conferences (e.g., ICDM, ICWS, ICSOC and many others). Legitimate organizers and universities have issued public warnings about these look-alike events.",
+          "first_observed": "2026-09-08",
+          "last_confirmed": "2026-09-08",
+          "status": "active",
+          "evidence_refs": [
+            "ev-158"
+          ]
+        },
+        {
+          "id": "rf-117",
+          "type": "generic_reused_content",
+          "description": "Highly templated conference pages, boilerplate language, and near-identical structures across thousands of listings. Peer-review claims are not substantiated; acceptance is effectively payment-based.",
+          "first_observed": "2026-09-08",
+          "last_confirmed": "2026-09-08",
+          "status": "active",
+          "evidence_refs": [
+            "ev-160"
           ]
         }
       ],
       "evidence": [
         {
+          "id": "ev-157",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://waset.org/conferences",
+          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20HBHZ6AB50PZRH0NS1ND20.png",
+          "image_hash": "sha256:19a8c1acc47949ad63e304892df0f286a78378d6c160bfe1b5e944391760c264",
+          "observed_by": "callforpaper-org",
+          "notes": "Live listings for September 2026 show multiple cities (Amsterdam, Melbourne, New York, Rome, Singapore, etc.) sharing the same event dates."
+        },
+        {
           "id": "ev-1",
           "date": "2025-06-01",
           "type": "import",
-          "observed_by": "admin",
           "source_url": "https://en.wikipedia.org/wiki/Predatory_conference#WASET",
-          "archive_org_url": "https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference#WASET",
-          "content_hash": "sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab",
           "snapshot_file": "evidence/world-academy-of-science-engineering-and-technology/2025-06-01-import-snapshot.html",
+          "content_hash": "sha256:6fcbaeb023d3e587b0e8a7c2fdcffc00e91ac1a98fd6024327a0317dd8cf3fab",
+          "archive_org_url": "https://web.archive.org/web/20250601000000/https://en.wikipedia.org/wiki/Predatory_conference#WASET",
+          "observed_by": "admin",
           "notes": "Organizes thousands of simultaneous conferences worldwide; same venue/dates with hundreds of different topics; confirmed predatory organizer Source: bealls-list|community."
+        },
+        {
+          "id": "ev-155",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://waset.org/",
+          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20H7Q3MWHR6XE8PJSM6VE8K.png",
+          "image_hash": "sha256:b7c8cec0f75159725143db9ba095d45e28a66885fc5070dac1e4c941fd733a7f",
+          "observed_by": "callforpaper-org",
+          "notes": "Live site continues to list large numbers of conferences with overlapping dates/venues into 2026\u20132028."
+        },
+        {
+          "id": "ev-154",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://en.wikipedia.org/wiki/World_Academy_of_Science,_Engineering_and_Technology",
+          "snapshot_file": "evidence/world-academy-of-science-engineering-and-technology/2026-09-08-initial-detection-826f94c1.html",
+          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20H6ATG42H0778MYWAZGY7G.png",
+          "image_hash": "sha256:e223f9a599b99ed5961c708e0b8cb700398bfbc1e74879956b2fa2460845827d",
+          "content_hash": "sha256:cd900ad2522d078cf90fd7be82ae9cd9b9965107842cb2b0493253b61b80fd14",
+          "observed_by": "callforpaper-org",
+          "notes": "Wikipedia entry documents predatory status, Beall listing, mass conference production, name hijacking, and revenue estimates."
+        },
+        {
+          "id": "ev-156",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://www.khrono.no/over-450-forskningskonferanser-i-oslo-denne-uka-svindel/979065",
+          "snapshot_file": "evidence/world-academy-of-science-engineering-and-technology/2026-09-08-initial-detection-070261bd.html",
+          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20H9GDSHARGYMS90849NZ3C.png",
+          "image_hash": "sha256:87cd1aa20f5d9ac08db49ba31c93b9e66816325c5c14d392a7a69170654fe126",
+          "content_hash": "sha256:146f74598bf52d1dada90fcd60d9132a30b08434ffb281efa25bfb599bb6449b",
+          "observed_by": "callforpaper-org",
+          "notes": "Khrono (June 2025) reports 453 distinct WASET \u201cresearch conferences\u201d scheduled in Oslo on 26\u201327 June 2025. The same outlet previously reported 2,280 conferences announced for a single day in Oslo in 2023."
+        },
+        {
+          "id": "ev-158",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://blog.cabells.com/2026/02/26/waset-of-time/",
+          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20HDZW5RCAJZFDS3AVCDHJV.png",
+          "image_hash": "sha256:5fb86d1a8877ba486eb6ff0cf8eebdde1c4f128f76d8595c4ee79e50009b4582",
+          "observed_by": "callforpaper-org",
+          "notes": "Cabells documentation of name confusion and withdrawal difficulties with WASET events."
+        },
+        {
+          "id": "ev-159",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://blog.cabells.com/2026/02/26/waset-of-time/",
+          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20HFXZT9777BW2HPTXFH821.png",
+          "image_hash": "sha256:f278b2d69a75a148c8a0d3615b8d517a35ccc709fd6a790c2848cec206ba4d25",
+          "observed_by": "callforpaper-org",
+          "notes": "WASET journals listed in Cabells Predatory Reports."
+        },
+        {
+          "id": "ev-160",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://www.icij.org/inside-icij/2018/09/undercover-reporters-expose-bogus-scientific-conferences/",
+          "snapshot_file": "evidence/world-academy-of-science-engineering-and-technology/2026-09-08-initial-detection-3edd65b6.html",
+          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20HHXGQPKRBFN06VF60WJRZ.png",
+          "image_hash": "sha256:d3f7b6b7b4d9830ae5010478683cc7c53d3dacc4af45daeb9d0a62d1111529e7",
+          "content_hash": "sha256:a0076c420b58873d6e7495a739c0a534c5f1e436e1ffbe1e39e9f583cd90ce88",
+          "observed_by": "callforpaper-org",
+          "notes": "ICIJ / Newstapa undercover reporting on low-quality WASET events."
+        },
+        {
+          "id": "ev-161",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://www.science.org/content/blog-post/scams-attended-frauds",
+          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20HMR7018ZP156EVKS716T5.png",
+          "image_hash": "sha256:8cff7cd162c5bf3c89db4afb84731a934bcab1289392ccde678a18abf6644628",
+          "observed_by": "callforpaper-org",
+          "notes": "Science / AAAS coverage describing WASET events as scams with automatic acceptance."
         }
       ],
       "disputes": [],
-      "notes": "Aliases: WASET"
+      "notes": "Aliases: WASET\nOne of the most extensively documented predatory conference organizers and open-access publishers. Operates as a family business (Cemal Ardil and family, Turkey). Schedules hundreds to thousands of conferences per year, frequently with identical or near-identical titles to legitimate events. Recent scale example: 453 distinct conferences listed for Oslo on 26\u201327 June 2025; earlier peak of 2,280 conferences announced for a single day in Oslo in 2023. Acceptance is effectively automatic upon payment of the registration fee. Long-standing Beall\u2019s List entry and subject of multiple investigative reports (ICIJ, S\u00fcddeutsche Zeitung, Newstapa, Khrono, etc.)."
     },
     {
       "type": "organizer",
