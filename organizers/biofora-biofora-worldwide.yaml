@@ -1,0 +1,99 @@
+type: organizer
+slug: biofora-biofora-worldwide
+status: active_flag
+criteria_version: v1.2.2
+first_flagged: '2026-09-08'
+last_updated: '2026-09-08'
+name: 'Biofora (Biofora Worldwide)'
+domains:
+  - biofora.org
+networks:
+  - arsss-advanced-research-society-for-science-and-sociology
+red_flags:
+  -
+    id: rf-123
+    type: shared_predatory_network
+    description: 'Member of the URLP / Peoples Empowerment Trust network, alongside already-flagged members: asar.'
+    first_observed: '2026-09-08'
+    last_confirmed: '2026-09-08'
+    status: active
+    evidence_refs:
+      - ev-166
+      - ev-167
+  -
+    id: rf-124
+    type: same-day-multi-city
+    description: 'Multiple distinct conference titles listed on 09 Sep 2026 in Texas and Washington (and similar dense same-date clustering across the calendar).'
+    first_observed: '2026-09-08'
+    last_confirmed: '2026-09-08'
+    status: active
+    evidence_refs:
+      - ev-168
+  -
+    id: rf-125
+    type: generic_reused_content
+    description: 'About / mission text and overall page structure are heavily templated and reused across conference listings. Boilerplate language about fostering innovation in healthcare, life sciences and medical sciences appears generic.'
+    first_observed: '2026-09-08'
+    last_confirmed: '2026-09-08'
+    status: active
+    evidence_refs: []
+  -
+    id: rf-126
+    type: other
+    description: 'Operates under an opaque “non-profit” framing (Peoples Empowerment Trust / URLP) while running a high-volume international conference business with India-based contact numbers and rapid registration model typical of payment-driven mills.'
+    first_observed: '2026-09-08'
+    last_confirmed: '2026-09-08'
+    status: active
+    evidence_refs:
+      - ev-169
+evidence:
+  -
+    id: ev-166
+    date: '2026-09-08'
+    type: initial_detection
+    source_url: 'https://biofora.org/'
+    snapshot_file: evidence/biofora-biofora-worldwide/2026-09-08-initial-detection-c53bf686.html
+    image_file: evidence/biofora-biofora-worldwide/01M211DKNE4BPWEK1WDXQ2M7JD.png
+    image_hash: 'sha256:cd51c583cbc5a9eebe76422e31dc8096925ebc8708300f89d94ad9242e22d320'
+    content_hash: 'sha256:b1a4e500e3b5b23994cf017f7c4dc743bc7748f1453730e684f328d47785a98d'
+    archive_org_url: 'https://web.archive.org/web/20260908173534/https://biofora.org/'
+    observed_by: callforpaper-org
+    notes: 'notes: > Homepage states Biofora is a unit of Unified Research Library and Publishing (URLP) Group. Lists multiple conferences on 09 Sep 2026 in Texas and Washington. Contact +91 8895689682.'
+  -
+    id: ev-167
+    date: '2026-09-08'
+    type: initial_detection
+    source_url: 'https://asar.org.in/'
+    snapshot_file: evidence/asian-society-for-academic-research-asar/2026-09-08-initial-detection-27f343d9.html
+    image_file: evidence/biofora-biofora-worldwide/01M211FMRCGY3GQRS3579ZW9Y4.png
+    image_hash: 'sha256:a5f414f0c78d9e3e2ca3f19b5c13340d05834aa514f978937a611eb4e671afb1'
+    content_hash: 'sha256:29d4f678e932b0596efaeaf5be2c4e8629174ee9a5a2ec2ac705ad26ce56cf14'
+    archive_org_url: 'https://web.archive.org/web/20260908152234/https://asar.org.in/'
+    observed_by: callforpaper-org
+    notes: 'ASAR(asian-society-for-academic-research-asar)  is also linked to URLP / Peoples Empowerment Trust and shares the same Bhubaneswar operational pattern.'
+  -
+    id: ev-168
+    date: '2026-09-08'
+    type: initial_detection
+    source_url: 'https://biofora.org/'
+    snapshot_file: evidence/biofora-biofora-worldwide/2026-09-08-initial-detection-c53bf686.html
+    image_file: evidence/biofora-biofora-worldwide/01M211M7732E2EKGMW2V74NV4G.png
+    image_hash: 'sha256:d78e6821380c2d5e642be5cca64a522fa0b45047a0df421b533a0fb0e208df4c'
+    content_hash: 'sha256:b1a4e500e3b5b23994cf017f7c4dc743bc7748f1453730e684f328d47785a98d'
+    archive_org_url: 'https://web.archive.org/web/20260908173534/https://biofora.org/'
+    observed_by: callforpaper-org
+    notes: 'Same-date multi-event listings visible on the homepage for September 2026.'
+  -
+    id: ev-169
+    date: '2026-09-08'
+    type: initial_detection
+    source_url: 'https://biofora.org/rules.php'
+    snapshot_file: evidence/biofora-biofora-worldwide/2026-09-08-initial-detection-21a864cf.html
+    image_file: evidence/biofora-biofora-worldwide/01M211MNJ4N19QZD4262B3QWH8.png
+    image_hash: 'sha256:49d8a68d776ff16000b73941ab43b35949869605db30fea99a2906df03bfd1cc'
+    content_hash: 'sha256:c9b7c7eefe5a841f24f9a7d3448cc743b0f5352bc57e52a214e18786dacb08ba'
+    archive_org_url: 'https://web.archive.org/web/20260908173927/https://biofora.org/rules.php'
+    observed_by: callforpaper-org
+    notes: 'Rules page confirms registration under “Peoples Empowerment Trust” and states Biofora is an independent non-profit not affiliated to any university.'
+disputes: []
+notes: 'India-based operation (contact +91 8895689682, Gmail). Explicitly states it is “a unit of Unified Research Library and Publishing (URLP) Group” and registered under “Peoples Empowerment Trust” — the same parent structure linked to ASAR (asar.org.in) and related Bhubaneswar mills. Runs dense schedules of healthcare / life-sciences conferences with multiple events on the same dates in the same or nearby cities.'
