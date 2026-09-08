@@ -18,9 +18,9 @@ red_flags:
     status: active
     evidence_refs:
       - ev-157
-      - ev-155
       - ev-154
       - ev-156
+      - ev-155
   -
     id: rf-116
     type: false_indexing_claims
@@ -87,15 +87,6 @@ evidence:
     observed_by: admin
     notes: 'Organizes thousands of simultaneous conferences worldwide; same venue/dates with hundreds of different topics; confirmed predatory organizer Source: bealls-list|community.'
   -
-    id: ev-155
-    date: '2026-09-08'
-    type: initial_detection
-    source_url: 'https://waset.org/'
-    image_file: evidence/world-academy-of-science-engineering-and-technology/01M20H7Q3MWHR6XE8PJSM6VE8K.png
-    image_hash: 'sha256:b7c8cec0f75159725143db9ba095d45e28a66885fc5070dac1e4c941fd733a7f'
-    observed_by: callforpaper-org
-    notes: 'Live site continues to list large numbers of conferences with overlapping dates/venues into 2026–2028.'
-  -
     id: ev-154
     date: '2026-09-08'
     type: initial_detection
@@ -104,6 +95,7 @@ evidence:
     image_file: evidence/world-academy-of-science-engineering-and-technology/01M20H6ATG42H0778MYWAZGY7G.png
     image_hash: 'sha256:e223f9a599b99ed5961c708e0b8cb700398bfbc1e74879956b2fa2460845827d'
     content_hash: 'sha256:cd900ad2522d078cf90fd7be82ae9cd9b9965107842cb2b0493253b61b80fd14'
+    archive_org_url: 'https://web.archive.org/web/20260908132230/https://en.wikipedia.org/wiki/World_Academy_of_Science,_Engineering_and_Technology'
     observed_by: callforpaper-org
     notes: 'Wikipedia entry documents predatory status, Beall listing, mass conference production, name hijacking, and revenue estimates.'
   -
@@ -115,6 +107,7 @@ evidence:
     image_file: evidence/world-academy-of-science-engineering-and-technology/01M20H9GDSHARGYMS90849NZ3C.png
     image_hash: 'sha256:87cd1aa20f5d9ac08db49ba31c93b9e66816325c5c14d392a7a69170654fe126'
     content_hash: 'sha256:146f74598bf52d1dada90fcd60d9132a30b08434ffb281efa25bfb599bb6449b'
+    archive_org_url: 'https://web.archive.org/web/20260908132234/https://www.khrono.no/over-450-forskningskonferanser-i-oslo-denne-uka-svindel/979065'
     observed_by: callforpaper-org
     notes: 'Khrono (June 2025) reports 453 distinct WASET “research conferences” scheduled in Oslo on 26–27 June 2025. The same outlet previously reported 2,280 conferences announced for a single day in Oslo in 2023.'
   -
@@ -124,6 +117,7 @@ evidence:
     source_url: 'https://blog.cabells.com/2026/02/26/waset-of-time/'
     image_file: evidence/world-academy-of-science-engineering-and-technology/01M20HDZW5RCAJZFDS3AVCDHJV.png
     image_hash: 'sha256:5fb86d1a8877ba486eb6ff0cf8eebdde1c4f128f76d8595c4ee79e50009b4582'
+    archive_org_url: 'https://web.archive.org/web/20260908135312/https://blog.cabells.com/2026/02/26/waset-of-time/'
     observed_by: callforpaper-org
     notes: 'Cabells documentation of name confusion and withdrawal difficulties with WASET events.'
   -
@@ -133,6 +127,7 @@ evidence:
     source_url: 'https://blog.cabells.com/2026/02/26/waset-of-time/'
     image_file: evidence/world-academy-of-science-engineering-and-technology/01M20HFXZT9777BW2HPTXFH821.png
     image_hash: 'sha256:f278b2d69a75a148c8a0d3615b8d517a35ccc709fd6a790c2848cec206ba4d25'
+    archive_org_url: 'https://web.archive.org/web/20260908135312/https://blog.cabells.com/2026/02/26/waset-of-time/'
     observed_by: callforpaper-org
     notes: 'WASET journals listed in Cabells Predatory Reports.'
   -
@@ -144,6 +139,7 @@ evidence:
     image_file: evidence/world-academy-of-science-engineering-and-technology/01M20HHXGQPKRBFN06VF60WJRZ.png
     image_hash: 'sha256:d3f7b6b7b4d9830ae5010478683cc7c53d3dacc4af45daeb9d0a62d1111529e7'
     content_hash: 'sha256:a0076c420b58873d6e7495a739c0a534c5f1e436e1ffbe1e39e9f583cd90ce88'
+    archive_org_url: 'https://web.archive.org/web/20260908135258/https://www.icij.org/inside-icij/2018/09/undercover-reporters-expose-bogus-scientific-conferences/'
     observed_by: callforpaper-org
     notes: 'ICIJ / Newstapa undercover reporting on low-quality WASET events.'
   -
@@ -155,6 +151,16 @@ evidence:
     image_hash: 'sha256:8cff7cd162c5bf3c89db4afb84731a934bcab1289392ccde678a18abf6644628'
     observed_by: callforpaper-org
     notes: 'Science / AAAS coverage describing WASET events as scams with automatic acceptance.'
+  -
+    id: ev-155
+    date: '2026-09-08'
+    type: initial_detection
+    source_url: 'https://waset.org/'
+    image_file: evidence/world-academy-of-science-engineering-and-technology/01M20H7Q3MWHR6XE8PJSM6VE8K.png
+    image_hash: 'sha256:b7c8cec0f75159725143db9ba095d45e28a66885fc5070dac1e4c941fd733a7f'
+    archive_org_url: 'https://web.archive.org/web/20260906070430/https://waset.org/'
+    observed_by: callforpaper-org
+    notes: 'Live site continues to list large numbers of conferences with overlapping dates/venues into 2026–2028.'
 disputes: []
 notes: |-
   Aliases: WASET
