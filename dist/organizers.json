@@ -1,5 +1,5 @@
 {
-  "compiled_at": "2026-09-08T16:17:54Z",
+  "compiled_at": "2026-09-08T16:19:51Z",
   "count": 63,
   "data": [
     {
@@ -619,18 +619,6 @@
           "notes": "Full listing confirms same-day multi-city identical-title pattern across numerous conferences."
         },
         {
-          "id": "ev-149",
-          "date": "2026-09-07",
-          "type": "initial_detection",
-          "source_url": "https://allconferenceseries.com/",
-          "snapshot_file": "evidence/all-conference-series-acs/2026-09-07-initial-detection-cb4f7785.html",
-          "image_file": "evidence/all-conference-series-acs/01M1WZMEZ4QPXVQCCDS8SKG500.png",
-          "image_hash": "sha256:523d57b44593e25ca2f9fc237f98f7b493d8b8609496adb402df484c953b66f9",
-          "content_hash": "sha256:6fd408dac4432be52d0b6ad4dce84a944a57d92f43a49fbc1d2ff6905b7b22b4",
-          "observed_by": "callforpaper-org",
-          "notes": "Homepage and upcoming conferences list show multiple identical titles on 08 Sep 2026 at different worldwide venues; India phone +91-9090800039."
-        },
-        {
           "id": "ev-151",
           "date": "2026-09-07",
           "type": "initial_detection",
@@ -668,6 +656,19 @@
           "archive_org_url": "https://web.archive.org/web/20260907025203/https://www.iserd.co/",
           "observed_by": "callforpaper-org",
           "notes": "Parallel India-based organizer (ISERD) with matching operational style and mass-conference model."
+        },
+        {
+          "id": "ev-149",
+          "date": "2026-09-07",
+          "type": "initial_detection",
+          "source_url": "https://allconferenceseries.com/",
+          "snapshot_file": "evidence/all-conference-series-acs/2026-09-07-initial-detection-cb4f7785.html",
+          "image_file": "evidence/all-conference-series-acs/01M1WZMEZ4QPXVQCCDS8SKG500.png",
+          "image_hash": "sha256:523d57b44593e25ca2f9fc237f98f7b493d8b8609496adb402df484c953b66f9",
+          "content_hash": "sha256:6fd408dac4432be52d0b6ad4dce84a944a57d92f43a49fbc1d2ff6905b7b22b4",
+          "archive_org_url": "https://web.archive.org/web/20260907040602/https://allconferenceseries.com/",
+          "observed_by": "callforpaper-org",
+          "notes": "Homepage and upcoming conferences list show multiple identical titles on 08 Sep 2026 at different worldwide venues; India phone +91-9090800039."
         }
       ],
       "disputes": [],
@@ -2348,6 +2349,16 @@
       ],
       "evidence": [
         {
+          "id": "ev-145",
+          "date": "2026-09-07",
+          "type": "community_report",
+          "source_url": "https://www.researchgate.net/post/fake_conferences_organized_by_World_Research_Library_iierdlorg",
+          "image_file": "evidence/international-society-for-engineering-research-and-development-iserd/01M1WWRT9CZTMF4EQEHWVGDCBS.png",
+          "image_hash": "sha256:c79adb66f37fb2e92d88c75ab53a73d798fda4991c550360826f42a9c38b5867",
+          "observed_by": "callforpaper-org",
+          "notes": "ResearchGate discussion flags iserd.co alongside other predatory organizers; notes dubious journal associations including discontinued Scopus titles."
+        },
+        {
           "id": "ev-141",
           "date": "2026-09-07",
           "type": "initial_detection",
@@ -2361,14 +2372,17 @@
           "notes": "Homepage and navigation show ongoing mass conference production; India phone +91 8455026354; World Research Library association."
         },
         {
-          "id": "ev-145",
+          "id": "ev-146",
           "date": "2026-09-07",
-          "type": "community_report",
-          "source_url": "https://www.researchgate.net/post/fake_conferences_organized_by_World_Research_Library_iierdlorg",
-          "image_file": "evidence/international-society-for-engineering-research-and-development-iserd/01M1WWRT9CZTMF4EQEHWVGDCBS.png",
-          "image_hash": "sha256:c79adb66f37fb2e92d88c75ab53a73d798fda4991c550360826f42a9c38b5867",
+          "type": "initial_detection",
+          "source_url": "https://aserd.org/",
+          "snapshot_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-25b57179.html",
+          "image_file": "evidence/international-society-for-engineering-research-and-development-iserd/01M1WWVS480GKEGJM9EJZFX67D.png",
+          "image_hash": "sha256:4ca7b23bcd66c4dcbab16601cfe0d4b64aa8ee520e24a842343508fe9540c73e",
+          "content_hash": "sha256:12b4c927e70dacf16e4fa58c286d4c8b43af752ced59b53376f034e951c56bb4",
+          "archive_org_url": "https://web.archive.org/web/20260907030600/https://aserd.org/",
           "observed_by": "callforpaper-org",
-          "notes": "ResearchGate discussion flags iserd.co alongside other predatory organizers; notes dubious journal associations including discontinued Scopus titles."
+          "notes": "Parallel organizer ASERD showing near-identical mass same-day multi-topic pattern and India base."
         },
         {
           "id": "ev-142",
@@ -2384,16 +2398,14 @@
           "notes": "Upcoming conferences calendar spanning many months and global tourist destinations."
         },
         {
-          "id": "ev-146",
+          "id": "ev-147",
           "date": "2026-09-07",
           "type": "initial_detection",
-          "source_url": "https://aserd.org/",
-          "snapshot_file": "evidence/american-society-for-engineers-researchers-and-doctors-aserd/2026-09-07-initial-detection-25b57179.html",
-          "image_file": "evidence/international-society-for-engineering-research-and-development-iserd/01M1WWVS480GKEGJM9EJZFX67D.png",
-          "image_hash": "sha256:4ca7b23bcd66c4dcbab16601cfe0d4b64aa8ee520e24a842343508fe9540c73e",
-          "content_hash": "sha256:12b4c927e70dacf16e4fa58c286d4c8b43af752ced59b53376f034e951c56bb4",
+          "source_url": "https://www.facebook.com/iserdconference",
+          "image_file": "evidence/international-society-for-engineering-research-and-development-iserd/01M1WWXTB80GV4XPVDTBZJT8WB.png",
+          "image_hash": "sha256:c34f9b17588d2ff0df4f9462a0e62565381633fda76a8ee357e304d0b80dd226",
           "observed_by": "callforpaper-org",
-          "notes": "Parallel organizer ASERD showing near-identical mass same-day multi-topic pattern and India base."
+          "notes": "Facebook page lists address Khandagiri, DharmaVihar, Lane-4, Bhubaneswar, India, Odisha."
         },
         {
           "id": "ev-143",
@@ -2407,16 +2419,6 @@
           "archive_org_url": "https://web.archive.org/web/20260907025203/https://www.iserd.co/",
           "observed_by": "callforpaper-org",
           "notes": "Reused mission text about Science, Engineering, Healthcare and Education; templated testimonials and gallery."
-        },
-        {
-          "id": "ev-147",
-          "date": "2026-09-07",
-          "type": "initial_detection",
-          "source_url": "https://www.facebook.com/iserdconference",
-          "image_file": "evidence/international-society-for-engineering-research-and-development-iserd/01M1WWXTB80GV4XPVDTBZJT8WB.png",
-          "image_hash": "sha256:c34f9b17588d2ff0df4f9462a0e62565381633fda76a8ee357e304d0b80dd226",
-          "observed_by": "callforpaper-org",
-          "notes": "Facebook page lists address Khandagiri, DharmaVihar, Lane-4, Bhubaneswar, India, Odisha."
         },
         {
           "id": "ev-144",
@@ -3193,9 +3195,9 @@
           "status": "active",
           "evidence_refs": [
             "ev-157",
-            "ev-155",
             "ev-154",
-            "ev-156"
+            "ev-156",
+            "ev-155"
           ]
         },
         {
@@ -3277,16 +3279,6 @@
           "notes": "Organizes thousands of simultaneous conferences worldwide; same venue/dates with hundreds of different topics; confirmed predatory organizer Source: bealls-list|community."
         },
         {
-          "id": "ev-155",
-          "date": "2026-09-08",
-          "type": "initial_detection",
-          "source_url": "https://waset.org/",
-          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20H7Q3MWHR6XE8PJSM6VE8K.png",
-          "image_hash": "sha256:b7c8cec0f75159725143db9ba095d45e28a66885fc5070dac1e4c941fd733a7f",
-          "observed_by": "callforpaper-org",
-          "notes": "Live site continues to list large numbers of conferences with overlapping dates/venues into 2026\u20132028."
-        },
-        {
           "id": "ev-154",
           "date": "2026-09-08",
           "type": "initial_detection",
@@ -3295,6 +3287,7 @@
           "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20H6ATG42H0778MYWAZGY7G.png",
           "image_hash": "sha256:e223f9a599b99ed5961c708e0b8cb700398bfbc1e74879956b2fa2460845827d",
           "content_hash": "sha256:cd900ad2522d078cf90fd7be82ae9cd9b9965107842cb2b0493253b61b80fd14",
+          "archive_org_url": "https://web.archive.org/web/20260908132230/https://en.wikipedia.org/wiki/World_Academy_of_Science,_Engineering_and_Technology",
           "observed_by": "callforpaper-org",
           "notes": "Wikipedia entry documents predatory status, Beall listing, mass conference production, name hijacking, and revenue estimates."
         },
@@ -3307,6 +3300,7 @@
           "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20H9GDSHARGYMS90849NZ3C.png",
           "image_hash": "sha256:87cd1aa20f5d9ac08db49ba31c93b9e66816325c5c14d392a7a69170654fe126",
           "content_hash": "sha256:146f74598bf52d1dada90fcd60d9132a30b08434ffb281efa25bfb599bb6449b",
+          "archive_org_url": "https://web.archive.org/web/20260908132234/https://www.khrono.no/over-450-forskningskonferanser-i-oslo-denne-uka-svindel/979065",
           "observed_by": "callforpaper-org",
           "notes": "Khrono (June 2025) reports 453 distinct WASET \u201cresearch conferences\u201d scheduled in Oslo on 26\u201327 June 2025. The same outlet previously reported 2,280 conferences announced for a single day in Oslo in 2023."
         },
@@ -3317,6 +3311,7 @@
           "source_url": "https://blog.cabells.com/2026/02/26/waset-of-time/",
           "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20HDZW5RCAJZFDS3AVCDHJV.png",
           "image_hash": "sha256:5fb86d1a8877ba486eb6ff0cf8eebdde1c4f128f76d8595c4ee79e50009b4582",
+          "archive_org_url": "https://web.archive.org/web/20260908135312/https://blog.cabells.com/2026/02/26/waset-of-time/",
           "observed_by": "callforpaper-org",
           "notes": "Cabells documentation of name confusion and withdrawal difficulties with WASET events."
         },
@@ -3327,6 +3322,7 @@
           "source_url": "https://blog.cabells.com/2026/02/26/waset-of-time/",
           "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20HFXZT9777BW2HPTXFH821.png",
           "image_hash": "sha256:f278b2d69a75a148c8a0d3615b8d517a35ccc709fd6a790c2848cec206ba4d25",
+          "archive_org_url": "https://web.archive.org/web/20260908135312/https://blog.cabells.com/2026/02/26/waset-of-time/",
           "observed_by": "callforpaper-org",
           "notes": "WASET journals listed in Cabells Predatory Reports."
         },
@@ -3339,6 +3335,7 @@
           "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20HHXGQPKRBFN06VF60WJRZ.png",
           "image_hash": "sha256:d3f7b6b7b4d9830ae5010478683cc7c53d3dacc4af45daeb9d0a62d1111529e7",
           "content_hash": "sha256:a0076c420b58873d6e7495a739c0a534c5f1e436e1ffbe1e39e9f583cd90ce88",
+          "archive_org_url": "https://web.archive.org/web/20260908135258/https://www.icij.org/inside-icij/2018/09/undercover-reporters-expose-bogus-scientific-conferences/",
           "observed_by": "callforpaper-org",
           "notes": "ICIJ / Newstapa undercover reporting on low-quality WASET events."
         },
@@ -3351,6 +3348,17 @@
           "image_hash": "sha256:8cff7cd162c5bf3c89db4afb84731a934bcab1289392ccde678a18abf6644628",
           "observed_by": "callforpaper-org",
           "notes": "Science / AAAS coverage describing WASET events as scams with automatic acceptance."
+        },
+        {
+          "id": "ev-155",
+          "date": "2026-09-08",
+          "type": "initial_detection",
+          "source_url": "https://waset.org/",
+          "image_file": "evidence/world-academy-of-science-engineering-and-technology/01M20H7Q3MWHR6XE8PJSM6VE8K.png",
+          "image_hash": "sha256:b7c8cec0f75159725143db9ba095d45e28a66885fc5070dac1e4c941fd733a7f",
+          "archive_org_url": "https://web.archive.org/web/20260906070430/https://waset.org/",
+          "observed_by": "callforpaper-org",
+          "notes": "Live site continues to list large numbers of conferences with overlapping dates/venues into 2026\u20132028."
         }
       ],
       "disputes": [],
